@@ -3,9 +3,14 @@
 CREATE TABLE study_subject(
   subject_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   subject_species VARCHAR(100),
-  subject_name VARCHAR(100),
-  subject_gender VARCHAR(1),
-  subject_dob DATE
+   subject_name VARCHAR(50),
+    subject_name_abbr VARCHAR(50),
+    subject_data_dir VARCHAR(50),
+    subject_is_active VARCHAR(1),
+    subject_dob DATE,
+    subject_acquisition_date DATE,
+    subject_dod DATE,
+    subject_gender VARCHAR(10)
 );
 CREATE TABLE study(
   study_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,

@@ -1,4 +1,4 @@
-function [ output_args ] = populateSubjects( input_args )
+function [ subjects ] = populateSubjects()
 %UNTITLED3 Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -27,7 +27,7 @@ function [ output_args ] = populateSubjects( input_args )
         end
     end
 end
-
+%%
 function [dstr] = xls2mdatestr(xdate)
     if(isnumeric(xdate) && ~isnan(xdate))
         dstr=datestr(x2mdate(xdate),'mm/dd/yyyy');
@@ -35,7 +35,7 @@ function [dstr] = xls2mdatestr(xdate)
         dstr='';
     end
 end
-
+%%
 function [subjectUniqData,uniqNames,allData] = getSubjectData(xlsFile, xlsSheet,colNamesRowNum)
     allData=xls2struct(xlsFile,xlsSheet,colNamesRowNum);
     uniqNames=unique(cellfun(@(x) regexprep(char(x),'\s+$',''),{allData.NAME},'UniformOutput',false))';
