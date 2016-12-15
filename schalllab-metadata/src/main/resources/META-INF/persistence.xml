@@ -1,19 +1,19 @@
 <persistence version="1.0"
-	xmlns="http://java.sun.com/xml/ns/persistence">
-	<persistence-unit name="schalllab-metadata"
-		transaction-type="RESOURCE_LOCAL">
-		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-		<class>vandy.psy.schall.meta.model.Person</class>
-		<class>vandy.psy.schall.meta.model.Study</class>
-		<class>vandy.psy.schall.meta.model.StudySubject</class>
-		<properties>
-			<property name="eclipselink.target-database" value="MYSQL" />
-			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.59.231.27:6603/schalllab" />
-			<property name="javax.persistence.jdbc.user" value="schalllabadmin" />
-			<property name="javax.persistence.jdbc.password" value="jpsth2016#!" />
-			<property name="eclipselink.ddl-generation" value="none" />
-			<property name="eclipselink.logging.level" value="INFO" />
-		</properties>
-	</persistence-unit>
+  xmlns="http://java.sun.com/xml/ns/persistence">
+  <persistence-unit name="schalllab-metadata"
+    transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>vandy.psy.schall.meta.model.Person</class>
+    <class>vandy.psy.schall.meta.model.Study</class>
+    <class>vandy.psy.schall.meta.model.StudySubject</class>
+    <properties>
+      <property name="eclipselink.target-database" value="MYSQL" />
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/schalllab" />
+      <property name="javax.persistence.jdbc.user" value="" />
+      <property name="javax.persistence.jdbc.password" value="" />
+      <property name="eclipselink.ddl-generation" value="none" />
+      <property name="eclipselink.logging.level" value="INFO" />
+    </properties>
+  </persistence-unit>
 </persistence>
