@@ -44,8 +44,8 @@ public class PersonTest {
 
 	@Test
 	public void testConn() throws Exception {
-		String password = "test";
-		String username = "schalllabadmin";
+		String password = "";
+		String username = "";
 		String url = "jdbc:mysql://129.59.231.27:6603/schalllab?connectionTimeout=3000";
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
