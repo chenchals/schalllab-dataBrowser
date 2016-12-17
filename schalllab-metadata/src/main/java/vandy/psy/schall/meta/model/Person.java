@@ -9,7 +9,10 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import static javax.persistence.GenerationType.IDENTITY;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
+import javax.persistence.QueryHint;
 import javax.persistence.Table;
 
 /**
@@ -17,6 +20,12 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "person", catalog = "schalllab")
+@NamedQueries(// Query1 Person.findAllPersonStudies
+@NamedQuery(name = "Person.findPersonStudies" //
+		,query = "SELECT p from Person p" //
+		,hints = { @QueryHint(name = "eclipselink.batch", value = "p.studies") }//
+)//
+)
 public class Person implements java.io.Serializable {
 
 	private static final long serialVersionUID = 7672483352959598682L;
@@ -82,6 +91,61 @@ public class Person implements java.io.Serializable {
 
 	public void setStudies(Set<Study> studies) {
 		this.studies = studies;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((personEmail == null) ? 0 : personEmail.hashCode());
+		result = prime * result + ((personFirstname == null) ? 0 : personFirstname.hashCode());
+		result = prime * result + ((personId == null) ? 0 : personId.hashCode());
+		result = prime * result + ((personLastname == null) ? 0 : personLastname.hashCode());
+		result = prime * result + ((studies == null) ? 0 : studies.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Person other = (Person) obj;
+		if (personEmail == null) {
+			if (other.personEmail != null)
+				return false;
+		} else if (!personEmail.equals(other.personEmail))
+			return false;
+		if (personFirstname == null) {
+			if (other.personFirstname != null)
+				return false;
+		} else if (!personFirstname.equals(other.personFirstname))
+			return false;
+		if (personId == null) {
+			if (other.personId != null)
+				return false;
+		} else if (!personId.equals(other.personId))
+			return false;
+		if (personLastname == null) {
+			if (other.personLastname != null)
+				return false;
+		} else if (!personLastname.equals(other.personLastname))
+			return false;
+		if (studies == null) {
+			if (other.studies != null)
+				return false;
+		} else if (!studies.equals(other.studies))
+			return false;
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [personId=" + personId + ", personFirstname=" + personFirstname + ", personLastname="
+				+ personLastname + ", personEmail=" + personEmail + ", studies=" + studies + "]";
 	}
 
 }

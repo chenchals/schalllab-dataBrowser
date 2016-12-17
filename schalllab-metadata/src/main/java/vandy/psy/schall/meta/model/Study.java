@@ -106,4 +106,66 @@ public class Study implements java.io.Serializable {
 		this.studyDate = studyDate;
 	}
 
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((person == null) ? 0 : person.hashCode());
+		result = prime * result + ((studyDatafile == null) ? 0 : studyDatafile.hashCode());
+		result = prime * result + ((studyDate == null) ? 0 : studyDate.hashCode());
+		result = prime * result + ((studyDescription == null) ? 0 : studyDescription.hashCode());
+		result = prime * result + ((studyId == null) ? 0 : studyId.hashCode());
+		result = prime * result + ((studySubject == null) ? 0 : studySubject.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Study other = (Study) obj;
+		if (person == null) {
+			if (other.person != null)
+				return false;
+		} else if (!person.equals(other.person))
+			return false;
+		if (studyDatafile == null) {
+			if (other.studyDatafile != null)
+				return false;
+		} else if (!studyDatafile.equals(other.studyDatafile))
+			return false;
+		if (studyDate == null) {
+			if (other.studyDate != null)
+				return false;
+		} else if (!studyDate.equals(other.studyDate))
+			return false;
+		if (studyDescription == null) {
+			if (other.studyDescription != null)
+				return false;
+		} else if (!studyDescription.equals(other.studyDescription))
+			return false;
+		if (studyId == null) {
+			if (other.studyId != null)
+				return false;
+		} else if (!studyId.equals(other.studyId))
+			return false;
+		if (studySubject == null) {
+			if (other.studySubject != null)
+				return false;
+		} else if (!studySubject.equals(other.studySubject))
+			return false;
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Study [studyId=" + studyId + ", person=" + person + ", studySubject=" + studySubject
+				+ ", studyDatafile=" + studyDatafile + ", studyDescription=" + studyDescription + ", studyDate="
+				+ studyDate + "]";
+	}
+
 }

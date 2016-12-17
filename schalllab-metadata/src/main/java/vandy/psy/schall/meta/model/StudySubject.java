@@ -149,13 +149,107 @@ public class StudySubject implements java.io.Serializable {
 		this.subjectGender = subjectGender;
 	}
 
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "studySubject")
+	@OneToMany(fetch = FetchType.EAGER, mappedBy = "studySubject")
 	public Set<Study> getStudies() {
 		return this.studies;
 	}
 
 	public void setStudies(Set<Study> studies) {
 		this.studies = studies;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((studies == null) ? 0 : studies.hashCode());
+		result = prime * result + ((subjectAcquisitionDate == null) ? 0 : subjectAcquisitionDate.hashCode());
+		result = prime * result + ((subjectDataDir == null) ? 0 : subjectDataDir.hashCode());
+		result = prime * result + ((subjectDob == null) ? 0 : subjectDob.hashCode());
+		result = prime * result + ((subjectDod == null) ? 0 : subjectDod.hashCode());
+		result = prime * result + ((subjectGender == null) ? 0 : subjectGender.hashCode());
+		result = prime * result + ((subjectId == null) ? 0 : subjectId.hashCode());
+		result = prime * result + ((subjectIsActive == null) ? 0 : subjectIsActive.hashCode());
+		result = prime * result + ((subjectName == null) ? 0 : subjectName.hashCode());
+		result = prime * result + ((subjectNameAbbr == null) ? 0 : subjectNameAbbr.hashCode());
+		result = prime * result + ((subjectSpecies == null) ? 0 : subjectSpecies.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		StudySubject other = (StudySubject) obj;
+		if (studies == null) {
+			if (other.studies != null)
+				return false;
+		} else if (!studies.equals(other.studies))
+			return false;
+		if (subjectAcquisitionDate == null) {
+			if (other.subjectAcquisitionDate != null)
+				return false;
+		} else if (!subjectAcquisitionDate.equals(other.subjectAcquisitionDate))
+			return false;
+		if (subjectDataDir == null) {
+			if (other.subjectDataDir != null)
+				return false;
+		} else if (!subjectDataDir.equals(other.subjectDataDir))
+			return false;
+		if (subjectDob == null) {
+			if (other.subjectDob != null)
+				return false;
+		} else if (!subjectDob.equals(other.subjectDob))
+			return false;
+		if (subjectDod == null) {
+			if (other.subjectDod != null)
+				return false;
+		} else if (!subjectDod.equals(other.subjectDod))
+			return false;
+		if (subjectGender == null) {
+			if (other.subjectGender != null)
+				return false;
+		} else if (!subjectGender.equals(other.subjectGender))
+			return false;
+		if (subjectId == null) {
+			if (other.subjectId != null)
+				return false;
+		} else if (!subjectId.equals(other.subjectId))
+			return false;
+		if (subjectIsActive == null) {
+			if (other.subjectIsActive != null)
+				return false;
+		} else if (!subjectIsActive.equals(other.subjectIsActive))
+			return false;
+		if (subjectName == null) {
+			if (other.subjectName != null)
+				return false;
+		} else if (!subjectName.equals(other.subjectName))
+			return false;
+		if (subjectNameAbbr == null) {
+			if (other.subjectNameAbbr != null)
+				return false;
+		} else if (!subjectNameAbbr.equals(other.subjectNameAbbr))
+			return false;
+		if (subjectSpecies == null) {
+			if (other.subjectSpecies != null)
+				return false;
+		} else if (!subjectSpecies.equals(other.subjectSpecies))
+			return false;
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "StudySubject [subjectId=" + subjectId + ", subjectSpecies=" + subjectSpecies + ", subjectName="
+				+ subjectName + ", subjectNameAbbr=" + subjectNameAbbr + ", subjectDataDir=" + subjectDataDir
+				+ ", subjectIsActive=" + subjectIsActive + ", subjectDob=" + subjectDob + ", subjectAcquisitionDate="
+				+ subjectAcquisitionDate + ", subjectDod=" + subjectDod + ", subjectGender=" + subjectGender
+				+ ", studies=" + studies + "]";
 	}
 
 }
