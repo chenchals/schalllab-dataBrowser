@@ -42,7 +42,7 @@ public class PersonTest {
 		emf.close();
 	}
 
-	@Test
+	@Ignore
 	public void testConn() throws Exception {
 		String password = "";
 		String username = "";
