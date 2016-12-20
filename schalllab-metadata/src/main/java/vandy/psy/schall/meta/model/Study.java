@@ -1,6 +1,8 @@
 package vandy.psy.schall.meta.model;
 
 import java.util.Date;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -23,12 +25,12 @@ public class Study implements java.io.Serializable {
 	@Column(name = "study_id", unique = true, nullable = false)
 	private Integer studyId;
 
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "person_id", nullable = false)
+	@ManyToOne(optional= false, cascade=CascadeType.ALL, fetch = FetchType.LAZY)
+	@JoinColumn(name = "person_id", referencedColumnName="person_id", nullable = false)
 	private Person person;
 
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "subject_id", nullable = false)
+	@ManyToOne(optional= false, cascade=CascadeType.ALL, fetch = FetchType.LAZY)
+	@JoinColumn(name = "subject_id", referencedColumnName="subject_id", nullable = false)
 	private StudySubject studySubject;
 
 	@Column(name = "study_datafile", length = 100)

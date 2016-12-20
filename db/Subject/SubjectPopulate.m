@@ -1,4 +1,4 @@
-function [ subjects ] = populateSubjects()
+function [ subjects ] = SubjectPopulate()
 %UNTITLED3 Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -11,15 +11,22 @@ function [ subjects ] = populateSubjects()
 
     subjectDirs=xls2struct(allNames,allNamesDataSheet,1);
     c=0;
+    
     for ii=1:length({subjectDirs.Name})
         dataDir=subjectDirs(ii).Name;
         idx=find(strncmpi({subjectUniqData.NAME},dataDir,2),1);
         if(idx > 0)
             c=c+1;
+            subjects(c).subject_id=c;
+            subjects(c).subject_species='Macaca';
             subjects(c).subject_name=subjectUniqData(idx).NAME;
             subjects(c).subject_name_abbr=subjectUniqData(idx).ID_Alpha;
             subjects(c).subject_data_dir=dataDir;
-            subjects(c).subject_is_active=strcmpi('y',subjectDirs(ii).Active_);
+            if(strcmpi('y',subjectDirs(ii).Active_))
+                subjects(c).subject_is_active=1;
+            else
+                subjects(c).subject_is_active=0;
+            end
             subjects(c).subject_dob=xls2mdatestr(subjectUniqData(idx).DOB);
             subjects(c).subject_acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
             subjects(c).subject_dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
@@ -30,9 +37,9 @@ end
 %%
 function [dstr] = xls2mdatestr(xdate)
     if(isnumeric(xdate) && ~isnan(xdate))
-        dstr=datestr(x2mdate(xdate),'mm/dd/yyyy');
+        dstr=datestr(x2mdate(xdate),'yyyy-mm-dd');
     else
-        dstr='';
+        dstr=NaN;
     end
 end
 %%

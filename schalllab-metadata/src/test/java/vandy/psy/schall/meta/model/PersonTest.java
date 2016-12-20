@@ -6,7 +6,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -14,6 +13,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 
 import org.junit.After;
 import org.junit.Before;
@@ -25,21 +25,18 @@ public class PersonTest {
 	// Get the entity manager for the tests.
 	EntityManagerFactory emf;
 	EntityManager em;
-	EntityTransaction trx;
+
 
 	@Before
 	public void setup() {
 		emf = Persistence.createEntityManagerFactory("schalllab-metadata");
 		em = emf.createEntityManager();
-		trx = em.getTransaction();
-		trx.begin();
+
 	}
 
 	@After
 	public void testdown() {
-		trx.commit();
-		em.close();
-		emf.close();
+        em.close();
 	}
 
 	@Ignore
@@ -85,12 +82,22 @@ public class PersonTest {
 			// em.persist(study);
 			// }
 			// save or update
-			List<Person> persons = em.createQuery("select p from Person p").getResultList();
-
-			for (Person p : persons) {
-				p.getStudies();
-				System.out.println(p);
-			}
+			EntityTransaction trx=em.getTransaction();
+			trx.begin();
+//			Query query=em.createQuery("select p, s from Person p join p.studies s");
+//			List<Person> persons = query.getResultList();
+			
+			Person p1=em.find(Person.class, 8);
+			System.out.println(p1);
+			
+			
+//			List<Person> persons = em.createQuery("select p from Person p").getResultList();
+//       
+//			for (Person p : persons) {
+//				Set<Study> studies=p.getStudies();
+//				System.out.println(studies);
+//				System.out.println(p);
+//			}
 			// System.out.println(persons);
 			// Person existing=em.find(Person.class, person);
 			// if(null==existing){
@@ -104,11 +111,9 @@ public class PersonTest {
 			// }
 
 			// Commit and end the transaction
-
+            em.getTransaction().commit();
 		} catch (RuntimeException e) {
-			if (trx != null && trx.isActive()) {
-				trx.rollback();
-			}
+			
 			throw e;
 		}
 	}

@@ -54,7 +54,7 @@ public class StudySubject implements java.io.Serializable {
 	@Column(name = "subject_gender", length = 10)
 	private String subjectGender;
 
-	@OneToMany(fetch = FetchType.EAGER, mappedBy = "studySubject")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "studySubject")
 	private Set<Study> studies = new HashSet<Study>(0);
 
 	public StudySubject() {

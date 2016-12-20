@@ -5,6 +5,7 @@ import static javax.persistence.GenerationType.IDENTITY;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -41,7 +42,7 @@ public class Person implements java.io.Serializable {
 	@Column(name = "person_email", length = 100)
 	private String personEmail;
 	
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "person")
+	@OneToMany(fetch = FetchType.EAGER, mappedBy = "person", targetEntity=Study.class, cascade=CascadeType.ALL)
 	private Set<Study> studies = new HashSet<Study>(0);
 
 	public Person() {

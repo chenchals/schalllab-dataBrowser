@@ -9,7 +9,7 @@
     <properties>
       <property name="eclipselink.target-database" value="MYSQL" />
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/schalllab" />
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://10.66.183.142:3306/schalllab" />
       <property name="javax.persistence.jdbc.user" value="schalllabadmin" />
       <property name="javax.persistence.jdbc.password" value="jpsth2000!" />
       <property name="eclipselink.ddl-generation" value="none" />
