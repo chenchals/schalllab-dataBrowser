@@ -1,5 +1,5 @@
 classdef Datafile
-    %UNTITLED Summary of this class goes here
+    %DATAFILE General Variable structure of a datafile
     %   Detailed explanation goes here
     
     properties

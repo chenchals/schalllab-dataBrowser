@@ -1,7 +1,7 @@
-function [ subjects ] = SubjectPopulate()
-%SUBJECTPOPULATE Populate the Subject structure that can be used for
-%                updating/inserting data into Subject table in MySQL Database
-%   Detailed explanation goes here
+function [ studies ] = StudyPopulate(studyMatfile)
+%SUBJECTPOPULATE Populate the Study structure that can be used for
+%                updating/inserting data into Study table in MySQL Database
+%   studyMatfile : The matlab file for the study
 
     subjectsExcel='/Volumes/schalllab/policy_procedures/NHPs/NHP Records/Schall ALL NHP/Schall_All_NHP_Major_Intervals 07-22-16.xlsx';
     subjectsAllDataSheet='ALL DATA';
@@ -18,20 +18,20 @@ function [ subjects ] = SubjectPopulate()
         idx=find(strncmpi({subjectUniqData.NAME},dataDir,2),1);
         if(idx > 0)
             c=c+1;
-            subjects(c).subject_id=c;
-            subjects(c).subject_species='Macaca';
-            subjects(c).subject_name=subjectUniqData(idx).NAME;
-            subjects(c).subject_name_abbr=subjectUniqData(idx).ID_Alpha;
-            subjects(c).subject_data_dir=dataDir;
+            studies(c).subject_id=c;
+            studies(c).subject_species='Macaca';
+            studies(c).subject_name=subjectUniqData(idx).NAME;
+            studies(c).subject_name_abbr=subjectUniqData(idx).ID_Alpha;
+            studies(c).subject_data_dir=dataDir;
             if(strcmpi('y',subjectDirs(ii).Active_))
-                subjects(c).subject_is_active=1;
+                studies(c).subject_is_active=1;
             else
-                subjects(c).subject_is_active=0;
+                studies(c).subject_is_active=0;
             end
-            subjects(c).subject_dob=xls2mdatestr(subjectUniqData(idx).DOB);
-            subjects(c).subject_acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
-            subjects(c).subject_dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
-            subjects(c).subject_gender='U';
+            studies(c).subject_dob=xls2mdatestr(subjectUniqData(idx).DOB);
+            studies(c).subject_acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
+            studies(c).subject_dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
+            studies(c).subject_gender='U';
         end
     end
 end
