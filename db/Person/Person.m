@@ -1,4 +1,4 @@
-classdef Person
+classdef Person < handle
     %PERSON Object of class Person
     
     properties
@@ -16,15 +16,25 @@ classdef Person
             object.lastname = lastname;
             object.email = email;
         end
-    end
-    methods (Static)
+        
+        % save or update Person object
+        function [ object ] = dbSaveOrUpdate(object)
+            objStruct = asDbStruct(object);
+            dbStruct = saveOrUpdate('person',objStruct);
+            object.id = dbStruct.person_id ;
+            object.firstname = dbStruct.person_firstname;
+            object.lastname = dbStruct.person_lastname;
+            object.email = dbStruct.person_email;
+        end
+    end    
+    methods (Access='private')
         % Person table columnnames
-        function  [pStruct] = getDbStruct(personObject)
-            pStruct.person_id = personObject.id;
-            pStruct.person_firstname = personObject.firstname;
-            pStruct.person_lastname = personObject.lastname;
-            pStruct.person_email = personObject.email;
-         end
+        function  [objStruct] = asDbStruct(object)
+            objStruct.person_id = object.id;
+            objStruct.person_firstname = object.firstname;
+            objStruct.person_lastname = object.lastname;
+            objStruct.person_email = object.email;
+        end
     end
 end
 

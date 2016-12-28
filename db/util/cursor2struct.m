@@ -3,7 +3,10 @@ function [ outStruct ] = cursor2struct( dbCursor )
     setdbprefs('DataReturnFormat','table');
     curs=fetch(dbCursor);
     dat=curs.Data;
-    %cols=columnnames(curs,true);
-    outStruct=table2struct(dat);
+    if( isequal(dat{1,1},'No Data') )
+        outStruct=[];
+    else
+        outStruct=table2struct(dat);
+    end
 end
 

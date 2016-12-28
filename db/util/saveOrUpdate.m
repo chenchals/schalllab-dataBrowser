@@ -16,15 +16,12 @@ end
 % insert(conn,'subject',colnames,subsTable);
 % update(conn,'subject',{'subject_species'},{'Macaca'},'where subject_id=subject_id');
 
-
-
 end
 
 function [ dbRecords ] = fetchRecord(tableName, objectStruct)
    global conn
    clauses = whereClause(objectStruct);
-   %sql = char(join({'select * from',tableName,clauses},' '));
-   sql = char(join({'select * from',tableName},' '));
+   sql = char(join({'select * from',tableName,clauses},' '));
    cursor=exec(conn,sql);
    dbRecords=cursor2struct(cursor);
 end
@@ -43,7 +40,7 @@ function [clause] = whereClause(objectStruct)
           clauseArr{count}=[ col, '=', getValueStr(value)];
       end
   end  
-  clause = join(['where' join(clauseArr,' and ')],' '); 
+  clause = char(join(['where' join(clauseArr,' and ')],' ')); 
 end
 
 function [ valueString ] = getValueStr(value)
