@@ -2,7 +2,6 @@ DROP TABLE IF EXISTS study;
 DROP TABLE IF EXISTS person;
 DROP TABLE IF EXISTS subject;
 
-
 -- Schema for schalllab metadata
 CREATE TABLE subject(
   subject_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
