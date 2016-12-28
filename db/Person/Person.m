@@ -1,4 +1,4 @@
-classdef Person < handle
+classdef Person < DbClass
     %PERSON Object of class Person
     
     properties
@@ -6,6 +6,14 @@ classdef Person < handle
         firstname;
         lastname;
         email;
+    end
+    
+    properties
+        tableName='person';
+        mapColumns2Properties = containers.Map(...
+            {'person_id','person_firstname','person_lastname','person_email'},...
+            {'id','firstname','lastname','email'}...
+            );
     end
     
     methods
@@ -26,16 +34,22 @@ classdef Person < handle
             object.lastname = dbStruct.person_lastname;
             object.email = dbStruct.person_email;
         end
-    end    
-    methods (Access='private')
-        % Person table columnnames
-        function  [objStruct] = asDbStruct(object)
-            objStruct.person_id = object.id;
-            objStruct.person_firstname = object.firstname;
-            objStruct.person_lastname = object.lastname;
-            objStruct.person_email = object.email;
+        
+        function [ dbStruct ] = getAsDbStruct(object)
+            dbStruct = asDbStruct(object);           
         end
+        
     end
+    
+%     methods (Access='private')
+%         % Person table columnnames
+%         function  [objStruct] = asDbStruct(object)
+%             objStruct.person_id = object.id;
+%             objStruct.person_firstname = object.firstname;
+%             objStruct.person_lastname = object.lastname;
+%             objStruct.person_email = object.email;
+%         end
+%     end
 end
 
 
