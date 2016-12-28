@@ -11,20 +11,11 @@ import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
-import javax.persistence.QueryHint;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "person", catalog = "schalllab")
-@NamedQueries(// Query1 Person.findAllPersonStudies
-@NamedQuery(name = "Person.findAllPersonStudies" //
-		,query = "SELECT p from Person p" //
-		,hints = { @QueryHint(name = "eclipselink.batch", value = "p.studies") }//
-)//
-)
 public class Person implements java.io.Serializable {
 
 	private static final long serialVersionUID = 7672483352959598682L;
@@ -42,7 +33,7 @@ public class Person implements java.io.Serializable {
 	@Column(name = "person_email", length = 100)
 	private String personEmail;
 	
-	@OneToMany(fetch = FetchType.EAGER, mappedBy = "person", targetEntity=Study.class, cascade=CascadeType.ALL)
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "person", targetEntity=Study.class, cascade=CascadeType.ALL)
 	private Set<Study> studies = new HashSet<Study>(0);
 
 	public Person() {

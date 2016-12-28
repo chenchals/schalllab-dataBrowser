@@ -25,13 +25,13 @@ public class Study implements java.io.Serializable {
 	@Column(name = "study_id", unique = true, nullable = false)
 	private Integer studyId;
 
-	@ManyToOne(optional= false, cascade=CascadeType.ALL, fetch = FetchType.LAZY)
-	@JoinColumn(name = "person_id", referencedColumnName="person_id", nullable = false)
+	@ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	@JoinColumn(name = "person_id", referencedColumnName = "person_id", nullable = false)
 	private Person person;
 
-	@ManyToOne(optional= false, cascade=CascadeType.ALL, fetch = FetchType.LAZY)
-	@JoinColumn(name = "subject_id", referencedColumnName="subject_id", nullable = false)
-	private StudySubject studySubject;
+	@ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	@JoinColumn(name = "subject_id", referencedColumnName = "subject_id", nullable = false)
+	private Subject subject;
 
 	@Column(name = "study_datafile", length = 100)
 	private String studyDatafile;
@@ -46,15 +46,14 @@ public class Study implements java.io.Serializable {
 	public Study() {
 	}
 
-	public Study(Person person, StudySubject studySubject) {
+	public Study(Person person, Subject subject) {
 		this.person = person;
-		this.studySubject = studySubject;
+		this.subject = subject;
 	}
 
-	public Study(Person person, StudySubject studySubject, String studyDatafile, String studyDescription,
-			Date studyDate) {
+	public Study(Person person, Subject subject, String studyDatafile, String studyDescription, Date studyDate) {
 		this.person = person;
-		this.studySubject = studySubject;
+		this.subject = subject;
 		this.studyDatafile = studyDatafile;
 		this.studyDescription = studyDescription;
 		this.studyDate = studyDate;
@@ -76,12 +75,12 @@ public class Study implements java.io.Serializable {
 		this.person = person;
 	}
 
-	public StudySubject getStudySubject() {
-		return this.studySubject;
+	public Subject getSubject() {
+		return this.subject;
 	}
 
-	public void setStudySubject(StudySubject studySubject) {
-		this.studySubject = studySubject;
+	public void setSubject(Subject subject) {
+		this.subject = subject;
 	}
 
 	public String getStudyDatafile() {
@@ -117,7 +116,7 @@ public class Study implements java.io.Serializable {
 		result = prime * result + ((studyDate == null) ? 0 : studyDate.hashCode());
 		result = prime * result + ((studyDescription == null) ? 0 : studyDescription.hashCode());
 		result = prime * result + ((studyId == null) ? 0 : studyId.hashCode());
-		result = prime * result + ((studySubject == null) ? 0 : studySubject.hashCode());
+		result = prime * result + ((subject == null) ? 0 : subject.hashCode());
 		return result;
 	}
 
@@ -155,19 +154,18 @@ public class Study implements java.io.Serializable {
 				return false;
 		} else if (!studyId.equals(other.studyId))
 			return false;
-		if (studySubject == null) {
-			if (other.studySubject != null)
+		if (subject == null) {
+			if (other.subject != null)
 				return false;
-		} else if (!studySubject.equals(other.studySubject))
+		} else if (!subject.equals(other.subject))
 			return false;
 		return true;
 	}
 
 	@Override
 	public String toString() {
-		return "Study [studyId=" + studyId + ", person=" + person + ", studySubject=" + studySubject
-				+ ", studyDatafile=" + studyDatafile + ", studyDescription=" + studyDescription + ", studyDate="
-				+ studyDate + "]";
+		return "Study [studyId=" + studyId + ", person=" + person + ", subject=" + subject + ", studyDatafile="
+				+ studyDatafile + ", studyDescription=" + studyDescription + ", studyDate=" + studyDate + "]";
 	}
 
 }

@@ -16,5 +16,13 @@ saveOrUpdate('person', ...
 
 end
 
+function [ person ] = createPerson(fn, ln, email)
+  person.person_firstname=fn;
+  person.person_lastname=ln;
+  person.person_email=email;
+end
+
+
+
 
 

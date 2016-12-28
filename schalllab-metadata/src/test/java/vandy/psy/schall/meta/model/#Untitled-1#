@@ -1,2 +1,0 @@
-SELECT t0.person_id, t0.person_lastname, t0.person_email, t0.person_firstname, t1.study_id, t1.study_description, t1.study_date, t1.study_datafile, t1.subject_id, t1.person_id FROM schalllab.person t0, schalllab.study t1 WHERE (t1.person_id = t0.person_id)
-

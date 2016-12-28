@@ -15,8 +15,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name = "study_subject", catalog = "schalllab")
-public class StudySubject implements java.io.Serializable {
+@Table(name = "subject", catalog = "schalllab")
+public class Subject implements java.io.Serializable {
 
 	private static final long serialVersionUID = -6533355566969075947L;
 	@Id
@@ -57,10 +57,10 @@ public class StudySubject implements java.io.Serializable {
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "studySubject")
 	private Set<Study> studies = new HashSet<Study>(0);
 
-	public StudySubject() {
+	public Subject() {
 	}
 
-	public StudySubject(String subjectSpecies, String subjectName, String subjectNameAbbr, String subjectDataDir,
+	public Subject(String subjectSpecies, String subjectName, String subjectNameAbbr, String subjectDataDir,
 			String subjectIsActive, Date subjectDob, Date subjectAcquisitionDate, Date subjectDod, String subjectGender,
 			Set<Study> studies) {
 		this.subjectSpecies = subjectSpecies;
@@ -189,7 +189,7 @@ public class StudySubject implements java.io.Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		StudySubject other = (StudySubject) obj;
+		Subject other = (Subject) obj;
 		if (studies == null) {
 			if (other.studies != null)
 				return false;
