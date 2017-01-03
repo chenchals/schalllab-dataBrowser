@@ -2,19 +2,19 @@ function [ dbRecs] = saveOrUpdate(tableName, objectStruct)
 %SAVEORUPDATE Inserts or Updates a row in a database table. 
 %      conn: Connection object required in global space 
 %   Detailed explanation goes here
-global conn;
+    global conn;
 
-dbRecs= fetchRecord(tableName,objectStruct);
+    dbRecs= fetchRecord(tableName,objectStruct);
 
-if( isempty(dbRecs))
-  colValues=struct2table(objectStruct);
-  colNames=fieldnames(objectStruct);
-  insert(conn,tableName,colNames,colValues);
-  dbRecs=fetchRecord(tableName,objectStruct);     
-end
+    if( isempty(dbRecs))
+        colValues=struct2table(objectStruct);
+        colNames=fieldnames(objectStruct);
+        insert(conn,tableName,colNames,colValues);
+        dbRecs=fetchRecord(tableName,objectStruct);
+    end
 
-% insert(conn,'subject',colnames,subsTable);
-% update(conn,'subject',{'subject_species'},{'Macaca'},'where subject_id=subject_id');
+    % insert(conn,'subject',colnames,subsTable);
+    % update(conn,'subject',{'subject_species'},{'Macaca'},'where subject_id=subject_id');
 
 end
 
@@ -37,7 +37,7 @@ function [clause] = whereClause(objectStruct)
       value=objectStruct.(col);
       if ~(isempty(value) || sum(isnan(value)))
           count=count+1;
-          clauseArr{count}=[ col, '=', getValueStr(value)];
+          clauseArr{count}=[ 'lower(',col, ')=lower(', getValueStr(value),')'];
       end
   end  
   clause = char(join(['where' join(clauseArr,' and ')],' ')); 

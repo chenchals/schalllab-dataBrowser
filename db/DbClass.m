@@ -14,13 +14,19 @@ classdef DbClass < handle
                 key = char(keys{ii});
                 value = char(values{ii});
                 objStruct.(key)=object.(value);
-             end
-%             
-%             objStruct.person_id = object.id;
-%             objStruct.person_firstname = object.firstname;
-%             objStruct.person_lastname = object.lastname;
-%             objStruct.person_email = object.email;
+            end
+        end
         
+        function [ object ] = dbSaveOrUpdate(object)
+            objStruct = asDbStruct(object);
+            dbStruct = saveOrUpdate(object.tableName, objStruct);
+            keys = object.mapColumns2Properties.keys;
+            values = object.mapColumns2Properties.values;
+            for ii=1:length(keys)
+                key = char(keys{ii});
+                value = char(values{ii});
+                object.(value)=dbStruct.(key);
+            end
         end
         
     end

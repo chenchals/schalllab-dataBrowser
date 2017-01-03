@@ -8,7 +8,7 @@ classdef Person < DbClass
         email;
     end
     
-    properties
+    properties (Hidden=true)
         tableName='person';
         mapColumns2Properties = containers.Map(...
             {'person_id','person_firstname','person_lastname','person_email'},...
@@ -18,38 +18,20 @@ classdef Person < DbClass
     
     methods
         % Constructor
-        function object = Person(id, firstname, lastname, email)
-            object.id = id;
-            object.firstname = firstname;
-            object.lastname = lastname;
-            object.email = email;
+        function object = Person()
         end
         
         % save or update Person object
-        function [ object ] = dbSaveOrUpdate(object)
-            objStruct = asDbStruct(object);
-            dbStruct = saveOrUpdate('person',objStruct);
-            object.id = dbStruct.person_id ;
-            object.firstname = dbStruct.person_firstname;
-            object.lastname = dbStruct.person_lastname;
-            object.email = dbStruct.person_email;
+        function [ object ] = save(object)
+            object = dbSaveOrUpdate(object);
         end
         
         function [ dbStruct ] = getAsDbStruct(object)
-            dbStruct = asDbStruct(object);           
+            dbStruct = asDbStruct(object);
         end
         
     end
-    
-%     methods (Access='private')
-%         % Person table columnnames
-%         function  [objStruct] = asDbStruct(object)
-%             objStruct.person_id = object.id;
-%             objStruct.person_firstname = object.firstname;
-%             objStruct.person_lastname = object.lastname;
-%             objStruct.person_email = object.email;
-%         end
-%     end
+
 end
 
 
