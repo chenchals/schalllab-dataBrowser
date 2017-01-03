@@ -49,7 +49,7 @@ classdef Subject < DbClass
         function [ object ] = fetchDbRecords()
             object = fetchDbRecords@DbClass(mfilename('class'));
         end
-            
+                    
     end
     
 end

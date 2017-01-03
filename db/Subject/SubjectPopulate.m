@@ -18,20 +18,22 @@ function [ subjects ] = SubjectPopulate()
         idx=find(strncmpi({subjectUniqData.NAME},dataDir,2),1);
         if(idx > 0)
             c=c+1;
-            subjects(c).subject_id=c;
-            subjects(c).subject_species='Macaca';
-            subjects(c).subject_name=subjectUniqData(idx).NAME;
-            subjects(c).subject_name_abbr=subjectUniqData(idx).ID_Alpha;
-            subjects(c).subject_data_dir=dataDir;
+            subject.subject_id=c;
+            subject.subject_species='Macaca';
+            subject.subject_name=subjectUniqData(idx).NAME;
+            subject.subject_name_abbr=subjectUniqData(idx).ID_Alpha;
+            subject.subject_data_dir=dataDir;
             if(strcmpi('y',subjectDirs(ii).Active_))
-                subjects(c).subject_is_active=1;
+                subject.subject_is_active=1;
             else
-                subjects(c).subject_is_active=0;
+                subject.subject_is_active=0;
             end
-            subjects(c).subject_dob=xls2mdatestr(subjectUniqData(idx).DOB);
-            subjects(c).subject_acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
-            subjects(c).subject_dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
-            subjects(c).subject_gender='U';
+            subject.subject_dob=xls2mdatestr(subjectUniqData(idx).DOB);
+            subject.subject_acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
+            subject.subject_dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
+            subject.subject_gender='U';
+            s=Subject.asObject(subject);
+            subjects(c)=s.save;
         end
     end
 end

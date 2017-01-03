@@ -8,17 +8,9 @@ classdef DbClass < handle
     end
     
     methods (Access='protected')
-        function  [objStruct] = asDbStruct(object)
-            [ keys, values ] = getKeysValues(object);
-            for ii=1:length(keys)
-                key = char(keys{ii});
-                value = char(values{ii});
-                objStruct.(key)=object.(value);
-            end
-        end
 
         function [ object ] = dbSaveOrUpdate(object)
-            objStruct = asDbStruct(object);
+            objStruct = DbClass.asDbStruct(object);
             dbStruct = saveOrUpdate(object.tableName, objStruct);
             object = DbClass.asObject(object.className,dbStruct);
         end
@@ -31,9 +23,9 @@ classdef DbClass < handle
     end
     
     methods (Static)
-                
+        
         function [ object ] = fetchDbRecords(className)
-            object=eval([className,'();']);           
+            object=eval([className,'();']);
             dbRecords = fetchRecords(object.tableName);
             object = DbClass.asObject(className, dbRecords);
         end
@@ -49,6 +41,18 @@ classdef DbClass < handle
                 end
             end
         end
+        
+        function  [dbStruct] = asDbStruct(object)
+            [ keys, values ] = getKeysValues(object);
+            for n= length(object):-1:1
+                for ii=1:length(keys)
+                    key = char(keys{ii});
+                    value = char(values{ii});
+                    dbStruct(n).(key)=object.(value);
+                end
+            end
+        end
+
         
     end
 end

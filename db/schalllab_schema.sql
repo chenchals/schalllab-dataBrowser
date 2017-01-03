@@ -1,6 +1,6 @@
 
 -- Schema for schalllab metadata
-CREATE TABLE study_subject(
+CREATE TABLE subject(
   subject_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   subject_species VARCHAR(100),
    subject_name VARCHAR(50),
@@ -26,24 +26,18 @@ CREATE TABLE person(
   person_lastname VARCHAR(100),
   person_email VARCHAR(100)
 );
-CREATE TABLE person_study_role(
-  person_study_role_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  person_id INT(10) UNSIGNED NOT NULL,
-  study_id INT(10) UNSIGNED NOT NULL,
-  study_role VARCHAR(100)
-);
 
 
 
 
 
 -- Constraints
-ALTER TABLE
-  study ADD CONSTRAINT study_subject_fk FOREIGN KEY(subject_id) REFERENCES study_subject(subject_id) ON DELETE CASCADE ON UPDATE RESTRICT;
-ALTER TABLE
-  study ADD CONSTRAINT study_person_fk FOREIGN KEY(person_id) REFERENCES person(person_id) ON DELETE CASCADE ON UPDATE RESTRICT;
-ALTER TABLE
-  person_study_role ADD CONSTRAINT person_study_role_person_fk FOREIGN KEY(person_id, study_id) REFERENCES study(person_id, study_id) ON DELETE CASCADE ON UPDATE RESTRICT;
+--ALTER TABLE
+--  study ADD CONSTRAINT subject_fk FOREIGN KEY(subject_id) REFERENCES subject(subject_id) ON DELETE CASCADE ON UPDATE RESTRICT;
+--ALTER TABLE
+ -- study ADD CONSTRAINT study_person_fk FOREIGN KEY(person_id) REFERENCES person(person_id) ON DELETE CASCADE ON UPDATE RESTRICT;
+--ALTER TABLE
+--  person_study_role ADD CONSTRAINT person_study_role_person_fk FOREIGN KEY(person_id, study_id) REFERENCES study(person_id, study_id) ON DELETE CASCADE ON UPDATE RESTRICT;
   
   
   
