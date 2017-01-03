@@ -9,7 +9,8 @@ classdef Person < DbClass
     end
     
     properties (Hidden=true)
-        tableName='person';
+        tableName ='person';
+        className = mfilename('class');
         mapColumns2Properties = containers.Map(...
             {'person_id','person_firstname','person_lastname','person_email'},...
             {'id','firstname','lastname','email'}...
@@ -28,6 +29,18 @@ classdef Person < DbClass
         
         function [ dbStruct ] = getAsDbStruct(object)
             dbStruct = asDbStruct(object);
+        end
+        
+    end
+    
+    methods (Static)
+        
+        function [ object ] = asObject(dbStruct)
+            object = asObject@DbClass(mfilename('class'),dbStruct);
+        end
+        
+        function [ object ] = fetchDbRecords()
+            object = fetchDbRecords@DbClass(mfilename('class'));
         end
         
     end
