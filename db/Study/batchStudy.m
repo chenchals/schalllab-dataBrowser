@@ -2,6 +2,8 @@
 % this script is necessary to repopulate the study table.
 % Also, code to process is not complete, as not all patterns are used when
 % processing file metadata
+% % global conn
+% % conn=database('schalllab','schalllabadmin','xxx','Vendor','MySQL','Server','129.59.231.27', 'PortNumber', 6603);
 
 %% Euler
 % % RH
@@ -34,6 +36,9 @@
 % %RH, JC, BP
 % quincyPopOut=StudyPopulate('/Volumes/schalllab/data','Quincy','PopOut/Matlab/*.mat');
 % %47
+% %RH
+% quincyOrientDiscrim=StudyPopulate('/Volumes/schalllab/data','Quincy','OrientDiscrim/Matlab/*.mat');
+% %2
 
 
 % %save Quincy metedata
