@@ -2,10 +2,10 @@ classdef Subject < DbClass
     %Subject Object of class Subject
     
     properties
-        id;
-        species;
+        subject_id;
         name;
-        name_abbr;
+        initials;
+        species;
         data_dir;
         is_active;
         dob;
@@ -18,8 +18,8 @@ classdef Subject < DbClass
         tableName='subject';
         className=mfilename('class');
         mapColumns2Properties = containers.Map(...
-            {'subject_id','subject_species','subject_name','subject_name_abbr','subject_data_dir','subject_is_active','subject_dob','subject_acquisition_date','subject_dod','subject_gender'},...
-            {'id','species','name','name_abbr','data_dir','is_active','dob','acquisition_date','dod','gender'}...
+            {'subject_id','name','initials','species','data_dir','is_active','dob','acquisition_date','dod','gender'},...
+            {'subject_id','name','initials','species','data_dir','is_active','dob','acquisition_date','dod','gender'}...
             );
     end
     

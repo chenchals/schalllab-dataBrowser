@@ -7,8 +7,8 @@ classdef DbClass < handle
         mapColumns2Properties;
     end
     
-    methods (Access='protected')
-
+    methods (Access = 'protected')
+        
         function [ object ] = dbSaveOrUpdate(object)
             objStruct = DbClass.asDbStruct(object);
             dbStruct = saveOrUpdate(object.tableName, objStruct);
@@ -31,31 +31,34 @@ classdef DbClass < handle
         end
         
         function  [object] = asObject(className, dbStruct)
-            object=eval([className,'();']);
+            object = eval([className,'();']);
             [ keys, values ] = getKeysValues(object);
-            fnames=fieldnames(dbStruct);
+            fnames = fieldnames(dbStruct);
             for n = length(dbStruct):-1:1
-                for ii=1:length(keys)
+                for ii = 1:length(keys)
                     key = char(keys{ii});
                     value = char(values{ii});
                     if(sum(contains(fnames,key)))
-                       object(n).(value)=dbStruct(n).(key);
+                        object(n).(value) = dbStruct(n).(key);
                     end
                 end
             end
         end
         
         function  [dbStruct] = asDbStruct(object)
-            [ keys, values ] = getKeysValues(object);
-            for n= length(object):-1:1
-                for ii=1:length(keys)
+            [ keys, values ] = getKeysValues(object(1));
+            for n = length(object):-1:1
+                for ii = 1:length(keys)
                     key = char(keys{ii});
                     value = char(values{ii});
-                    dbStruct(n).(key)=object.(value);
+                    dbStruct(n).(key) = object(n).(value);
                 end
             end
         end
-
+        
+        function  [asTable] = asTable(object)
+            asTable = struct2table(DbClass.asDbStruct(object));
+        end
         
     end
 end

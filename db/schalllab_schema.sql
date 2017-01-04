@@ -1,44 +1,35 @@
 
 -- Schema for schalllab metadata
-CREATE TABLE subject(
-  subject_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  subject_species VARCHAR(100),
-   subject_name VARCHAR(50),
-    subject_name_abbr VARCHAR(50),
-    subject_data_dir VARCHAR(50),
-    subject_is_active VARCHAR(1),
-    subject_dob DATE,
-    subject_acquisition_date DATE,
-    subject_dod DATE,
-    subject_gender VARCHAR(10)
+CREATE TABLE `subject`(
+  `subject_id` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(50) NOT NULL,
+  `initials` VARCHAR(5) NOT NULL,
+  `species` VARCHAR(100) DEFAULT NULL,
+  `data_dir` VARCHAR(50) DEFAULT NULL,
+  `is_active` VARCHAR(1) DEFAULT NULL,
+  `dob` DATE DEFAULT NULL,
+  `acquisition_date` DATE DEFAULT NULL,
+  `dod` DATE DEFAULT NULL,
+  `gender` VARCHAR(1) DEFAULT NULL,
+  UNIQUE KEY `ak_subject_initials`(`initials`)
 );
-CREATE TABLE study(
-  study_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  subject_id INT(10) UNSIGNED NOT NULL,
-  person_id INT(10) ,
-  study_data_dir VARCHAR(100) NOT NULL,
-  study_data_file VARCHAR(100) NOT NULL,
-  study_description VARCHAR(100),
-  study_date DATE
+CREATE TABLE `person`(
+  `person_id` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `initials` VARCHAR(5) NOT NULL,
+  `firstname` VARCHAR(100) NOT NULL,
+  `lastname` VARCHAR(100) NOT NULL,
+  `email` VARCHAR(100) DEFAULT NULL,
+  UNIQUE KEY `ak_person_initials`(`initials`)
 );
-CREATE TABLE person(
-  person_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  person_firstname VARCHAR(100),
-  person_lastname VARCHAR(100),
-  person_email VARCHAR(100)
+CREATE TABLE `study`(
+  `study_id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `subject_initials` VARCHAR(5) NOT NULL,
+  `person_initials` VARCHAR(5) DEFAULT NULL,
+  `data_dir` VARCHAR(100) NOT NULL,
+  `data_file` VARCHAR(100) NOT NULL,
+  `file_date` DATE NOT NULL,
+  `study_date` DATE DEFAULT NULL,
+  `description` VARCHAR(100) DEFAULT NULL,
+  `comment` VARCHAR(200) DEFAULT NULL,
+  UNIQUE KEY `ak_data_file`(`data_file`)
 );
-
-
-
-
-
--- Constraints
---ALTER TABLE
---  study ADD CONSTRAINT subject_fk FOREIGN KEY(subject_id) REFERENCES subject(subject_id) ON DELETE CASCADE ON UPDATE RESTRICT;
---ALTER TABLE
- -- study ADD CONSTRAINT study_person_fk FOREIGN KEY(person_id) REFERENCES person(person_id) ON DELETE CASCADE ON UPDATE RESTRICT;
---ALTER TABLE
---  person_study_role ADD CONSTRAINT person_study_role_person_fk FOREIGN KEY(person_id, study_id) REFERENCES study(person_id, study_id) ON DELETE CASCADE ON UPDATE RESTRICT;
-  
-  
-  

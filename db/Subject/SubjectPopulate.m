@@ -19,19 +19,19 @@ function [ subjects ] = SubjectPopulate()
         if(idx > 0)
             c=c+1;
             %subject.subject_id=[];
-            subject.subject_species='Macaca';
-            subject.subject_name=subjectUniqData(idx).NAME;
-            subject.subject_name_abbr=subjectUniqData(idx).ID_Alpha;
-            subject.subject_data_dir=dataDir;
+            subject.name=subjectUniqData(idx).NAME;
+            subject.initials=upper(subjectUniqData(idx).ID_Alpha);
+            subject.species='Macaca';
+            subject.data_dir=dataDir;
             if(strcmpi('y',subjectDirs(ii).Active_))
-                subject.subject_is_active=1;
+                subject.is_active='T';
             else
-                subject.subject_is_active=0;
+                subject.is_active='F';
             end
-            subject.subject_dob=xls2mdatestr(subjectUniqData(idx).DOB);
-            subject.subject_acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
-            subject.subject_dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
-            subject.subject_gender='U';
+            subject.dob=xls2mdatestr(subjectUniqData(idx).DOB);
+            subject.acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
+            subject.dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
+            subject.gender='U';
             s=Subject.asObject(subject);
             subjects(c)=s.save;
         end

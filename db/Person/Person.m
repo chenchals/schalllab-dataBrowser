@@ -2,18 +2,19 @@ classdef Person < DbClass
     %PERSON Object of class Person
     
     properties
-        id;
+        person_id;
+        initials;
         firstname;
         lastname;
         email;
     end
     
-    properties (Hidden=true)
-        tableName ='person';
+    properties (Hidden = true)
+        tableName = 'person';
         className = mfilename('class');
         mapColumns2Properties = containers.Map(...
-            {'person_id','person_firstname','person_lastname','person_email'},...
-            {'id','firstname','lastname','email'}...
+            {'person_id','initials','firstname','lastname','email'},...
+            {'person_id','initials','firstname','lastname','email'}...
             );
     end
     
@@ -44,7 +45,7 @@ classdef Person < DbClass
         end
         
     end
-
+    
 end
 
 

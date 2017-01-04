@@ -2,21 +2,23 @@ classdef Study < DbClass
     %Subject Object of class Subject
     
     properties
-        id;
-        subject_id;
-        person_id;
+        study_id;
+        subject_initials;
+        person_initials;
         data_dir;
         data_file;
+        file_date;
+        study_date;
         description;
-        date;
+        comment;
     end
-
-    properties (Hidden=true)        
-        tableName='study';
-        className=mfilename('class');
+    
+    properties (Hidden = true)
+        tableName = 'study';
+        className = mfilename('class');
         mapColumns2Properties = containers.Map(...
-              {'study_id','subject_id','person_id','study_data_dir','study_data_file','study_description','study_date'},...
-              {'id','subject_id','person_id','data_dir','data_file','description','date'}...
+            {'study_id','subject_initials','person_initials','data_dir','data_file','file_date','study_date','description','comment'},...
+            {'study_id','subject_initials','person_initials','data_dir','data_file','file_date','study_date','description','comment'}...
             );
     end
     
@@ -34,7 +36,7 @@ classdef Study < DbClass
         function [ dbStruct ] = getAsDbStruct(object)
             dbStruct = asDbStruct(object);
         end
-
+        
     end
     
     methods (Static)
@@ -46,7 +48,7 @@ classdef Study < DbClass
         function [ object ] = fetchDbRecords()
             object = fetchDbRecords@DbClass(mfilename('class'));
         end
-                    
+        
     end
     
 end
