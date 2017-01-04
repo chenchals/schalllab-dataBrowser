@@ -7,7 +7,7 @@ function [ dbRecs] = saveOrUpdate(tableName, objectStruct)
     dbRecs= fetchRecords(tableName,objectStruct);
 
     if( isempty(dbRecs))
-        colValues=struct2table(objectStruct);
+        colValues=struct2table(objectStruct,'AsArray',true);
         colNames=fieldnames(objectStruct);
         insert(conn,tableName,colNames,colValues);
         dbRecs=fetchRecords(tableName,objectStruct);

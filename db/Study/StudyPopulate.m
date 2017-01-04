@@ -1,56 +1,40 @@
-function [ studies ] = StudyPopulate(studyMatfile)
-%SUBJECTPOPULATE Populate the Study structure that can be used for
+function [ studies ] = StudyPopulate(baseDataDir, subjectName, subDirMask ,personFirstname)
+%STUDYPOPULATE Populate the Study structure that can be used for
 %                updating/inserting data into Study table in MySQL Database
-%   studyMatfile : The matlab file for the study
-
-    subjectsExcel='/Volumes/schalllab/policy_procedures/NHPs/NHP Records/Schall ALL NHP/Schall_All_NHP_Major_Intervals 07-22-16.xlsx';
-    subjectsAllDataSheet='ALL DATA';
-    allNames='/Volumes/schalllab/policy_procedures/NHPs/NHP Records/Schall ALL NHP/All Names List.xlsx';
-    allNamesDataSheet='Sheet1';
-
-    [subjectUniqData,uniqNames,allData]=getSubjectData(subjectsExcel,subjectsAllDataSheet,4);
-
-    subjectDirs=xls2struct(allNames,allNamesDataSheet,1);
-    c=0;
+%   Detailed explanation goes here
+    locationOfDatafiles=[baseDataDir,filesep,subjectName,filesep,subDirMask];
+    datafiles=scanForDatafiles(locationOfDatafiles);
     
-    for ii=1:length({subjectDirs.Name})
-        dataDir=subjectDirs(ii).Name;
-        idx=find(strncmpi({subjectUniqData.NAME},dataDir,2),1);
-        if(idx > 0)
-            c=c+1;
-            studies(c).subject_id=c;
-            studies(c).subject_species='Macaca';
-            studies(c).subject_name=subjectUniqData(idx).NAME;
-            studies(c).subject_name_abbr=subjectUniqData(idx).ID_Alpha;
-            studies(c).subject_data_dir=dataDir;
-            if(strcmpi('y',subjectDirs(ii).Active_))
-                studies(c).subject_is_active=1;
-            else
-                studies(c).subject_is_active=0;
-            end
-            studies(c).subject_dob=xls2mdatestr(subjectUniqData(idx).DOB);
-            studies(c).subject_acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
-            studies(c).subject_dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
-            studies(c).subject_gender='U';
-        end
+    subject=getObject('Subject',subjectName,'name');    
+    person=getObject('Person',personFirstname,'firstname');
+   
+    for ii=1:length(datafiles)
+        df=char(datafiles{ii});
+        dfObj=dir(df);
+        s=Study();
+        [dirName, fileName, ext] = fileparts(df);
+        s.data_dir=dirName;
+        s.data_file=[fileName,ext];
+        s.description=getDescriptionFromFilename(fileName);
+        s.subject_id=subject.id;
+        s.person_id=person.id;
+        s.date=datestr(dfObj.datenum,'yyyy-mm-dd');
+        studies(ii)=s.save;
+        %studies(ii)=s;
+        
     end
 end
 
-%% Excel date number to String (yyyy-mm-dd format is autoboxed to Date by MySQL)
-function [dstr] = xls2mdatestr(xdate)
-    if(isnumeric(xdate) && ~isnan(xdate))
-        dstr=datestr(x2mdate(xdate),'yyyy-mm-dd');
-    else
-        dstr=NaN;
-    end
+function [ desc ] = getDescriptionFromFilename(fileName)
+    % based on parts of the file
+    % examples: 'zap_SEF_chan13', 'MG', 'SEARCH', ...
+    p=regexp(fileName,'_(?<desc>[a-zA-Z_\d]*)$','once','names')
+    desc=p.desc;
 end
 
-%% Read Excel file and make the column names to be fieldnames 
-function [subjectUniqData,uniqNames,allData] = getSubjectData(xlsFile, xlsSheet,colNamesRowNum)
-    allData=xls2struct(xlsFile,xlsSheet,colNamesRowNum);
-    uniqNames=unique(cellfun(@(x) regexprep(char(x),'\s+$',''),{allData.NAME},'UniformOutput',false))';
-    % find data once for subject to populate subject fields
-    uniqData=@(x) allData(find(strcmpi({allData.NAME},x)==1,1));
-    subjectUniqData=cellfun(uniqData, uniqNames,'UniformOutput',false);
-    subjectUniqData=[subjectUniqData{:}]';
+function [ object ] = getObject(className, nameValue, propertyName)
+   % get database subject id
+     object=eval([className,'();']);
+     object.(propertyName)=nameValue;
+     object=object.save;
 end

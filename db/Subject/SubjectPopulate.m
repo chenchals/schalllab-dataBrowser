@@ -18,7 +18,7 @@ function [ subjects ] = SubjectPopulate()
         idx=find(strncmpi({subjectUniqData.NAME},dataDir,2),1);
         if(idx > 0)
             c=c+1;
-            subject.subject_id=c;
+            %subject.subject_id=[];
             subject.subject_species='Macaca';
             subject.subject_name=subjectUniqData(idx).NAME;
             subject.subject_name_abbr=subjectUniqData(idx).ID_Alpha;

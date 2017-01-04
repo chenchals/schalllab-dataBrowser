@@ -15,8 +15,9 @@ CREATE TABLE subject(
 CREATE TABLE study(
   study_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   subject_id INT(10) UNSIGNED NOT NULL,
-  person_id INT(10) UNSIGNED NOT NULL,
-  study_datafile VARCHAR(100),
+  person_id INT(10) ,
+  study_data_dir VARCHAR(100) NOT NULL,
+  study_data_file VARCHAR(100) NOT NULL,
   study_description VARCHAR(100),
   study_date DATE
 );

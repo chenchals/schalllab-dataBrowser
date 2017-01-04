@@ -33,11 +33,14 @@ classdef DbClass < handle
         function  [object] = asObject(className, dbStruct)
             object=eval([className,'();']);
             [ keys, values ] = getKeysValues(object);
-            for n= length(dbStruct):-1:1
+            fnames=fieldnames(dbStruct);
+            for n = length(dbStruct):-1:1
                 for ii=1:length(keys)
                     key = char(keys{ii});
                     value = char(values{ii});
-                    object(n).(value)=dbStruct(n).(key);
+                    if(sum(contains(fnames,key)))
+                       object(n).(value)=dbStruct(n).(key);
+                    end
                 end
             end
         end

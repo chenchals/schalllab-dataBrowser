@@ -23,18 +23,18 @@ function [clause] = whereClause(objectStruct)
       value=objectStruct.(col);
       if ~(isempty(value) || sum(isnan(value)))
           count=count+1;
-          clauseArr{count}=[ 'lower(',col, ')=lower(', getValueStr(value),')'];
+          clauseArr{count}=getClauseStr(col, value);
       end
   end  
   clause = char(join(['where' join(clauseArr,' and ')],' ')); 
 end
 
-function [ valueString ] = getValueStr(value)
+function [ valueString ] = getClauseStr(col, value)
   
   if ischar(value)
-      valueString=['''',value,''''];
+      valueString=[ 'lower(',col, ')=lower(''',value,''')'];
   else % assume integer
-      valueString=['''',num2str(value),''''];
+      valueString=[ 'lower(',col, ')=lower(''',num2str(value),''')'];
       
   end
 end
