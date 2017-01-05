@@ -98,8 +98,6 @@ classdef DbClass < handle
             %   classInstance : Instance(es) of class
             tempObj = eval([className,'();']);
             [ ~, propertyNames ] = DbClass.getKeysValues(tempObj);
-
-
             classInstance = eval([className,'();']);
             for n = length(classStruct):-1:1
                 for ii = 1:length(propertyNames)

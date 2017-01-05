@@ -25,11 +25,12 @@ classdef Subject < DbClass
     %    save     - Save the curent subject instance
     %
     % Subject Methods (Static):
-    %    saveAllRecords   - Save all instance objects to database
-    %    fetchAllRecords  - Fetch all records from database
-    %    toClass          - Transform Matlab struct to class instance(s)
-    %    toStruct         - Transform class instance(s) to Matlab struct
-    %    toTable          - Transform class instance(s) to Matlab table
+    %    saveAllRecords       - Save all instance objects to database
+    %    fetchAllRecords      - Fetch all records from database
+    %    fetchMatchingRecords - Fetch matching records from database
+    %    toClass              - Transform Matlab struct to class instance(s)
+    %    toStruct             - Transform class instance(s) to Matlab struct
+    %    toTable              - Transform class instance(s) to Matlab table
     %
     
     properties
@@ -80,6 +81,14 @@ classdef Subject < DbClass
         function [ objects ] = fetchAllRecords()
             %FETCHALLRECORDS Fetch all records from database
             objects = DbClass.fetchRecords(mfilename('class'));
+        end
+        
+        function [ objects ] = fetchMatchingRecords(object)
+            %FETCHMATCHINGRECORDS Fetch matching records from database
+            if( length(object) ~= 1 ||  ~isa(object,mfilename('class')))
+                error(['Error: Non empty model objects must be instances of class ' mfilename('class')]);
+            end
+            objects = DbClass.fetchRecordsByModel(object);
         end
         
         function [ objects ] = toClass(classStruct)
