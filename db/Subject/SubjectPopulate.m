@@ -18,7 +18,6 @@ function [ subjects ] = SubjectPopulate()
         idx=find(strncmpi({subjectUniqData.NAME},dataDir,2),1);
         if(idx > 0)
             c=c+1;
-            %subject.subject_id=[];
             subject.name=subjectUniqData(idx).NAME;
             subject.initials=upper(subjectUniqData(idx).ID_Alpha);
             subject.species='Macaca';
@@ -32,7 +31,7 @@ function [ subjects ] = SubjectPopulate()
             subject.acquisition_date=xls2mdatestr(subjectUniqData(idx).ACQUISITION_DATE);
             subject.dod=xls2mdatestr(subjectUniqData(idx).D_O_D_);
             subject.gender='U';
-            s=Subject.asObject(subject);
+            s=Subject.asClass(subject);
             subjects(c)=s.save;
         end
     end

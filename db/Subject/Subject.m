@@ -35,15 +35,15 @@ classdef Subject < DbClass
         end
         
         function [ dbStruct ] = getAsDbStruct(object)
-            dbStruct = asDbStruct(object);
+            dbStruct = asStruct(object);
         end
 
     end
     
     methods (Static)
         
-        function [ object ] = asObject(dbStruct)
-            object = asObject@DbClass(mfilename('class'),dbStruct);
+        function [ object ] = asClass(dbStruct)
+            object = asClass@DbClass(mfilename('class'),dbStruct);
         end
         
         function [ object ] = fetchDbRecords()
