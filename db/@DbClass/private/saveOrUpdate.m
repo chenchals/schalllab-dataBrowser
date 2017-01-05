@@ -12,7 +12,7 @@ function [ dbRecs ] = saveOrUpdate(tableName, objectStruct)
         insert(conn,tableName,colNames,colValues);
         dbRecs = fetchRecords(tableName,objectStruct);
     end
-
+    % bulk insert will fail if record exists
     % insert(conn,'subject',colnames,subsTable);
     % update(conn,'subject',{'subject_species'},{'Macaca'},'where subject_id=subject_id');
 
