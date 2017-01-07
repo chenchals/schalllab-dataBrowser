@@ -33,3 +33,10 @@ CREATE TABLE `study`(
   `comment` VARCHAR(200) DEFAULT NULL,
   UNIQUE KEY `ak_data_file`(`data_file`)
 );
+CREATE TABLE `publication`(
+  `publication_id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `category` VARCHAR(255) DEFAULT NULL,
+  `citation` VARCHAR(255) NOT NULL,
+  `pdf_url` VARCHAR(255) DEFAULT NULL,
+  `year` INT(10) DEFAULT NULL
+ );

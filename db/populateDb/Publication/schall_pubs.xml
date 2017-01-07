@@ -1,0 +1,1061 @@
+
+<body>
+  <div id="doc_container">
+    <div id="schall_bar">
+      <ul id="schall_link_list">
+        <li class="horiz menubar"><a class="schall_link" href=
+        "/faculty/schall/">Home</a></li>
+
+        <li class="horiz menubar"><a class="schall_link" href=
+        "/faculty/schall/members/">Members</a></li>
+
+        <li class="activelink horiz menubar"><a>Publications</a></li>
+
+        <li class="horiz menubar"><a class="schall_link" href=
+        "/faculty/schall/projects/">Projects</a></li>
+
+        <li class="horiz menubar"><a class="schall_link" href=
+        "/faculty/schall/scientific-tools/">Scientific Tools</a></li>
+
+        <li class="horiz menubar"><a class="schall_link" href=
+        "/faculty/schall/resources/">Resources</a></li>
+
+        <li class="horiz menubar"><a class="schall_link" href=
+        "/faculty/schall/links/">Links</a></li>
+      </ul>
+    </div>
+
+    <div id="content_container">
+      <div id="copyright-notice">
+        <p>Copyright notice: The publishers of these articles hold the copyright, and you
+        may use these PDFs only in a manner consistent with the fair use provisions of
+        U.S. copyright law. In particular, you may not distribute them, make them
+        available for download by others, or use them for any profit-making enterprise.
+        If you download a PDF from this page, please just print it and then discard
+        it.</p>
+      </div>
+
+      <div id="graphics">
+        <a id="skull-brain-img" href="/faculty/schall/images/skull-brain-large.png"
+        title="Anatomical reconstruction of a rhesus macaque skull and brain based on a structural magnetic resonance image. Red dots indicate stereotaxic locations of electrodes implanted on the surface of the skull beneath the scalp and muscle tissue to measure the electroencephalogram (EEG) . The goal of this research is to compare directly human and monkey EEG and event-related potentials (Woodman et al. 2007). This surgical method allows accurate comparisons between EEGs by ensuring that the underlying electrical signals propagate through similar layers of tissue and bone in both species. The electrode locations mimic the international 10-20 electrode coordinate system used in human EEG research (Jasper, 1958). First, a template of the adapted macaque 10-20 system was created by measuring electrode distances on a model skull. Second, stereotaxic positions of each proposed electrode location were recorded with accuracy in tenths of millimeters, along with the locations of several anatomical landmarks. Third, during surgical implantation, the same anatomical landmarks were located allowing the electrode template to be rescaled to fit the size of the subjects skull. Finally, the anatomical landmarks measured during the procedure were located in a MRI taken prior to the operation, and used to guide virtual placement of electrodes based on surgical records. The voltages recorded from these electrodes while monkeys perform cognitively demanding tasks will allow researchers in Jeffrey Schall and Geoff Woodman's laboratories to construct scalp surface potential maps and perform dipole source localization necessary to understand how intracranial measures recorded from monkeys relate to extracranial measures recorded from humans."
+        name="skull-brain-img"><img id="skull_brain_img" src=
+        "/faculty/schall/images/skull-brain-small.png" alt="Skull Brain Electrodes" name=
+        "skull_brain_img" /></a><a id="imp_circuit2" href="../images/purcellLG.png" name=
+        "imp_circuit2"><img src="../images/purcellsmall.png" alt="Purcell Image" name=
+        "PurcellImage" id="imp_circuit_img2" /></a><a id="imp_circuit3" href=
+        "../images/DavidsimageLG.png" name="imp_circuit3"><img src=
+        "../images/DavidsimageSm.png" alt="David Godlove Image" name="DavidsImage" id=
+        "DavidsImage" /></a>
+      </div>
+
+
+
+      <h2 id="top">Categories:</h2>
+
+      <ul>
+        <li><a href="#visual_search">Visual Search, Selection, and Attention</a></li>
+
+        <li><a href="#neural_control">Neural Control and Monitoring of Voluntary
+        Movements</a></li>
+
+        <li><a href="#frontal_cortex">Properties of Frontal Eye Field and Supplementary
+        Eye Field</a></li>
+
+        <li><a href="#fef_connectivity">Frontal Eye Field Connectivity</a></li>
+
+        <li><a href="#nonhuman_primate_erp">Nonhuman Primate Event Related
+        Potentials</a></li>
+
+        <li><a href="#neural_correlates">Neural Correlates of Visual Awareness</a></li>
+
+        <li><a href="#lgn">Lateral Geniculate Nucleus Neurophysiology in Behaving
+        Macaques</a></li>
+
+        <li><a href="#retinal_ganglion">Retinal Ganglion Cell Morphology and Cortical
+        Orientation Specificity</a></li>
+
+        <li><a href="#computational_models">Computational Models</a></li>
+
+        <li><a href="#translational_research">Translational Research</a></li>
+
+        <li><a href="#law_and_neuroscience">Law &amp; Neuroscience</a></li>
+
+        <li><a href="#review_and_commentary">Reviews and Commentary</a></li>
+
+        <li><a href="#miscellaneous">Miscellaneous</a></li>
+      </ul>
+
+      <h3 id="visual_search">Visual Search, Selection, and Attention</h3>
+
+      <ul>
+        <li>Nelson MJ, Murthy A, Schall JD. (2016) Neural control of visual search by
+        frontal eye field: chronometry of neural events and race model processes. J
+        Neurophysiol. 2016 Apr;115(4):1954-69</li>
+
+        <li>Heitz RP (2014) The speed-accuracy tradeoff: history, physiology,
+        methodology, and behavior. <span class="journal">Frontiers in Neuroscience</span>
+        Jun 11;8:150. doi: 10.3389/fnins.2014.00150. <a href=
+        "/faculty/schall/pdfs/Speed_Accuracy.pdf">[ pdf ]</a></li>
+
+        <li>Heitz RP and Schall JD (2013) Neural chronometry and coherency across
+        speed-accuracy demands reveal lack of homomorphism between computational and
+        neural mechanisms of evidence accumulation. <span class="journal">Philosophical
+        transactions of the Royal Society of London. Series B, Biological sciences</span>
+        Sep 9;368(1628):20130071. <a href=
+        "/faculty/schall/pdfs/Neural_Chronometry.pdf">[ pdf ]</a></li>
+
+        <li>Heitz RP, Schall JD (2012) Neural Mechanisms of Speed-Accuracy Tradeoff.
+        <em>Neuron</em> 76(3): 616-28. [<a href="../pdfs/FEF_SAT_Neuron_2012.pdf" target=
+        "_blank">pdf</a>] [<a href="../pdfs/mmc2.mov" target="_blank">movie</a>]</li>
+
+        <li>Purcell BA, Weigand PK, Schall JD (2012) Supplementary eye field during
+        visual search: salience, cognitive control, and performance monitoring. <em>J
+        Neurosci</em>. 2012 Jul 25;32(30):10273-85. doi: 10.1523/JNEUROSCI.6386-11.2012.
+        [<a href="../pdfs/Supplementaryeyefield12.pdf" target="_blank">pdf</a>]</li>
+
+        <li>Purcell BA, Heitz RP, Cohen JY, Schall JD (2012) Response Variability of
+        Frontal Eye Field Neurons Modulates with Sensory Input and Saccade Preparation
+        but not Visual Search Salience. <em>J Neurophysiol</em>. 2012 Sep 5. [Epub ahead
+        of print] [<a href="../pdfs/ResponseVariability12.pdf" target=
+        "_blank">pdf</a>]</li>
+
+        <li>Purcell BA, Schall JD, Woodman GF (2012) On the Origin of Event-Related
+        Potentials Indexing Covert Attentional Selection During Visual Search: Timing Of
+        Selection During Pop-Out Search. <em>J Neurophysiol</em>. 2012 Oct 24. [Epub
+        ahead of print] [<a href="../pdfs/OriginofEventRelated12.pdf" target=
+        "_blank">pdf</a>]</li>
+
+        <li>Heitz RP, Cohen JY, Woodman GF, Schall JD (2010) Neural correlates of correct
+        and errant attentional selection revealed through N2pc and frontal eye field
+        activity. <span class="journal">Journal of Neurophysiology</span> 104: 2433-2441.
+        <a href="/faculty/schall/pdfs/HeitzCohenWoodmanSchall2010.pdf" target=
+        "_blank">[ pdf ]</a></li>
+
+        <li>Cohen JY, Crowder EA, Heitz RP, Subraveti CR, Thompson KG, Woodman GF, Schall
+        JD (2010) Cooperation and competition among frontal eye field neurons during
+        visual target selection.<span class="journal">The Journal of Neuroscience</span>
+        Mar 3;30(9):3227-38. <a href=
+        "/faculty/schall/pdfs/CohenCrowderHeitzSubravetiThomsonWoodmanSchall2010.pdf"
+        target="_blank">[ pdf ]</a></li>
+
+        <li>Purcell BA, Heitz RP, Cohen JY, Logan GD, Schall JD, Palmeri TJ (2010)
+        Neurally Constrained Modeling of Perceptual Decision Making. <span class=
+        "journal">Psychological Review</span> 117(4):1113-43. <a href=
+        "/faculty/schall/pdfs/PurcellHeitzCohenSchallLoganPalmeri2010.pdf">[ pdf ]</a>
+
+          <ul>
+            <li>Schall JD, Purcell BA, Heitz RP, Logan GD, Palmeri TJ (2011) Neural
+            mechanisms of saccade target selection: gated accumulator model of the
+            visual, motor cascade. <span class="journal">European
+            Journal of Neuroscience</span> 33(11):1991-2002. <a href=
+            "/faculty/schall/pdfs/SchallPurcellHeitzLoganPalmeri2011.pdf">[ pdf ]</a></li>
+
+            <li>Purcell BA, Schall JD, Logan GD, Palmeri TJ. (2012) From salience to
+            saccades: multiple-alternative gated stochastic accumulator model of visual
+            search. J Neurosci. Mar 7;32(10):3433-46. <a href="../pdfs/purcell2012.pdf"
+            target="_blank">[pdf</a>]<br /></li>
+          </ul>
+        </li>
+
+        <li>Nelson MJ, Boucher L, Logan GD, Palmeri TJ, Schall JD (2010) Nonindependent
+        and nonstationary response times in stopping and stepping saccade tasks.
+        <span class="journal">Attention, Perception &amp; Psychophysics</span>
+        72(7):1913-29. <a href=
+        "/faculty/schall/pdfs/NelsonBoucherLoganPalmeriSchall2010.pdf">[ pdf ]</a></li>
+
+        <li>Murthy A, Ray S, Shorter SM, Schall JD, Thompson KG (2009) Neural control of
+        visual search by frontal eye field: effects of unexpected target displacement on
+        visual selection and saccade preparation. <span class="journal">Journal of
+        Neurophysiology</span> 101(5):2485-506. <a href=
+        "/faculty/schall/pdfs/neural-control.pdf">[ pdf ]</a></li>
+
+        <li>Cohen JY, Heitz RP, Woodman GF, Schall JD (2009) Neural basis of the set-size
+        effect in frontal eye field: timing of attention during visual search.
+        <span class="journal">Journal of Neurophysiology</span> 101(4):1699-704.
+          <a href="/faculty/schall/pdfs/CohenHeitzWoodmanSchall2009.pdf">[ pdf ]</a>
+
+          <ul>
+            <li>Cohen JY, Heitz RP, Woodman GF &amp; Schall JD (2009) Reply to Balan and
+            Gottlieb: Comment on Cohen et al: Neural basis of the set-size effect in
+            frontal eye field: timing of attention during visual search. <span class=
+            "journal">Journal of Neurophysiology</span> 102: 1342-1343. <a href=
+            "/faculty/schall/pdfs/CohenHeitzWoodmanSchall2009letter.pdf">[ pdf ]</a></li>
+          </ul>
+        </li>
+
+        <li>Woodman GF, Kang M-S, Thompson KG, Schall JD (2008) The effect of visual
+        search efficiency on response preparation: Neurophysiological evidence for
+        discrete flow. <span class="journal">Psychological Science</span> 19(2):128-136.
+        <a href="/faculty/schall/pdfs/discrete_flow.pdf">[ pdf ]</a></li>
+
+        <li>Cohen JY, Pouget P, Woodman GF, Subraveti CR, Schall JD, Rossi AF (2007)
+        Difficulty of visual search modulates neuronal interactions and response
+        variability in the frontal eye field. <span class="journal">Journal of
+        Neurophysiology</span> 98(5):2580-7. <a href=
+        "/faculty/schall/pdfs/cohen2007.pdf">[ pdf ]</a></li>
+
+        <li>Juan CH, Shorter-Jacobi SM, Schall JD (2004) Dissociation of spatial
+        attention and saccade preparation. <span class="journal">Proceedings of the
+        National Academy of Sciences of the United States of America</span>
+        101(43):15541-4. <a href=
+        "/faculty/schall/pdfs/dissociation.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Sato TR, Thompson KG, Vaughn AA, Juan CH (2004) Effects of search
+        efficiency on surround suppression during visual selection in frontal eye field.
+        <span class="journal">Journal of Neurophysiology</span> 91(6):2765-9. <a href=
+        "/faculty/schall/pdfs/surroundsuppression.pdf">[ pdf ]</a></li>
+
+        <li>Sato T, Watanabe K, Thompson KG, Schall JD (2003) Effect of target-distractor
+        similarity on FEF visual selection in the absence of the target. <span class=
+        "journal">Experimental Brain Research</span> 151(3):356-63. <a href=
+        "/faculty/schall/pdfs/effecttargetdistract.pdf">[ pdf ]</a></li>
+
+        <li>Sato T, Schall JD (2003) Effects of stimulus-response compatibility on neural
+        selection in frontal eye field. <span class="journal">Neuron</span> 38(4):637-48.
+        <a href="/faculty/schall/pdfs/satoneuron2003.pdf">[ pdf ]</a></li>
+
+        <li>Bichot NP, Schall JD (2002) Priming in macaque frontal cortex during popout
+        visual search: feature-based facilitation and location-based inhibition of
+        return. <span class="journal">The Journal of Neuroscience</span> 22(11):4675-85.
+        <a href="/faculty/schall/pdfs/priming.pdf">[ pdf ]</a></li>
+
+        <li>Murthy A, Thompson KG, Schall JD (2001) Dynamic dissociation of visual
+        selection from saccade programming in frontal eye field. <span class=
+        "journal">Journal of Neurophysiology</span> 86:2634-2637. <a href=
+        "/faculty/schall/pdfs/dynamic.pdf">[ pdf ]</a></li>
+
+        <li>Sato T, Murthy A, Thompson KG, Schall JD (2001) Search efficiency but not
+        response interference affects visual selection in frontal eye field. <span class=
+        "journal">Neuron</span> 30:583-591. <a href=
+        "/faculty/schall/pdfs/searchef.pdf">[ pdf ]</a></li>
+
+        <li>Bichot NP, Thompson KG, Rao SC, Schall JD (2001) Reliability of macaque
+        frontal eye field neurons signaling saccade targets during visual search.
+        <span class="journal">The Journal of Neuroscience</span> 21:713-725. <a href=
+        "/faculty/schall/pdfs/reliabil.pdf">[ pdf ]</a></li>
+
+        <li>Bichot NP, Rao SC, Schall JD (2001) Continuous processing in macaque frontal
+        cortex during visual search. <span class="journal">Neuropsychologia</span>
+        39:972-982. <a href=
+        "/faculty/schall/pdfs/continuo.pdf">[ pdf ]</a></li>
+
+        <li>Bichot NP and Schall JD (1999) Saccade target selection in macaque during
+        feature and conjunction visual search. <span class="journal">Visual
+        Neuroscience</span> 16:81-89. <a href=
+        "/faculty/schall/pdfs/newsac.pdf">[ pdf ]</a></li>
+
+        <li>Bichot NP and Schall JD (1999) Effects of similarity and history on neural
+        mechanisms of visual selection. <span class="journal">Nature Neuroscience</span>
+        2:549-554. <a href="/faculty/schall/pdfs/effectsi.pdf">[ pdf ]</a></li>
+
+        <li>Thompson KG, Bichot NP, and Schall JD (1997) Dissociation of visual
+        discrimination from saccade programming in macaque frontal eye field.
+        <span class="journal">Journal of Neurophysiology</span> 77:1046-1050. <a href=
+        "/faculty/schall/pdfs/dissocia.pdf">[ pdf ]</a></li>
+
+        <li>Thompson KG, Hanes DP, Bichot NP and Schall JD (1996) Perceptual and motor
+        processing stages identified in the activity of macaque frontal eye field neurons
+        during visual search. <span class="journal">Journal of Neurophysiology</span>
+        76:4040-4055. <a href=
+        "/faculty/schall/pdfs/percept.pdf">[ pdf ]</a></li>
+
+        <li>Bichot NP, Schall JD and Thompson KG (1996) Visual feature selectivity in
+        frontal eye fields induced by experience in mature macaques. <span class=
+        "journal">Nature</span> 381:697-699. <a href=
+        "/faculty/schall/pdfs/visualfe.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Hanes DP, Thompson KG and King DJ (1995) Saccade target selection
+        in frontal eye field of macaque. I. visual and premovement activation.
+        <span class="journal">The Journal of Neuroscience</span> 15:6905-6918. <a href=
+        "/faculty/schall/pdfs/saccade.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD and Hanes DP (1993) Neural basis of saccade target selection in
+        frontal eye field during visual search. <span class="journal">Nature</span>
+        366:467-469. <a href=
+        "/faculty/schall/pdfs/neusatar.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="neural_control">Neural Control and Monitoring of Voluntary Movements</h3>
+
+      <ul>
+        <li>Godlove DC, Schall JD (2014) Microsaccade production during saccade
+        cancellation in a stop-signal task. <span class="journal">Vision Research.</span>
+        Nov 6. pii: S0042-6989(14)00258-2. doi: 10.1016/j.visres.2014.10.025. [Epub ahead
+        of print] <a href=
+        "/faculty/schall/pdfs/Godlove%20&amp;%20Schall%202016%20Vision%20Research.pdf">[ pdf ]</a></li>
+
+        <li>Middlebrooks PG and Schall JD (2014) Response inhibition during perceptual
+        decision making in humans and macaques. <span class="journal">Attention,
+        Perception &amp; Psychophysics</span> 76(2):353-66. <a href=
+        "/faculty/schall/pdfs/response_inhibition.pdf">[ pdf ]</a></li>
+
+        <li>Schall, J. D., &amp; Godlove, D. C. (2012). Current advances and pressing
+        problems in studies of stopping. Curr Opin Neurobiol. doi:
+        10.1016/j.conb.2012.06.002. [<a href="../pdfs/currentadvance.pdf" target=
+        "_blank">pdf</a>]<br /></li>
+
+        <li>Pouget, P., Logan, G. D., Palmeri, T. J., Boucher, L., Pare, M., &amp;
+        Schall, J. D. (2011). Neural Basis of Adaptive Response Time Adjustment during
+        Saccade Countermanding. Journal of Neuroscience, 31(35), 12604-12612. [<a href=
+        "../pdfs/Pouget2011J%20Nsci.pdf" target="_blank">pdf</a>]</li>
+
+        <li>Godlove DC, Emeric EE, Segovis CM, Young MS, Schall JD, Woodman GF (2011).
+        Event-Related Potentials Elicited by Errors during the Stop-Signal Task. I.
+        Macaque Monkeys. J Neurosci. Nov 2;31(44):15640-9. [<a href=
+        "../pdfs/eventrelatedGodlove.pdf">pdf</a>]
+
+          <ul>
+            <li>Reinhart RM, Carlisle NB, Kang MS, Woodman GF(2012) Event-related
+            potentials elicited by errors during the stop-signal task. II: human
+            effector-specific error responses. <em>J Neurophysiol</em>. 2012
+            May;107(10):2794-807. [<a href="../pdfs/Eventrelatedpotentials11.pdf" target=
+            "_blank">pdf</a>]<br /></li>
+          </ul>
+        </li>
+
+        <li>Godlove DC, Garr AK, Woodman GF, Schall JD (2011). Measurement of the
+        extraocular spike potential during saccade countermanding. J Neurophysiol.
+        Jul;106(1):104-14. <a href="../pdfs/GodloveNeurophysiol.pdf">[pdf</a>]</li>
+
+        <li>Emeric EE, Leslie MW, Pouget P, Schall JD (2010) Performance monitoring local
+        field potentials in the medial frontal cortex of primates: Supplementary eye
+        field <span class="journal">Journal of Neurophysiology</span> 104(3):1523-37.
+        <a href=
+        "/faculty/schall/pdfs/EmericLesliePougetSchall2010.pdf">[ pdf ]</a></li>
+
+        <li>Stuphorn V, Brown JW, Schall JD (2010) Role of supplementary eye field in
+        saccade initiation: executive, not direct, control <span class="journal">Journal
+        of Neurophysiology</span> 103:801 816. <a href=
+        "/faculty/schall/pdfs/StuphornBrownSchall2010.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD. (2009) Cingulate cortex - role in eye movements. In MD Binder, N
+        Hirokawa &amp; U Windhorst, (Eds.), <span class="book-title">Encyclopedia of
+        Neuroscience</span> (pp. 721-722). Berlin, Germany: Springer-Verlag GmbH.
+        <a href="/faculty/schall/pdfs/en2009-CingulateCortex-pp721-722.pdf">[ pdf ]</a></li>
+
+        <li>Brown JW, Hanes DP, Schall JD, Stuphorn V (2008) Relation of frontal eye
+        field activity to saccade initiation during a countermanding task. <span class=
+        "journal">Experimental Brain Research</span> 190(2):135-51. <a href=
+        "/faculty/schall/pdfs/fef_cmanding.pdf">[ pdf ]</a></li>
+
+        <li>Emeric EE, Brown JW, Leslie MW, Pouget P, Stuphorn V, Schall JD (2007)
+        Performance monitoring local field potentials in the medial frontal cortex of
+        primates: anterior cingulate cortex. <span class="journal">Journal of
+        Neurophysiology</span> 99: 759-772. <a href=
+        "/faculty/schall/pdfs/performanceACC.pdf">[ pdf ]</a></li>
+
+        <li>Boucher L, Stuphorn V, Logan GD, Schall JD, Palmeri TJ (2007) Stopping eye
+        and hand movements: are the processes independent?. <span class=
+        "journal">Perception &amp; Psychophysics</span> 69(5):785-801. <a href=
+        "/faculty/schall/pdfs/stopeyehand.pdf">[ pdf ]</a></li>
+
+        <li>Boucher L, Palmeri TJ, Logan GD, Schall JD (2007) Inhibitory control in mind
+        and brain: an interactive race model of countermanding saccades. <span class=
+        "journal">Psychological Review</span> 114(2):376-97. <a href=
+        "/faculty/schall/pdfs/inhibitorycontrol.pdf">[ pdf ]</a> <a href=
+        "http://www.vanderbilt.edu/register/articles?id=33952">[  in the
+        news  ]</a></li>
+
+        <li style="list-style: none">
+          <ul>
+            <li>Logan GD, Yamaguchi M, Schall JD, Palmeri TJ (2015) Inhibitory control in
+            mind and brain 2.0: blocked-input models of saccadic countermanding.
+            <span class="journal">Psychological Review.</span> 122:115-147. <a href=
+            "/faculty/schall/pdfs/LoganYamaguchiSchallPalmeri2015.pdf">[ pdf ]</a></li>
+          </ul>
+        </li>
+
+        <li>Lo CC, Boucher L, Par M, Schall JD, Wang XJ (2009) Proactive
+        inhibitory control and attractor dynamics in countermanding action: a spiking
+        neural circuit model. <span class="journal">The Journal of Neuroscience</span>
+        29(28):9059-71. <a href=
+        "/faculty/schall/pdfs/LoBoucherPareSchallWang2009.pdf">[ pdf ]</a></li>
+
+        <li>Emeric EE, Brown JW, Boucher L, Carpenter RH, Hanes DP, Harris R, Logan GD,
+        Mashru RN, Par M, Pouget P, Stuphorn V, Taylor TL, and Schall JD (2007)
+        Influence of history on saccade countermanding performance in humans and macaque
+        monkeys. <span class="journal">Vision Research</span> 47(1):35-49. <a href=
+        "/faculty/schall/pdfs/history.pdf">[ pdf ]</a></li>
+
+        <li>Camalier CR, Gotler A, Murthy A, Thompson KG, Logan GD, Palmeri TJ, Schall JD
+        (2007) Dynamics of saccade target selection: Race model analysis of double step
+        and search step saccade production in human and macaque. <span class=
+        "journal">Vision Research</span> 47(16):2187-211. <a href=
+        "/faculty/schall/pdfs/dynamicsofsacc.pdf">[ pdf ]</a></li>
+
+        <li>Murthy A, Ray S, Shorter SM, Priddy EG, Schall JD, Thompson KG (2007) Frontal
+        eye field contributions to rapid corrective saccades. <span class=
+        "journal">Journal of Neurophysiology</span> 97(2):1457-69. <a href=
+        "/faculty/schall/pdfs/contribtorapid.pdf">[ pdf ]</a></li>
+
+        <li>Stuphorn V and Schall JD (2006) Executive control of countermanding saccades
+        by the supplementary eye field. <span class="journal">Nature Neuroscience</span>
+        9(7):925-31. <a href=
+        "/faculty/schall/pdfs/execSEF.pdf">[ pdf ]</a></li>
+
+        <li>Munoz DP, &amp; Schall JD. (2004) Concurrent, distributed control of saccade
+        initiation in the frontal eye field and superior colliculus. In WC Hall &amp; A
+        Moschovakis, (Eds.), <span class="book-title">The Superior Colliculus: New
+        Approaches For Studying Sensorimotor Integration</span> (pp. 55-82). Boca Raton,
+        FL: CRC Press. <a href=
+        "/faculty/schall/pdfs/TheSuperiorColliculusCh3.pdf">[ pdf ]</a></li>
+
+        <li>Ray S, Schall JD, Murthy A (2004) Programming of double-step saccade
+        sequences: modulation by cognitive control. <span class="journal">Vision
+        Research</span> 44(23):2707-18. <a href=
+        "/faculty/schall/pdfs/programming2step.pdf">[ pdf ]</a></li>
+
+        <li>Ito S, Stuphorn V, Brown JW, Schall JD (2003) Performance monitoring by the
+        anterior cingulate cortex during saccade countermanding. <span class=
+        "journal">Science</span> 302(5642):120-2. <a href=
+        "/faculty/schall/pdfs/performance.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Stuphorn V, Brown JW (2002) Monitoring and control of action by
+        the frontal lobes. <span class="journal">Neuron</span> 36(2):309-22. <a href=
+        "/faculty/schall/pdfs/mocoact.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Hanes DP, and Taylor TL (2000) Neural control of behavior:
+        countermanding eye movements. <span class="journal">Psychological Research</span>
+        63:299-307. <a href="/faculty/schall/pdfs/ne.pdf">[ pdf ]</a></li>
+
+        <li>Stuphorn V, Taylor TL, Schall JD (2000) Performance monitoring by the
+        supplementary eye field. <span class="journal">Nature</span> 408:857-860.
+        <a href="/faculty/schall/pdfs/performanceSEF.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD and Hanes DP (1998) Neural mechanisms of selection and control of
+        visually guided eye movements. <span class="journal">Neural Networks</span>
+        11:1241-1251. <a href=
+        "/faculty/schall/pdfs/HanesSchall1998.pdf">[ pdf ]</a></li>
+
+        <li>Hanes DP, Patterson WF, Schall JD (1998) Role of frontal eye field in
+        countermanding saccades: Visual, movement and fixation activity. <span class=
+        "journal">Journal of Neurophysiology</span> 79:817-834. <a href=
+        "/faculty/schall/pdfs/rolfrefcs.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, and Hanes DP (1997) Neurons and Reaction Times, reply to letters
+        from M.G.H. Coles, from J.C. Lynch and from F. Richer &amp; A. Achim regarding
+        "Neural control of voluntary movement initiation". <span class=
+        "journal">Science</span> 275: 140-144. <a href=
+        "/faculty/schall/pdfs/neuroRT.pdf">[ pdf ]</a></li>
+
+        <li>Hanes DP and Schall JD (1996) Neural control of voluntary movement
+        initiation. <span class="journal">Science</span> 274:427-430. <a href=
+        "/faculty/schall/pdfs/neuconvo.pdf">[ pdf ]</a></li>
+
+        <li>Hanes DP, Thompson KG, and Schall JD (1995) Relationship of presaccadic
+        activity in frontal eye field and supplementary eye field to saccade initiation
+        in macaque: Poisson spike train analysis. <span class="journal">Experimental
+        Brain Research</span> 103:85-96. <a href=
+        "/faculty/schall/pdfs/reofpres.pdf">[ pdf ]</a></li>
+
+        <li>Hanes DP and Schall JD (1995) Countermanding saccades in macaque.
+        <span class="journal">Visual Neuroscience</span> 12:929-937. <a href=
+        "/faculty/schall/pdfs/counter.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="frontal_cortex">Properties of Frontal Eye Field and Supplementary Eye
+      Field</h3>
+
+      <ul>
+        <li>Neggers SF, Zandbelt BB, Schall MS, Schall JD (2015) Comparative diffusion
+        tractography of corticostriatal motor pathways reveals differences between humans
+        and macaques. <span class="journal">J Neurophysiol.</span> 2015 Apr
+        1;113(7):2164-72. <a href=
+        "/faculty/schall/pdfs/ComparativeDiffusionTractographyCorticostriatal_2015.pdf">[ pdf ]</a></li>
+
+        <li>Godlove DC, Maier A, Woodman GF and Schall JD (2014) Microcircuitry of
+        agranular frontal cortex: testing the generality of the canonical cortical
+        microcircuit. <span class="journal">The Journal of Neuroscience.</span>
+        34(15):5355-69. <a href=
+        "/faculty/schall/pdfs/microcircuitry.pdf">[ pdf ]</a></li>
+
+        <li style="list-style: none">
+          <ul>
+            <li>Ninomiya T, Dougherty K, Godlove DC, Schall JD, Maier A (2015)
+            Microcircuitry of agranular frontal cortex: contrasting laminar connectivity
+            between occipital and frontal areas. <em>J Neurophysiol.</em> 2015 May
+            1;113(9):3242-55. <a href=
+            "/faculty/schall/pdfs/MicrocircuitryAgranularFrontalCortex2015.pdf">[ pdf ]</a></li>
+          </ul>
+        </li>
+
+        <li>Schall JD (2009) Frontal eye fields. <span class="journal">Encyclopedia of
+        Neuroscience</span> 4: 367-74. <a href=
+        "/faculty/schall/pdfs/en2009FrontalEyeFields.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD. (2009) Frontal eye fields. In MD Binder, N Hirokawa &amp; U
+        Windhorst, (Eds.), <span class="book-title">Encyclopedia of Neuroscience</span>
+        (pp. 1635-1638). Berlin, Germany: Springer-Verlag GmbH. <a href=
+        "/faculty/schall/pdfs/en2009-FrontalEyeFields-pp1635-1638.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD. (2009) Supplementary eye field. In MD Binder, N Hirokawa &amp; U
+        Windhorst, (Eds.), <span class="book-title">Encyclopedia of Neuroscience</span>
+        (pp. 3904-3906). Berlin, Germany: Springer-Verlag GmbH. <a href=
+        "/faculty/schall/pdfs/en2009-SupplementaryEyeFields-pp3904-3906.pdf">[ pdf ]</a></li>
+
+        <li>Ray S, Pouget P, Schall JD (2009) Functional distinction between
+        visuomovement and movement neurons in macaque frontal eye field during saccade
+        countermanding. <span class="journal">Journal of Neurophysiology</span>
+        102(6):3091-100. <a href=
+        "/faculty/schall/pdfs/RayPougetSchall2009.pdf">[ pdf ]</a></li>
+
+        <li>Cohen JY, Pouget P, Heitz RP, Woodman GF, Schall JD (2009) Biophysical
+        support for functionally distinct cell types in the frontal eye field.
+        <span class="journal">Journal of Neurophysiology</span> 101(5):2485-506. <a href=
+        "/faculty/schall/pdfs/CohenPougetHeitzWoodmanSchall2009.pdf">[ pdf ]</a></li>
+
+        <li>Pouget P, Emeric EE, Stuphorn V, Reis K, Schall JD (2005) Chronometry of
+        visual responses in frontal eye field, supplementary eye field, and anterior
+        cingulate cortex. <span class="journal">Journal of Neurophysiology</span>
+        94(3):2086-92. <a href=
+        "/faculty/schall/pdfs/chronometry.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Thompson KG, Bichot NP, Murthy A, &amp; Sato TR. (2004). Visual
+        processing in the macaque frontal eye field. In JH Kaas &amp; CE Collins, (Eds.),
+        <span class="book-title">The Primate Visual System</span> (pp. 205-230). Boca
+        Raton, FL: CRC Press. <a href=
+        "/faculty/schall/pdfs/ThePrimateVisualSystemCh9.pdf">[ pdf ]</a></li>
+
+        <li>Sato T, Schall JD (2001) Pre-excitatory pause in frontal eye field responses.
+        <span class="journal">Experimental Brain Research</span> 139:53-58. <a href=
+        "/faculty/schall/pdfs/prexcita.pdf">[ pdf ]</a></li>
+
+        <li>Schmolesky MT, Wang YC, Hanes DP, Thompson KG, Leutgeb S, Schall JD and
+        Leventhal AG (1998) Signal timing across the macaque visual system. <span class=
+        "journal">Journal of Neurophysiology</span> 79:3272-3278. <a href=
+        "/faculty/schall/pdfs/signalta2.pdf">[ pdf ]</a></li>
+
+        <li>Hanes DP, Thompson KG and Schall JD (1995) Relationship of presaccadic
+        activity in frontal eye field and supplementary eye field to saccade initiation
+        in macaque: Poisson spike train analysis. <span class="journal">Experimental
+        Brain Research</span> 103:85-96.</li>
+
+        <li>Schall JD (1991) Neuronal activity related to visually guided saccades in the
+        frontal eye fields of rhesus monkeys: comparison with supplementary eye fields.
+        <span class="journal">Journal of Neurophysiology</span> 66:559-579. <a href=
+        "/faculty/schall/pdfs/neuracti.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (1991) Neuronal activity related to visually guided saccadic eye
+        movements in the supplementary motor area of rhesus monkeys. <span class=
+        "journal">Journal of Neurophysiology</span> 66:530-558. <a href=
+        "/faculty/schall/pdfs/nactrelg.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (1991) Neuronal basis of saccadic eye movements. In: <span class=
+        "journal">Vision and Visual Dysfunction. , vol. 4, The Neural Basis of Visual
+        Function</span>, edited by A.G. Leventhal. London: Macmillan Press, p
+        388-442.</li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="fef_connectivity">Frontal Eye Field Connectivity</h3>
+
+      <ul>
+        <li>Pouget P, Stepniewska I, Crowder EA, Leslie MW, Emeric EE, Nelson MJ, Schall
+        JD (2009) Visual and motor connectivity and the distribution of calcium-binding
+        proteins in macaque frontal eye field: implications for saccade target selection.
+        <span class="journal">Frontiers in Neuroanatomy</span> 3:2. <a href=
+        "/faculty/schall/pdfs/feftosc.pdf">[ pdf ]</a></li>
+
+        <li>Bullier J, Schall JD and Morel A (1996) Functional streams in
+        occipito-frontal connections in the monkey. <span class="journal">Behavioral
+        Brain Research</span> 76:89-97. <a href=
+        "/faculty/schall/pdfs/1916.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Morel A, King D, and Bullier J (1995) Topography of visual cortex
+        connections with frontal eye field in macaque: convergence and segregation of
+        processing streams. <span class="journal">The Journal of Neuroscience</span>
+        15:4464-4487. <a href=
+        "/faculty/schall/pdfs/topovisc.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Morel A and Kaas J (1993) Topography of supplementary eye field
+        afferents to frontal eye field in macaque: implications for mapping between
+        saccade coordinate systems. <span class="journal">Visual Neuroscience</span>
+        10:385-393. <a href=
+        "/faculty/schall/pdfs/topograp.pdf">[ pdf ]</a></li>
+
+        <li>Parthasarathy HB, Schall JD and Graybiel AM (1992) Distributed but convergent
+        ordering of striatal projections: The frontal eye field and the supplementary eye
+        field in the monkey. <span class="journal">The Journal of Neuroscience</span>
+        12:4468-4488. <a href=
+        "/faculty/schall/pdfs/dist1992.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="nonhuman_primate_erp">Nonhuman Primate Event Related Potentials</h3>
+
+      <ul>
+        <li>Purcell BA, Schall JD, Woodman GF (2013) On the Origin of Event-Related
+        Potentials Indexing Covert Attentional Selection During Visual Search: Timing Of
+        Selection During Pop-Out Search. <em>J Neurophysiol</em>. 109:557-569 [<a href=
+        "../pdfs/Purcell_Schall_Woodman_2013_J_NP_N2pc_popout.pdf" target=
+        "_blank">pdf</a>]</li>
+
+        <li>Robert M. G. Reinhart, Richard P. Heitz, Braden A. Purcell, Pauline K.
+        Weigand, Jeffrey D. Schall, and Geoffrey F. Woodman (2012) Homologous Mechanisms
+        of Visuospatial Working Memory Maintenance in Macaque and Human: Properties and
+        Sources J. Neurosci. 32 7711-7722 <a href=
+        "../pdfs/homologous%20Mechanisms2012.pdf" target="_blank">[pdf</a>]<br /></li>
+
+        <li>Godlove DC, Emeric EE, Segovis CM, Young MS, Schall JD, Woodman GF(2011).
+        Event-Related Potentials Elicited by Errors during the Stop-Signal Task. I.
+        Macaque Monkeys. J Neurosci. Nov 2;31(44):15640-9. [<a href=
+        "../pdfs/eventrelatedGodlove.pdf">pdf</a>]</li>
+
+        <li>Godlove DC, Garr AK, Woodman GF, Schall JD (2011). Measurement of the
+        extraocular spike potential during saccade countermanding. J Neurophysiol.
+        Jul;106(1):104-14. <a href="../pdfs/GodloveNeurophysiol.pdf">[pdf</a>]<br /></li>
+
+        <li>Heitz RP, Cohen JY, Woodman GF, Schall JD (2010) Neural correlates of correct
+        and errant attentional selection revealed through N2pc and frontal eye field
+        activity. <span class="journal">Journal of Neurophysiology</span> 104(5):2433-41.
+        <a href=
+        "/faculty/schall/pdfs/HeitzCohenWoodmanSchall2010.pdf">[ pdf ]</a><br />
+        </li>
+
+        <li>Cohen JY, Heitz RP, Schall JD, Woodman GF (2009) On the origin of
+        event-related potentials indexing covert attentional selection during visual
+        search. <span class="journal">Journal of Neurophysiology</span> 102(4):2375-86.
+        <a href=
+        "/faculty/schall/pdfs/CohenHeitzSchallWoodman2009.pdf">[ pdf ]</a></li>
+
+        <li>Woodman GF, Kang MS, Rossi AF, Schall JD (2007) Nonhuman primate
+        event-related potentials indexing covert shifts of attention. <span class=
+        "journal">Proceedings of the National Academy of Sciences of the United States of
+        America</span> 104(38):15111-6. <a href=
+        "/faculty/schall/pdfs/attentionERPs.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="neural_correlates">Neural Correlates of Visual Awareness</h3>
+
+      <ul>
+        <li>Thompson KG and Schall JD (2000) Antecedents and correlates of visual
+        detection and awareness in macaque prefrontal cortex. <span class=
+        "journal">Vision Research</span> 40:1523-1538. <a href=
+        "/faculty/schall/pdfs/antecede.pdf">[ pdf ]</a></li>
+
+        <li>Thompson KG and Schall JD (1999) The detection of visual signals by macaque
+        frontal eye field during masking. <span class="journal">Nature
+        Neuroscience</span> 2:283-288. <a href=
+        "/faculty/schall/pdfs/detection.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Nawrot MR, Blake R, Yu KP (1993) Visually guided attention is
+        neutralized when informative cues are visible but unperceived. <span class=
+        "journal">Vision Research</span> 33:2057-2064. <a href=
+        "/faculty/schall/pdfs/visuguat.pdf">[ pdf ]</a></li>
+
+        <li>Logothetis NK and Schall JD (1990) Binocular motion rivalry in macaque
+        monkeys: Eye dominance and tracking eye movements. <span class="journal">Vision
+        Research</span> 30:1409-1419. <a href=
+        "/faculty/schall/pdfs/binmoriv.pdf">[ pdf ]</a></li>
+
+        <li>Logothetis NK and Schall JD (1989) Neuronal correlates of subjective visual
+        perception. <span class="journal">Science</span> 245:761-763. <a href=
+        "/faculty/schall/pdfs/necorsub.pdf">[ pdf ]</a></li>
+
+        <li>Logothetis NK and Schall JD (1989) Neuronal activity related to motion
+        perception in the middle temporal visual area (MT).of the macaque, In:
+        <span class="journal">Proceedings of the Retina Research Foundation, vol 2.,
+        Neural Mechanisms of Visual Perception</span>, edited by M.K. Lam and C.D.
+        Gilbert. The Woodlands, TX: Portfolio, p 199-222. <a href=
+        "/faculty/schall/pdfs/neuactre.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="lgn">Lateral Geniculate Nucleus Neurophysiology in Behaving Macaques</h3>
+
+      <ul>
+        <li>Ruiz O, Royal D, Sry G, Chen X, Schall JD, Casagrande VA (2006)
+        Low-threshold Ca<span class="superscript">2+</span>-associated bursts are rare
+        events in the LGN of the awake behaving monkey. <span class="journal">Journal of
+        Neurophysiology</span> 95(6):3401-13. <a href=
+        "/faculty/schall/pdfs/burstLGN.pdf">[ pdf ]</a></li>
+
+        <li>Royal DW, Sry G, Schall JD, Casagrande VA (2006) Correlates of motor
+        planning and postsaccadic fixation in the macaque monkey lateral geniculate
+        nucleus. <span class="journal">Experimental Brain Research</span> 168(1-2):62-75.
+        <a href="/faculty/schall/pdfs/planningLGN.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="retinal_ganglion">Retinal Ganglion Cell Morphology and Cortical Orientation
+      Specificity</h3>
+
+      <ul>
+        <li>Schall JD, An Alternative Hypothesis for Orientation Columns in the Visual
+        Cortex, <span class="journal">Science</span> (E-Letter, 19 April 2011) <a href=
+        "http://www.sciencemag.org/content/330/6007/1113/reply">http://www.sciencemag.org/content/330/6007/1113/reply</a>.</li>
+
+        <li>Leventhal AG, and Schall JD (1989) Extrinsic determinants of retinal ganglion
+        cell development in cats and monkeys. In: <span class="journal">Development of
+        Vertebrate Retina</span>, edited by B. Finlay and D.R. Sengelaub. New York:
+        Plenum Press, p 173-195.</li>
+
+        <li>Schall JD, Ault SJ, Vitek DJ, and Leventhal AG (1988) Experimental induction
+        of an ipsilateral visual field representation in the visual pathway of normally
+        pigmented cats. <span class="journal">The Journal of Neuroscience</span>
+        8:2039-2048. <a href=
+        "/faculty/schall/pdfs/experime.pdf">[ pdf ]</a></li>
+
+        <li>Leventhal AG, Schall JD, Ault SL, Provis JM, and Vitek DJ (1988)
+        Class-speccific cell death shapes the distribution and pattern of central
+        projection of cat retinal ganglion cells. <span class="journal">The Journal of
+        Neuroscience</span> 8:2011-2027. <a href=
+        "/faculty/schall/pdfs/claspecd.pdf">[ pdf ]</a></li>
+
+        <li>Leventhal AG, Schall JD, and Ault SJ (1988) Extrinsic determinants of retinal
+        ganglion cell morphology in the cat. <span class="journal">The Journal of
+        Neuroscience</span> 8:2028-2038. <a href=
+        "/faculty/schall/pdfs/extrinsi.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Perry VH, and Leventhal AG (1987) Ganglion cell dendritic
+        structure and retinal topography in the rat. <span class="journal">Journal of
+        Comparative Neurology</span> 257:160-165. <a href=
+        "/faculty/schall/pdfs/ganglion.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD and Leventhal AG (1987) Relationships between ganglion cell
+        dendritic structure and retinal topography in the cat. <span class=
+        "journal">Journal of Comparative Neurology</span> 257:149-159. <a href=
+        "/faculty/schall/pdfs/relation.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Vitek DJ, and Leventhal AG (1986) Retinal constraints on
+        orientation specificity in cat visual cortex. <span class="journal">The Journal
+        of Neuroscience</span> 6:823-836. <a href=
+        "/faculty/schall/pdfs/retinal.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Perry VH, and Leventhal AG (1986) Retinal ganglion cell dendritic
+        fields in old-world monkeys are oriented radially. <span class="journal">Brain
+        Research</span> 368:18-23. <a href=
+        "/faculty/schall/pdfs/retinalg.pdf">[ pdf ]</a></li>
+
+        <li>Vitek DJ, Schall JD, and Leventhal AG (1985) Morphology, central projections,
+        and dendritic field orientation of retinal ganglion cells in the ferret.
+        <span class="journal">Journal of Comparative Neurology</span> 241:1-11. <a href=
+        "/faculty/schall/pdfs/morpho.pdf">[ pdf ]</a></li>
+
+        <li>Leventhal AG, Schall JD, and Wallace W (1984) Relationship between preferred
+        orientation and receptive field position of neurons in extrastriate cortex (area
+        19).in the cat. <span class="journal">Journal of Comparative Neurology</span>
+        222:445-451.</li>
+
+        <li>Leventhal AG and Schall JD (1983) Structural basis of orientation sensitivity
+        in cat retinal ganglion cells. <span class="journal">Journal of Comparative
+        Neurology</span> 220:465-475. <a href=
+        "/faculty/schall/pdfs/stbasiso.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="computational_models">Computational Models</h3>
+
+      <ul>
+        <li>Zandbelt B, Purcell BA, Palmeri TJ, Logan GD and Schall JD (2014) Response
+        times from ensembles of accumulators. <span class="journal">Proceedings of the
+        National Academy of Sciences of the United States of America</span> Feb
+        18;111(7):2848-53. <a href=
+        "/faculty/schall/pdfs/response_times.pdf">[ pdf ]</a></li>
+
+        <li>Lo CC, Boucher L, Par M, Schall JD, Wang XJ (2009) Proactive
+        inhibitory control and attractor dynamics in countermanding action: a spiking
+        neural circuit model. <span class="journal">The Journal of Neuroscience</span>
+        29(28):9059-71. <a href=
+        "/faculty/schall/pdfs/LoBoucherPareSchallWang2009.pdf">[ pdf ]</a></li>
+
+        <li>Boucher L, Palmeri TJ, Logan GD, Schall JD (2007) Inhibitory control in mind
+        and brain: an interactive race model of countermanding saccades. <span class=
+        "journal">Psychological Review</span> 114(2):376-97. <a href=
+        "/faculty/schall/pdfs/inhibitorycontrol.pdf">[ pdf ]</a> <a href=
+        "http://www.vanderbilt.edu/register/articles?id=33952">[  in the
+        news  ]</a></li>
+
+        <li style="list-style: none">
+          <ul>
+            <li>Logan GD, Yamaguchi M, Schall JD, Palmeri TJ (2015) Inhibitory control in
+            mind and brain 2.0: blocked-input models of saccadic countermanding.
+            <span class="journal">Psychological Review.</span> 122:115-147. <a href=
+            "/faculty/schall/pdfs/LoganYamaguchiSchallPalmeri2015.pdf">[ pdf ]</a></li>
+          </ul>
+        </li>
+
+        <li>Camalier CR, Gotler A, Murthy A, Thompson KG, Logan GD, Palmeri TJ, Schall JD
+        (2007) Dynamics of saccade target selection: Race model analysis of double step
+        and search step saccade production in human and macaque. <span class=
+        "journal">Vision Research</span> 47(16):2187-211. <a href=
+        "/faculty/schall/pdfs/dynamicsofsacc.pdf">[ pdf ]</a></li>
+
+        <li>Purcell BA, Heitz RP, Cohen JY, Logan GD, Schall JD, Palmeri TJ (2010)
+        Neurally Constrained Modeling of Perceptual Decision Making. <span class=
+        "journal">Psychological Review</span> 117(4):1113-43. <a href=
+        "/faculty/schall/pdfs/PurcellHeitzCohenSchallLoganPalmeri2010.pdf">[ pdf ]</a>
+
+          <ul>
+            <li>Schall JD, Purcell BA, Heitz RP, Logan GD, Palmeri TJ (2011) Neural
+            mechanisms of saccade target selection: gated accumulator model of the
+            visualmotor cascade. <span class="journal">European
+            Journal of Neuroscience</span> 33(11):1991-2002. <a href=
+            "/faculty/schall/pdfs/SchallPurcellHeitzLoganPalmeri2011.pdf">[ pdf ]</a></li>
+
+            <li>Purcell BA, Schall JD, Logan GD, Palmeri TJ. (2012) From salience to
+            saccades: multiple-alternative gated stochastic accumulator model of visual
+            search. J Neurosci. Mar 7;32(10):3433-46. <a href="../pdfs/purcell2012.pdf"
+            target="_blank">[pdf</a>]<br /></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="translational_research">Translational Research</h3>
+
+      <ul>
+        <li>Thakkar KN, Schall JD, Heckers S, Park S (2015) Disrupted Saccadic Corollary
+        Discharge in Schizophrenia. <span class="journal">The Journal of
+        Neuroscience.</span> 8 July 2015, 35(27):9935-9945. <a href=
+        "/faculty/schall/pdfs/DisruptedSaccadicCorollaryDischarge_2015.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <ul>
+        <li>Thakkar KN, Schall JD, Logan GD, Park S (2015) Cognitive control of gaze in
+        bipolar disorder and schizophrenia. <span class="journal">Psychiatry
+        Research.</span> 2015 Feb 28;225(3):254-62. <a href=
+        "/faculty/schall/pdfs/CognitiveControlGaze_2015.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <ul>
+        <li>Thakkar KN, Schall JD, Logan GD, Park S (2015) Response inhibition and
+        response monitoring in a saccadic double-step task in schizophrenia. <span class=
+        "journal">Brain and Cognition</span> 95(2015)9098. <a href=
+        "/faculty/schall/pdfs/ThakkarSchallLoganPark2015.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <ul>
+        <li>Thakkar KN, Schall JD, Boucher L, Logan GD, Park S (2011) Response inhibition
+        and response monitoring in a saccadic countermanding task in schizophrenia.
+        <span class="journal">Biological Psychiatry</span> 69(1):55-62. <a href=
+        "/faculty/schall/pdfs/ThakkarSchallBoucherLoganPark2011.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="law_and_neuroscience">Law &amp; Neuroscience</h3>
+
+      <ul>
+        <li>Jones OD, Schall JD and Shen FX. <a href=
+        "http://www.psy.vanderbilt.edu/courses/neurolaw/">Law And Neuroscience. Aspen
+        Casebook.</a> <span class="journal">New York: Wolters Kluwer Law &amp;
+        Business.</span>, 2014. Print. <img alt="" src="/faculty/schall/pdfs/law_neuro.jpg"
+        width="35" height="51" /></li>
+
+        <li>Schall JD and Garr AK (2014) Performance monitoring reconciles intentional
+        reasons with neural causes. <span class="journal">Cognitive Neuroscience</span>
+        Aug 26:1-2. <a href=
+        "/faculty/schall/pdfs/performance_monitoring.pdf">[ pdf ]</a></li>
+
+        <li>Jones OD, Buckholtz JW, Schall JD, Marois R (2009) Brain Imaging for Legal
+        Thinkers: A Guide for the Perplexed <span class="journal">Stanford Technology Law
+        Review, Symposium Issue: "Neuroscience and the Courts: The Implications of
+        Advances in Neurotechnology"</span>, Vol. 5, 2009. <a href=
+        "http://stlr.stanford.edu/pdf/jones-brain-imaging.pdf">[ pdf ]</a></li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="review_and_commentary">Reviews and Commentary</h3>
+
+      <ul>
+        <li>Schall JD (2015) Visuomotor functions in the frontal lobe. <span class=
+        "journal">Annual Review of Vision Science</span> 1:469-498.
+        <a href=
+        "/faculty/schall/pdfs/Schall_AnnRevVisSci_2015.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2013) Macrocircuits: decision networks. <span class=
+        "journal">Current Opinion in Neurobiology</span> 23(2):269-74. <a href=
+        "/faculty/schall/pdfs/macrocircuits.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Emeric EE (2010) Conflict in cingulate cortex function between
+        humans and macaque monkeys: more apparent than real. Comment on "Cingulate
+        cortex: diverging data from humans and monkeys". <span class="journal">Brain,
+        Behavior and Evolution</span> 75:237-238. <a href=
+        "/faculty/schall/pdfs/SchallEmeric2010.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2009) Executive function and higher-order cognition: Assessment in
+        animals. <span class="journal">Encyclopedia of Neuroscience</span> 4: 87-92.
+        <a href=
+        "/faculty/schall/pdfs/en2009ExecutiveFunction.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD &amp; Boucher, L (2007) Executive control of gaze by the frontal
+        lobes. <span class="journal">Cognitive Affective and Behavioral
+        Neuroscience</span> 7(4): 396-412. <a href=
+        "/faculty/schall/pdfs/execctrl.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Par  M, Woodman GF (2007) Comment on "Top-down versus
+        bottom-up control of attention in the prefrontal and posterior parietal
+        cortices". <span class="journal">Science</span> 318(5847):44. <a href=
+        "/faculty/schall/pdfs/comment.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2005) Decision Making. <span class="journal">Current
+        Biology</span> 15(1):R9-R11. <a href=
+        "/faculty/schall/pdfs/decisionmaking2005.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2004) On building a bridge between brain and behavior.
+        <span class="journal">Annual Review of Psychology</span> 55:23-50. <a href=
+        "/faculty/schall/pdfs/buildingbridge.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2004) On the role of frontal eye field in guiding attention and
+        saccades. <span class="journal">Vision Research</span> 44(12):1453-67. <a href=
+        "/faculty/schall/pdfs/roleoffronteye.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2003) Neural correlates of decision processes: neural and mental
+        chronometry. <span class="journal">Current Opinion in Neurobiology</span>
+        13(2):182-6. <a href=
+        "/faculty/schall/pdfs/neuralcorrelates.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2002) Decision making: neural correlates of response time.
+        <span class="journal">Current Biology</span> 12(23):R800-1. <a href=
+        "/faculty/schall/pdfs/decisionmaking2002.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Stuphorn V, Brown JW (2002) Monitoring and control of action by
+        the frontal lobes. <span class="journal">Neuron</span> 36(2):309-22. <a href=
+        "/faculty/schall/pdfs/monitoring2002.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2002) The neural selection and control of saccades by the frontal
+        eye field. <span class="journal">Philosophical transactions of the Royal Society
+        of London. Series B, Biological sciences</span> 357(1424):1073-82. <a href=
+        "/faculty/schall/pdfs/neuralselection2002.pdf">[ pdf ]</a></li>
+
+        <li>Stuphorn V and Schall JD (2002) Neuronal control and monitoring of initiation
+        of movements. <span class="journal">Muscle Nerve</span> 26(3):326-39. <a href=
+        "/faculty/schall/pdfs/neuronalcontrol2002.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2001) Neural basis of deciding, choosing and acting. <span class=
+        "journal">Nature Reviews Neuroscience</span> 2:33-42. <a href=
+        "/faculty/schall/pdfs/natureac.pdf">[ pdf ]</a></li>
+
+        <li>Thompson KG, Bichot NP, and Schall JD (2001) From attention to action in
+        frontal cortex. In: <span class="journal">Visual Attention and Cortical
+        Circuits</span>, edited by J Braun, C Koch, and J Davis. Cambridge, Ma: MIT
+        Press. <a href="/faculty/schall/pdfs/fromatt2.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (2000) Investigating neural correlates of consciousness with
+        ambiguous stimuli. Comment on "The unconscious homunculus" <span class=
+        "journal">Neuro-Psychoanalysis</span> 2:32-35.</li>
+
+        <li>Schall JD (2000) Decision making: From sensory evidence to a motor command.
+        <span class="journal">Current Biology</span> 10(11):R404-R406. <a href=
+        "/faculty/schall/pdfs/decisionmaking2000.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD, Hanes DP, and Taylor TL (2000) Neural control of behavior:
+        Countermanding eye movements. <span class="journal">Psychological Research</span>
+        63:299-307. <a href=
+        "/faculty/schall/pdfs/neconbecem.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (1999) Weighing the evidence: How the brain makes decisions.
+        <span class="journal">Nature Neuroscience</span> 2:108-109. <a href=
+        "/faculty/schall/pdfs/weighing.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD and Thompson KG (1999) Neural selection and control of visually
+        guided eye movements. <span class="journal">Annual Review of Neuroscience</span>
+        22:241-259. <a href=
+        "/faculty/schall/pdfs/nselconv.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD and Bichot NP (1998) Neural correlates of visual and motor decision
+        processes. <span class="journal">Current Opinion in Neurobiology</span>
+        8:211-217. <a href=
+        "/faculty/schall/pdfs/opinionneuro.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (1997) Visuomotor areas of the frontal lobe. In: <span class=
+        "journal">Cerebral Cortex, vol. 4</span>, edited by Rockland, A. Peters, and J.
+        Kaas. New York: Plenum, p. 527-638. <a href=
+        "/faculty/schall/pdfs/VisuomotorAreasOfTheFrontalLobe-Ch13.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (1995) Race to explain procrastination. Comment on "Evidence for
+        computation of log likelihood by the saccadic system". <span class=
+        "journal">Nature</span> 377:14-15. <a href=
+        "/faculty/schall/pdfs/procrastination.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (1995) Neural basis of saccade target selection. <span class=
+        "journal">Reviews in the Neurosciences</span> 6(1):63-85. <a href=
+        "/faculty/schall/pdfs/nebasata.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD and Hanes DP (1993) Saccade latency in context: Regulation of gaze
+        behavior by supplementary eye field. <span class="journal">Behavioral and Brain
+        Sciences</span> 16, 588-589. <a href=
+        "/faculty/schall/pdfs/SchallHanes1993.pdf">[ pdf ]</a></li>
+
+        <li>Schall JD (1991) Neuronal basis of saccadic eye movements. In: <span class=
+        "journal">Vision and Visual Dysfunction, vol. 4, the Neural Basis of Visual
+        Function</span> , edited by A.G. Leventhal. London: Macmillan Press. p
+        388-442.</li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div>
+
+      <h3 id="miscellaneous"><a id="imp_circuit4" href=
+      "/faculty/schall/images/imp_circuit-large.gif" title=
+      "Research in the lab has elucidated important issues for the recording and interpretation of slow wave potentials, intracranial LFPs, that researchers recording and interpreting such data should be aware of. We have shown that distortion of recorded potentials can occur from two sources. First, we have shown that the recording circuit of the microelectrode and initial amplifier, or head-stage, act as a voltage divider. This circuit produces frequency dependent phase shifts and amplitude attenuation when the electrode impedance is not negligible relative to the input impedance of the head-stage. Electrode impedances happen to be much higher at low frequencies than at high frequencies such as 1 kHz, where their impedance is typically considered. We have shown that for some commercially available head-stages, this can result in signal distortion that in the frequencies of interest for LFPs is large enough to noticeably affect results of some analyses. Second, we have shown that similar distortion is induced by analog filters needed during recording the process. The presence of distortions from both sources should be accounted for when presenting and interpreting such data. Also, the relevant specifications of recording equipment, including electrodes, amplifiers and filters, should be documented in publications reporting such data. For more details, see the article published in the Journal of Neuroscience Methods. &lt;br /&gt;&lt;br /&gt;Nelson MJ, Pouget P, Nilsen EA, Patten CD, Schall JD (2008) Review of signal distortion through metal microelectrode recording circuits and filters. Journal of Neuroscience Methods. 169(1):141-57. &lt;a href='/faculty/schall/pdfs/Nelson_impedance.pdf'&gt;[ pdf ]&lt;/a&gt;"
+      name="imp_circuit4"><img id="imp_circuit_img3" src=
+      "/faculty/schall/images/imp_circuit-small.gif" alt="Impedance Circuit" name=
+      "imp_circuit_img3" /></a><br />
+      <br />
+      Miscellaneous</h3>
+
+      <ul>
+        <li>Suell CL (2012) Remembering Fechner. <span class="journal">Appalachian Branch
+        AALAS News and Views</span> 24 (3) 16-17. <a href=
+        "/faculty/schall/pdfs/AppAALAS%20Newsletter%20September%202012-Fechner.pdf">[ pdf ]</a></li>
+
+        <li>Nelson MJ, Pouget P, Nilsen EA, Patten CD, Schall JD (2008) Review of signal
+        distortion through metal microelectrode recording circuits and filters.
+        <span class="journal">Journal of Neuroscience Methods</span> 169(1):141-57.
+        <a href="/faculty/schall/pdfs/Nelson_impedance.pdf">[ pdf ]</a></li>
+
+        <li>Garraghty PE, Schall JD, Kaas JH (1990) Normal somatotopy in SI of a
+        tyrosinase-negative albino cat. <span class="journal">Brain Research</span>
+        536(1-2):315-7.</li>
+      </ul>
+
+      <div class="top_link">
+        <a href="#top">[top]</a>
+      </div><script type="text/javascript">
+      </script>
+    </div>
+
+    <div id="validator">
+      <a href="http://validator.w3.org/check/referer">This page is valid XHTML 1.1</a>
+    </div>
+  </div>
+  </body>
+
