@@ -33,6 +33,9 @@ classdef Publication < DbClass
         category;
         citation;
         pdf_url;
+        authors;
+        title;
+        journal;
         year;
     end
 
@@ -41,8 +44,8 @@ classdef Publication < DbClass
         className=mfilename('class'); %className - Name of this class
         %mapColumns2Properties - Map column names to property names
         mapColumns2Properties = containers.Map(...
-            {'publication_id','category','citation','pdf_url','year'},...
-            {'publication_id','category','citation','pdf_url','year'}...
+            {'publication_id','category','citation','pdf_url','authors','title','journal','year'},...
+            {'publication_id','category','citation','pdf_url','authors','title','journal','year'}...
             );
     end
     

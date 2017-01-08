@@ -1,6 +1,6 @@
 function [ publications ] = PublicationPopulate()
 
-    baseUrl='www.psy.vanderbilt.edu/';
+    baseUrl='http://www.psy.vanderbilt.edu/';
     % [pageSrc,readStatus] = urlread(pubsPageUrl);
     %Above source is dirty html.  Needs to be cleand with
     % Navigate ot URL
@@ -31,24 +31,35 @@ function [ publications ] = PublicationPopulate()
     end
     fclose(fid);
     publications = Publication.saveAllRecords(publications);
+
 end
 
 function [ publication ] = createPublication(line, baseUrl)
-   %createPublication
-   publication = Publication();
-   parts = split(line,'|');
-   publication.category=char(parts(1));
-   publication.citation=regexprep(char(parts(2)),'\s?\[\s?(pdf|mov|movie)\s?\]','');
-   % Note: Avoid DB update for URLs with relative path:
-   % Example '../pdfs/filename.pdf'
-   pdf=char(parts(3));
-   if(contains(pdf,'.pdf'))
-       pdf=regexprep(pdf,'\.\./pdfs','/faculty/schall/pdfs');
-       pdf_url=[baseUrl(1:end-1),pdf];
-       publication.pdf_url=pdf_url;
-   end
-   p=regexp(char(parts(2)),'\((?<year>[\d]{4})\).*$','once','names');
-   if(~isempty(p))
-       publication.year=str2double(p.year);
-   end
+    %createPublication
+    publication = Publication();
+    parts = split(line,'|');
+    publication.category=char(parts(1));
+    publication.citation=regexprep(char(parts(2)),'\s?\[\s?(pdf|mov|movie)\s?\]','');
+    authTitleJournal=@(expr) regexp(expr,'^(?<authors>.*)\s?\(\d{4}\)\.?\s?(?<title>[A-Z].+)\.\s?(?<journal>[A-Z].+)\.\s?.*$','once','names');
+    atj=authTitleJournal(publication.citation);
+    if(length(atj)==1)
+        publication.authors=atj.authors;
+        publication.title=atj.title;
+        publication.journal=atj.journal;
+    else
+        disp(publication.citation)
+        dist(['authors, title, journal parsing empty'])
+    end
+    % Note: Avoid DB update for URLs with relative path:
+    % Example '../pdfs/filename.pdf'
+    pdf=char(parts(3));
+    if(contains(pdf,'.pdf'))
+        pdf=regexprep(pdf,'\.\./pdfs','/faculty/schall/pdfs');
+        pdf_url=[baseUrl(1:end-1),pdf];
+        publication.pdf_url=pdf_url;
+    end
+    p=regexp(char(parts(2)),'\((?<year>[\d]{4})\).*$','once','names');
+    if(~isempty(p))
+        publication.year=str2double(p.year);
+    end
 end
