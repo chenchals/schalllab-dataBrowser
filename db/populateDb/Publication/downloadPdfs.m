@@ -1,22 +1,12 @@
-function downloadPdfs(publications)
+function [ wget_urls ] = downloadPdfs(outputDir)
     % global conn object is needed
-    %pubs=Publication.fetchAllRecords;
-        pubs=publications;
+    pubs=Publication.fetchAllRecords;
     % Use only those pubs that have pdf_url ~= null
-
     pubs(cellfun(@(x) contains(x,'null'),{pubs.pdf_url})==1)=[];
-    [context,filename,ext]=cellfun(@fileparts,{pubs.pdf_url},'UniformOutput',false);
-    % for output file:
-    year=cellfun(@num2str,{pubs.year},'UniformOutput',false);
-    authorsTitle=@(expr) regexp(expr,'^(?<authors>.*)\s?\(\d{4}\)\s?(?<title>.*)$','once','names');
-    authorsAndTitle=@(splitArr, index) authorsTitle(char(splitArr(index)));
-    splitAtDot=@(x) authorsAndTitle(split(x,'.'),1);
-    
-    [authors,title]=cellfun(splitAtDot,{pubs.citation},'UniformOutput',false);
-    
-
-    wget_urls=cellfun(@(x) ['wget http://',x],{z.pdf_url}','UniformOutput',false);
-
+     % for output file:
+      
+    wget_urls=arrayfun(@createWgetUrl, pubs,'UniformOutput',false);
+    cd(outputDir);
     % set System command path for wget
     PATH = getenv('PATH');
     %which wget
@@ -28,12 +18,12 @@ end
 
 function [ wgetUrl ] = createWgetUrl(publication)
   
-  [context,filename,ext] = fileparts(publication.pdf_url)
-  pdfFile =[filename,ext];
+  pdfFile =publication.pdf_url;
   year = num2str(publication.year);
-  
-  splitAt=@(expr, index) char(expr(index));
-  split1=@(x) splitAt(split(x,'.'),1);
-
+  authors = regexprep(publication.authors,'[,\s]','-');
+  title = regexprep(publication.title,'[,:\.\s\(\[\]\)]','-');
+  oFile=[year,'-',authors,title,'.pdf'];
+  wgetUrl = ['wget ',pdfFile,' -O ',oFile];
+ 
 
 end
