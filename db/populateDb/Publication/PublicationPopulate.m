@@ -14,7 +14,7 @@ function [ publications ] = PublicationPopulate()
     % Use xslt transformation to get text
     % Easier with xsltproc on unix systes
     % xsltproc pubs.xsl schall_pubs.xml > schall_pubs.txt
-    % must be executed from
+    % must be executed from db/populadeDb/Publication
     xslFile='pubs.xsl';
     xmlFile='schall_pubs.xml';
     dest='schall_pubs.txt';
@@ -39,13 +39,16 @@ function [ publication ] = createPublication(line, baseUrl)
    parts = split(line,'|');
    publication.category=char(parts(1));
    publication.citation=regexprep(char(parts(2)),'\s?\[\s?(pdf|mov|movie)\s?\]','');
-   pdf_url=[baseUrl(1:end-1),char(parts(3))];
-   if(contains(pdf_url,'.pdf'))
-     publication.pdf_url=pdf_url;
+   % Note: Avoid DB update for URLs with relative path:
+   % Example '../pdfs/filename.pdf'
+   pdf=char(parts(3));
+   if(contains(pdf,'.pdf'))
+       pdf=regexprep(pdf,'\.\./pdfs','/faculty/schall/pdfs');
+       pdf_url=[baseUrl(1:end-1),pdf];
+       publication.pdf_url=pdf_url;
    end
    p=regexp(char(parts(2)),'\((?<year>[\d]{4})\).*$','once','names');
    if(~isempty(p))
-     publication.year=str2double(p.year);
+       publication.year=str2double(p.year);
    end
-   
 end
