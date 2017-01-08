@@ -24,6 +24,5 @@ function [ wgetUrl ] = createWgetUrl(publication)
   title = regexprep(publication.title,'[,:\.\s\(\[\]\)]','-');
   oFile=[year,'-',authors,title,'.pdf'];
   wgetUrl = ['wget ',pdfFile,' -O ',oFile];
- 
 
 end
