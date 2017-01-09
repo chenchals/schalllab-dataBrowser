@@ -20,9 +20,12 @@ function [ wgetUrl ] = createWgetUrl(publication)
   
   pdfFile =publication.pdf_url;
   year = num2str(publication.year);
-  authors = regexprep(publication.authors,'[,\s]','-');
-  title = regexprep(publication.title,'[,:\.\s\(\[\]\)]','-');
-  oFile=[year,'-',authors,title,'.pdf'];
+  authors = regexprep(publication.authors,'[\s&\.]','');
+  authors = regexprep(authors,',','-');
+  title = regexprep(publication.title,'[,:\.\(\[\]\)"&]','');
+  title = regexprep(title,'\s','-');
+  title = title(1:end-1);
+  oFile=[year,'-',authors,'-',title,'.pdf'];
   wgetUrl = ['wget ',pdfFile,' -O ',oFile];
 
 end

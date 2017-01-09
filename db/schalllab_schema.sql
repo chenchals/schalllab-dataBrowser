@@ -36,10 +36,9 @@ CREATE TABLE `study`(
 CREATE TABLE `publication`(
   `publication_id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `category` VARCHAR(255) DEFAULT NULL,
-  `citation` VARCHAR(1000) NOT NULL,
-  `pdf_url` VARCHAR(255) DEFAULT NULL,
   `authors` VARCHAR(500)  NULL,   -- due to parse error
-  `title` VARCHAR(1000) NULL,     -- due to parse error
+  `year` INT(10) DEFAULT NULL,     -- due to parse error
+  `title` VARCHAR(500) NULL,     -- due to parse error
   `journal` VARCHAR(500)  NULL,   -- due to parse error
-  `year` INT(10) DEFAULT NULL     -- due to parse error
+  `pdf_url` VARCHAR(255) DEFAULT NULL
  );
