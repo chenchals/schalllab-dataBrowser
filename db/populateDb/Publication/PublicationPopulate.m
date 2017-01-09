@@ -31,7 +31,7 @@ function [ publications ] = PublicationPopulate()
     end
     fclose(fid);
     %Uncomment for re-populating
-    publications = Publication.saveAllRecords(publications);
+    %publications = Publication.saveAllRecords(publications);
 
 end
 
@@ -41,7 +41,7 @@ function [ publication ] = createPublication(line, baseUrl)
     parts = split(line,'|');
     publication.category=char(parts(1));
     publication.citation=regexprep(char(parts(2)),'\s?\[\s?(pdf|mov|movie)\s?\]','');
-    authTitleJournal=@(expr) regexp(expr,'^(?<authors>.*)\s?\(\d{4}\)\.?\s?(?<title>[A-Z].+)\.?\s?(?<journal>[A-Z].+)\.?\s?.*$','once','names');
+    authTitleJournal=@(expr) regexp(expr,'^(?<authors>.*)\s?\(\d{4}\)\.?\s?(?<title>[A-Z].+)\.\s(?<journal>[A-Z].+)\.?\s?.*$','once','names');
     atj=authTitleJournal(publication.citation);
     if(length(atj)==1)
         publication.authors=regexprep(atj.authors,'\.','');

@@ -6,13 +6,13 @@ function [ wget_urls ] = downloadPdfs(outputDir)
      % for output file:
       
     wget_urls=arrayfun(@createWgetUrl, pubs,'UniformOutput',false);
-    cd(outputDir);
+    %cd(outputDir);
     % set System command path for wget
     PATH = getenv('PATH');
     %which wget
     setenv('PATH', [PATH ':/usr/local/bin']);
     % execute wget for all elements in cell array
-    cellfun(@(x) system(x),wget_urls,'UniformOutput',false);
+    %cellfun(@(x) system(x),wget_urls,'UniformOutput',false);
 
 end
 
