@@ -155,6 +155,10 @@ classdef DbClass < handle
             %   className : Sub-class name of DbClass class
             %   dbStruct : A struct where fieldnames correspond to columnNames
             %   classInstance : Instance(es) of class
+            if(isempty(dbStruct))
+                classInstance=[];
+                return
+            end
             classInstance = eval([className,'();']);
             [ columnNames, propertyNames ] = DbClass.getKeysValues(classInstance);
             fnames = fieldnames(dbStruct);

@@ -18,7 +18,7 @@ function [ publications ] = PublicationPopulate()
     xslFile='pubs.xsl';
     xmlFile='schall_pubs.xml';
     dest='schall_pubs.txt';
-    [resultFile,~] = xslt(xmlFile,xslFile,dest,'-tostricg')
+    [resultFile,~] = xslt(xmlFile,xslFile,dest,'-tostring')
 
     % Read the txt file and process fields by '|' seperator
     fid = fopen(dest);
