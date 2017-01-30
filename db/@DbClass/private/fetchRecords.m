@@ -32,7 +32,11 @@ end
 function [ valueString ] = getClauseStr(col, value)
   
   if ischar(value)
-      valueString = [ 'lower(',col, ')=lower(''',value,''')'];
+      if(contains(value,'%'))
+          valueString = [ 'lower(',col, ') LIKE lower(''',value,''')'];
+      else
+          valueString = [ 'lower(',col, ')=lower(''',value,''')'];
+      end
   else % assume integer
       valueString = [ 'lower(',col, ')=lower(''',num2str(value),''')'];
       

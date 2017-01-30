@@ -1,0 +1,2 @@
+% Old translation code last modified Feb 2001
+schalllab/MatLab/Mat_Code/Standard/Translate/Old/stranger.m
