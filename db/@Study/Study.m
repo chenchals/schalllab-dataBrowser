@@ -62,7 +62,7 @@ classdef Study < DbClass
         
         function [ object ] = save(object)
             %SAVE  Save or update Study object
-            if(isa(object,'Subject'))
+            if(isa(object,'Study'))
                 object = save@DbClass(object);
             end
         end

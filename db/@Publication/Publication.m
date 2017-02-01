@@ -56,7 +56,7 @@ classdef Publication < DbClass
         
         function [ object ] = save(object)
             %SAVE  Save or update Subject object
-            if(isa(object,'Subject'))
+            if(isa(object,'Publication'))
                 object = save@DbClass(object);
             end
         end

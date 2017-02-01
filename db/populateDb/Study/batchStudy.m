@@ -7,12 +7,19 @@
 
 %% Broca
 % % PM
-brocaCcm=StudyPopulate('/Volumes/schalllab/data','Broca','bp.*\d{2}(-pm)?.mat','Paul');
+--brocaCcm=StudyPopulate('/Volumes/schalllab/data','Broca','bp.*\d{2}(-pm)?.mat','Paul');
 % %194
 %cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {jouleCcm.study_date},{jouleCcm.data_file},{jouleCcm.description}, 'UniformOutput',false)
 % %save Joule metadata
-save('data/BrocaStudiesPaul.mat','-regexp', 'broca*','-append');
+--save('data/BrocaStudiesPaul.mat','-regexp', 'broca*','-append');
 
+%% Xena
+% % PM
+xenaCcm=StudyPopulate('/Volumes/schalllab/data','Xena','Plexon/*.mat','Paul','xp\d{3}n\d{2}((-tp)|(-tp-\d{2}))?.mat');
+% %194
+%cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {jouleCcm.study_date},{jouleCcm.data_file},{jouleCcm.description}, 'UniformOutput',false)
+% %save Joule metadata
+save('data/XenaStudiesPaul.mat','-regexp', 'xena*','-append');
 %% Joule
 % % PM
 % jouleCcm=StudyPopulate('/Volumes/schalllab/data','Joule','','Paul');

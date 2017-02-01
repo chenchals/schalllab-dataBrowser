@@ -29,8 +29,8 @@ function [ studies ] = StudyPopulate(baseDataDir, subjectName, subDirMask, perso
         [study_date, description] = getStudyDateAndDescription(dfile, personFirstname);
         study.study_date=study_date;
         study.description=description;
-        %studies(ii)=study.save;
-        studies(ii)=study;
+        studies(ii)=study.save;
+        %studies(ii)=study;
         
     end
 end
