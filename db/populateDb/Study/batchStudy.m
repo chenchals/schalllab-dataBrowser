@@ -5,28 +5,44 @@
 % % global conn
 % % conn=database('schalllab','schalllabadmin','!','Vendor','MySQL','Server','129.59.231.27', 'PortNumber', 6603);
 
+%% Andy andfef
+% % Unknown
+%andyAll=StudyPopulate('/Volumes/schalllab/data','andy','/andfef/Misc/Matlab/andfef*','Unknown');
+% %495
+%cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {andyAll.study_date},{andyAll.data_file},{andyAll.description}, 'UniformOutput',false)
+% %save Andy metadata
+%save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/AndfefAllUnknown.mat','-regexp', 'andyAll', '-append');
+
+%% Fechner fecfef
+% % Unknown
+%fecfefAll=StudyPopulate('/Volumes/schalllab/data','Fechner','/fecfef/MatlabDataFiles/fecfef*.mat','Unknown');
+% %110
+%cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {fecfefAll.study_date},{fecfefAll.data_file},{fecfefAll.description}, 'UniformOutput',false)
+% %save Fechner metadata
+%save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/FecfefAllUnknown.mat','-regexp', 'fecfefAll', '-append');
+
 %% Broca
 % % PM
---brocaCcm=StudyPopulate('/Volumes/schalllab/data','Broca','bp.*\d{2}(-pm)?.mat','Paul');
-% %194
-%cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {jouleCcm.study_date},{jouleCcm.data_file},{jouleCcm.description}, 'UniformOutput',false)
-% %save Joule metadata
---save('data/BrocaStudiesPaul.mat','-regexp', 'broca*','-append');
+brocaCcm=StudyPopulate('/Volumes/schalllab/data','Broca','/bp*.mat','Paul','bp.*\d{2}(-pm)?.mat');
+% %568
+%cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {brocaCcm.study_date},{brocaCcm.data_file},{brocaCcm.description}, 'UniformOutput',false)
+% %save Broca metadata
+--save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/BrocaStudiesPaul.mat','-regexp', 'broca*','-append');
 
 %% Xena
 % % PM
-xenaCcm=StudyPopulate('/Volumes/schalllab/data','Xena','Plexon/*.mat','Paul','xp\d{3}n\d{2}((-tp)|(-tp-\d{2}))?.mat');
+%xenaCcm=StudyPopulate('/Volumes/schalllab/data','Xena','Plexon/*.mat','Paul','xp\d{3}n\d{2}((-tp)|(-tp-\d{2}))?.mat');
 % %194
-%cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {jouleCcm.study_date},{jouleCcm.data_file},{jouleCcm.description}, 'UniformOutput',false)
-% %save Joule metadata
-save('data/XenaStudiesPaul.mat','-regexp', 'xena*','-append');
+%cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {xenaCcm.study_date},{xenaCcm.data_file},{xenaCcm.description}, 'UniformOutput',false)
+% %save Xena metadata
+%save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/XenaStudiesPaul.mat','-regexp', 'xena*','-append');
 %% Joule
 % % PM
 % jouleCcm=StudyPopulate('/Volumes/schalllab/data','Joule','','Paul');
 % %194
 %cellfun(@(dt,f,ds) [dt,' : ',f,' : ', ds], {jouleCcm.study_date},{jouleCcm.data_file},{jouleCcm.description}, 'UniformOutput',false)
 % %save Joule metadata
-% save('data/JouleStudiesPaul.mat','-regexp', 'joule*','-append');
+% save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/JouleStudiesPaul.mat','-regexp', 'joule*','-append');
 
 %% Euler
 % % RH
@@ -34,7 +50,7 @@ save('data/XenaStudiesPaul.mat','-regexp', 'xena*','-append');
 % %24
 
 % %save Euler metedata
-% save('Study/data/EulerStudies.mat','-regexp', 'euler*','-append');
+% save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/EulerStudies.mat','-regexp', 'euler*','-append');
 
 %% Darwin
 % % RH
@@ -42,7 +58,7 @@ save('data/XenaStudiesPaul.mat','-regexp', 'xena*','-append');
 % %40
 
 % %save Darwin metadata...
-% save('Study/data/DarwinStudies.mat','-regexp', 'darwin*','-append');
+% save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/DarwinStudies.mat','-regexp', 'darwin*','-append');
 
 %% Quincy
 % %RH
@@ -65,7 +81,7 @@ save('data/XenaStudiesPaul.mat','-regexp', 'xena*','-append');
 
 
 % %save Quincy metedata
-% save('Study/data/QuincyStudies.mat','-regexp', 'quincy*','-append');
+% save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/QuincyStudies.mat','-regexp', 'quincy*','-append');
 
 
  %% Seymour
@@ -84,7 +100,7 @@ save('data/XenaStudiesPaul.mat','-regexp', 'xena*','-append');
 
 
 % %save Seymour metedata
-% save('Study/data/SeymourStudies.mat','-regexp', 'seymour*','-append');
+% save('/Users/subravcr/Projects/schalllab-dataBrowser/db/populateDb/data/SeymourStudies.mat','-regexp', 'seymour*','-append');
 
 
  
