@@ -21,7 +21,10 @@ function [clause] = whereClause(objectStruct)
   for ii = 1:length(cols)
       col = char(cols(ii));
       value = objectStruct.(col);
-      if ~(isempty(value) || sum(isnan(value)))
+      if iscellstr(value)
+           count = count+1;
+          clauseArr{count} = getClauseStr(col, value);        
+      elseif ~(isempty(value) || sum(isnan(value)))
           count = count+1;
           clauseArr{count} = getClauseStr(col, value);
       end
@@ -37,8 +40,10 @@ function [ valueString ] = getClauseStr(col, value)
       else
           valueString = [ 'lower(',col, ')=lower(''',value,''')'];
       end
-  else % assume integer
-      valueString = [ 'lower(',col, ')=lower(''',num2str(value),''')'];
+  elseif iscellstr(value)
+      valueString = ['lower(',col, ') IN (''' strjoin(lower(value),''',''') ''')'];
       
+  else% assume integer
+      valueString = [ 'lower(',col, ')=lower(''',num2str(value),''')'];
   end
 end
