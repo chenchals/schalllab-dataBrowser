@@ -1,5 +1,6 @@
 function [out] = dataShareMemoryGuided( iFilename )
-    preTime=-100; % for spikes.  Always aligned on Fixate_ event
+    %  Always aligned on Fixate_ event
+    summarize=1;
     if iscell(iFilename)
         iFilename=char(iFilename);
     end
@@ -12,9 +13,9 @@ function [out] = dataShareMemoryGuided( iFilename )
         mapper=getDarwinMapper();
     end
     
-    
     [~,fn,ext]=fileparts(iFilename);
     out.Filename=[fn ext];
+    out.AlignedOn='FixateTime';
     correctTrials=mapper.correctTrials(vars);
     fixateTime=mapper.fixateTime(vars,correctTrials);
     alignTime=fixateTime(:,2);
@@ -22,7 +23,7 @@ function [out] = dataShareMemoryGuided( iFilename )
     out.TargetLocation=mapper.targetLocation(vars,correctTrials);
     [locationCounts, locations]=histcounts(out.TargetLocation(:,2), (0:8));
     out.CorrectTrialsByLocation=[locations(1:end-1); locationCounts]';
-
+    out.AlignTime=fixateTime;
     out.FixateTime=fixateTime;
     out.TargetTime=mapper.targetTime(vars,correctTrials,alignTime);
     out.FixSpotOffTime=mapper.fixSpotOffTime(vars,correctTrials,alignTime);
@@ -42,12 +43,21 @@ function [out] = dataShareMemoryGuided( iFilename )
         out.Cells.(spikeName).spikeTimesRaw=single(spikes);
         spikes(spikes==0)=NaN;
         spikes=spikes-alignTime;
-        [ro,co]=find(spikes<preTime);
-        spikes(ro,co)=NaN;
         out.Cells.(spikeName).spikeTimes=single(spikes);
-        
     end
-
+    
+    if(summarize)
+        cells=fieldnames(out.Cells);
+        for ii=1:length(cells)
+           cell=char(cells(ii));
+           oSdf=sdf(out.Cells.(cell).spikeTimes,out.TargetTime(:,1));
+           h=plotByLocations(oSdf.bins,oSdf.sdfMat,oSdf.histMat, out.TargetLocation);
+           set(h,'PaperOrientation','landscape');
+           set(h,'PaperPosition', [1 1 28 19]);
+           export_fig(['data/' fn '-TargetAligned.pdf'],'-pdf','-append',h);
+           delete(h);
+        end
+    end
 end
 
 function mapper = getPdPMapper()
