@@ -1,7 +1,13 @@
-function [sdfStruct] = sdf(spikeTimes, alignTimes)
+function [sdfStruct] = sdf(spikeTimes, alignTimes, cellAnnotations)
 % creates spike-density function from spike times
 % 
-  
+  if isnan(max(spikeTimes(:))) || isnan(min(spikeTimes(:)))
+      % no spikes in spike matrix
+      sdfStruct.counts=[];
+      sdfStruct.sdf=[];
+      sdfStruct.bins=[];
+      return;
+  end
   % Bin width for min / max time: Time axis will be evenly divisible by this
   % example 50 --> x
   binRounding=50;
@@ -21,10 +27,15 @@ function [sdfStruct] = sdf(spikeTimes, alignTimes)
   
   % histogram spikes by trial
   spikebyTrialCells=mat2cell(spikeTimes, ones(1,nTrials), size(spikeTimes,2));
-  [hCounts,hEdges]=cellfun(@(trial) histcounts(trial,(hMin:(hMax+1))), spikebyTrialCells,'UniformOutput',false);
-  sdfStruct.histMat=cell2mat(hCounts);
-  sdfStruct.sdfMat=convn(sdfStruct.histMat',getExpKernel(),'same')';
+  [hCounts,~]=cellfun(@(trial) histcounts(trial,(hMin:(hMax+1))), spikebyTrialCells,'UniformOutput',false);
+  sdfStruct.counts=cell2mat(hCounts);
+  sdfStruct.sdf=convn(sdfStruct.counts',getExpKernel(),'same')';
   sdfStruct.bins=hMin:hMax;
+  if exist('cellAnnotations','var')
+    sdfStruct.cellAnnotations=cellAnnotations;
+  else
+    sdfStruct.cellAnnotations={};
+  end
 
 end
 

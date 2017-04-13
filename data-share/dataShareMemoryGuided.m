@@ -1,6 +1,6 @@
 function [out] = dataShareMemoryGuided( iFilename )
     %  Always aligned on Fixate_ event
-    summarize=1;
+    summarize=0;
     if iscell(iFilename)
         iFilename=char(iFilename);
     end
@@ -42,23 +42,26 @@ function [out] = dataShareMemoryGuided( iFilename )
         spikes=vars.(spikeName)(correctTrials,:);
         out.Cells.(spikeName).spikeTimesRaw=single(spikes);
         spikes(spikes==0)=NaN;
+        spikes=reduceDimension(spikes);
         spikes=spikes-alignTime;
+        spikes=reduceDimension(spikes, -500);
         out.Cells.(spikeName).spikeTimes=single(spikes);
     end
     
     if(summarize)
         cells=fieldnames(out.Cells);
-        for ii=1:length(cells)
+        for ii=length(cells):-1:1
+           delete(gcf)
            cell=char(cells(ii));
-           oSdf=sdf(out.Cells.(cell).spikeTimes,out.TargetTime(:,1));
-           h=plotByLocations(oSdf.bins,oSdf.sdfMat,oSdf.histMat, out.TargetLocation);
-           set(h,'PaperOrientation','landscape');
-           set(h,'PaperPosition', [1 1 28 19]);
-           export_fig(['data/' fn '-TargetAligned.pdf'],'-pdf','-append',h);
-           delete(h);
+           disp(['Summarizing cell :' cell]);
+           oSdf=sdf(out.Cells.(cell).spikeTimes,out.TargetTime(:,2));
+           h=plotByLocations(oSdf, out.TargetLocation);
+           export_fig(['data' filesep fn '-TargetAligned.pdf'],'-pdf','-append',h);
         end
     end
 end
+
+
 
 function mapper = getPdPMapper()
   % all trial events are aligned on TrialStart for each trial
@@ -107,4 +110,15 @@ function mapper = getDarwinMapper()
 end
 
 
-
+function [] = saveToEvents(oDir,oDirMonk,oDirFile,outStruct)
+   fp=[oDir,oDirMonk,filesep,oDirFile,filesep];
+   fn='Events.mat';
+   if (~exist(fp,'dir'))
+       mkdir(fp);
+   end
+   cells = outStruct.Cells;
+   outStruct.Cells=[];
+   % Events 
+   f = [fp fn];
+   save f -struct outStruct;
+end
