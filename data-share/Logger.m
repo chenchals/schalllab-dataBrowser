@@ -24,14 +24,18 @@ classdef Logger < handle
     end
     
     properties(SetAccess = protected)
-        fullpath = 'logger.log';
+        fullpath = '';
         ConsoleLevel = Logger.ALL;
         logLevel = Logger.INFO;
     end
     
     methods (Static)
-        function obj = getLogger(logPath)
-            obj = Logger(logPath);
+        function obj = getLogger(varargin)
+            if nargin ==1
+                obj = Logger(varargin{1});
+            else
+                obj = Logger('temp.log');
+            end
         end
     end
     

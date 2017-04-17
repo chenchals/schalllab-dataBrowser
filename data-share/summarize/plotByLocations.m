@@ -25,7 +25,7 @@ function [ figHandle ] = plotByLocations( sdfStruct, trialNoLocationMat )
     end
     % Limits for plots
     yRounding=5; %spiks/sec
-    xRange=[-3500 2500];
+    xRange=[-1200 3000];
     yRange=[0 ceil(max(meanSdf(:)/yRounding))*yRounding];
     % If plotting rasters y val for each trial
     % rasterStep = (80% * yMax) / maxNoTrials in a plot

@@ -15,8 +15,8 @@ function [Events, Cells] = dataShareMemoryGuided( iFilename, varargin )
         logger = Logger.getLogger([oDir filesep 'temp-logger.log']);
     end
     
-    %  Always aligned on Fixate_ event
-    summarize=0;
+    %  Always aligned on TrialStart
+    summarize=1;
     if iscell(iFilename)
         iFilename=char(iFilename);
     end
@@ -26,28 +26,26 @@ function [Events, Cells] = dataShareMemoryGuided( iFilename, varargin )
     if isfield(vars,'Header_') && length(vars.Header_)==56
         mapper=getPdPMapper();
     else
-        mapper=getDarwinMapper();
+        mapper=DarwinMapper();
     end
     
-    [~,fn,ext]=fileparts(iFilename);
-    Events.Filename=[fn ext];
-    Events.AlignedOn='FixateTime';
-    correctTrials=mapper.correctTrials(vars);
-    fixateTime=mapper.fixateTime(vars,correctTrials);
-    alignTime=fixateTime(:,2);
-    Events.CorrectTrials=correctTrials;
-    Events.TargetLocation=mapper.targetLocation(vars,correctTrials);
+    [~,fn,ext] = fileparts(iFilename);
+    Events.Filename = [fn ext];
+    Events.CorrectTrials = mapper.correctTrials(vars);
+    Events.TargetLocation=mapper.targetLocation(vars);
     [locationCounts, locations]=histcounts(Events.TargetLocation(:,2), (0:8));
     Events.CorrectTrialsByLocation=[locations(1:end-1); locationCounts]';
-    Events.AlignTime=fixateTime;
-    Events.FixateTime=fixateTime;
-    Events.TargetTime=mapper.targetTime(vars,correctTrials,alignTime);
-    Events.FixSpotOffTime=mapper.fixSpotOffTime(vars,correctTrials,alignTime);
-    Events.SaccadeTime=mapper.saccadeTime(vars,correctTrials,alignTime);
-    Events.DecideTime=mapper.decideTime(vars,correctTrials,alignTime);
-    Events.ResponseLocation=mapper.responseLocation(vars,correctTrials);
-    Events.CorrectTime=mapper.correctTime(vars,correctTrials,alignTime);
-    Events.RewardTime=mapper.rewardTime(vars,correctTrials,alignTime);
+    Events.ResponseLocation=mapper.responseLocation(vars);
+
+    Events.FixateTime=mapper.fixateTime(vars);
+    Events.TargetTime=mapper.targetTime(vars);
+    Events.ResponseCueTime=mapper.responseCueTime(vars);
+    Events.SaccadeTime=mapper.saccadeTime(vars);
+    Events.DecideTime=mapper.decideTime(vars);
+    Events.CorrectTime=mapper.correctTime(vars);
+    Events.RewardTime=mapper.rewardTime(vars);
+    
+    correctTrials = Events.CorrectTrials;
     % Save Events file
     oFile = [oDir 'Events.mat'];
     logger.info(sprintf('Saving Events for file: %s to %s', iFilename,oFile));
@@ -62,7 +60,8 @@ function [Events, Cells] = dataShareMemoryGuided( iFilename, varargin )
         Cells.(spikeName).spikeTimesRaw=single(spikes);
         spikes(spikes==0)=NaN;
         spikes=reduceDimension(spikes);
-        spikes=spikes-alignTime;
+        % no offset for align time
+        %spikes=spikes-alignTime;
         spikes=reduceDimension(spikes, -500);
         Cells.(spikeName).spikeTimes=single(spikes);
     end
@@ -87,19 +86,24 @@ end
 function mapper = getPdPMapper()
   % all trial events are aligned on TrialStart for each trial
   mapper.correctTrials = @(allVars) single(find(allVars.Correct_(:,2)==1));
-  mapper.fixateTime = @(allVars,trialNos) single([trialNos allVars.Fixate_(trialNos,1)]);
-  mapper.targetTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Target_(trialNos,1)-alignTime]);
   mapper.targetLocation = @(allVars,trialNos) single([trialNos allVars.Target_(trialNos,2)]);
-  mapper.fixSpotOffTime = @(allVars,trialNos,alignTime) single([trialNos allVars.FixSpotOff_(trialNos,1)-alignTime]);
-  mapper.saccadeTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Saccade_(trialNos,1)-alignTime]);
-  mapper.decideTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Decide_(trialNos,1)-alignTime]);  
   mapper.responseLocation = @(allVars,trialNos) single([trialNos allVars.Decide_(trialNos,2)]);  
+
+  mapper.fixSPotOn =  @(allVars,trialNos) single([trialNos allVars.FixSpotOn_(trialNos,2)]);
+  
+  
+  mapper.fixateTime = @(allVars,trialNos) single([trialNos allVars.Fixate_(trialNos,1)]);
+  
+  mapper.targetTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Target_(trialNos,1)]);
+  mapper.fixSpotOffTime = @(allVars,trialNos) single([trialNos allVars.FixSpotOff_(trialNos,1)]);
+  mapper.saccadeTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Saccade_(trialNos,1)]);
+  mapper.decideTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Decide_(trialNos,1)]);  
   %CorrectTime and RewardTime are same
-  mapper.correctTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Correct_(trialNos,1)-alignTime]);
-  mapper.rewardTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Reward_(trialNos,1)-alignTime]);
+  mapper.correctTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Correct_(trialNos,1)]);
+  mapper.rewardTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Reward_(trialNos,1)]);
 end
 
-function mapper = getDarwinMapper()
+function mapper = getDarwinTypeMapper()
     % all trial events are aligned on Target Onset a constant of 3500 ms
     %offset=Target_(trialNos,TargetONIndex);
 
@@ -113,18 +117,18 @@ function mapper = getDarwinMapper()
     % %       rewardTime = BellOn_(:,1) + 3500                % Same as Juice ON for MG  decideTime + monk hold fixation in tag window
     % %      rewardTime2 = JuiceOn_(:,1) + 3500               % Same as Bell ON for MG
     mapper.correctTrials = @(allVars) single(find(allVars.Correct_(:,2)==1));
-    TargetONIndex=1;
-    mapper.targetTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Target_(trialNos,TargetONIndex)-alignTime]);
-
-    mapper.fixateTime = @(allVars,trialNos) single([trialNos allVars.FixAcqTime_(trialNos,1)+ allVars.Target_(trialNos,TargetONIndex)]);
     TargetLocationIndex=2;
     mapper.targetLocation = @(allVars,trialNos) single([trialNos allVars.Target_(trialNos,TargetLocationIndex)]);
-    % dont know yet
-    TargetHoldTimeJitter=13;
-    mapper.fixSpotOffTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Target_(trialNos,TargetONIndex)+allVars.Target_(trialNos,TargetHoldTimeJitter)-alignTime]);
+    mapper.responseLocation = @(allVars,trialNos) single([trialNos allVars.saccLoc(trialNos,1)]);
+
+    mapper.fixateTime = @(allVars,trialNos) single([trialNos allVars.FixAcqTime_(trialNos,1)]);
+    TargetONIndex=1;
+    mapper.targetTime = @(allVars,trialNos) single([trialNos allVars.Target_(trialNos,TargetONIndex)]);
+    TargetHoldTimeJitter=13;%FixSpotOff
+    mapper.responseCueTime = @(allVars,trialNos) single([trialNos allVars.Target_(trialNos,TargetONIndex)+allVars.Target_(trialNos,TargetHoldTimeJitter)]);
+    
     mapper.saccadeTime = @(allVars,trialNos,alignTime) single([trialNos allVars.SRT(trialNos,1)+allVars.Target_(trialNos,TargetONIndex)-alignTime]);
     mapper.decideTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Decide_(trialNos,1)+allVars.Target_(trialNos,TargetONIndex)-alignTime]);
-    mapper.responseLocation = @(allVars,trialNos) single([trialNos allVars.saccLoc(trialNos,1)]);
     mapper.correctTime = @(allVars,trialNos,alignTime) single([trialNos allVars.BellOn_(trialNos,1)+allVars.Target_(trialNos,TargetONIndex)-alignTime]);
     mapper.rewardTime = @(allVars,trialNos,alignTime) single([trialNos allVars.JuiceOn_(trialNos,1)+allVars.Target_(trialNos,TargetONIndex)-alignTime]);
 end

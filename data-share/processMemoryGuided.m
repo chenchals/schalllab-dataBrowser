@@ -15,12 +15,13 @@ function [ ] = processMemoryGuided( )
         mkdir(subjectDir);
         logger = Logger.getLogger(strcat(subjectDir,subject,'_logger.log'));
         logger.info(sprintf('Processing Memory Guided files for subject: %s',subject));
-        studyCount = numel(subjectStudies.(subject));
+        studies = subjectStudies.(subject);
+        studyCount = numel(studies);
         if probeRun
             studyCount = 1
         end
         parfor jj = 1:studyCount
-            study = subjectStudies.(subject)(jj);
+            study = stidies(jj);
             dataFile =strcat(study.data_dir,filesep,study.data_file);
             [~,fn,fe] = fileparts(dataFile);
             fe = char(regexp(fe,'\d*$','match')); % for files ending in digits and not mat
