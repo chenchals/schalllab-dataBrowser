@@ -1,16 +1,25 @@
-function [ ] = processMemoryGuided( )
+function [ ] = processMemoryGuided(varargin)
 %PROCESSMEMORYGUIDED Process all memory guided sessions to create Events
 %        and Cells files for sharing data
 
     % Get all memory studies from database 
     % global conn ==> a connection object is needed in global space
+    subjectFilter={};
+    if ~isempty(varargin)
+        subjectFilter = varargin{1};
+    end
+    
     probeRun=0;
     baseDir = '/Users/subravcr/teba/local/schalllab/memGuidedData/';
     isValidDbConnection;
     subjectStudies = getAllMemoryStudies;
     subjects = fieldnames(subjectStudies);
-    for ii = 1:numel(subjects)
-        subject = char(subjects(ii));
+    if isempty(subjectFilter)
+        subjectFilter = subjects;
+    end
+    
+    for ii = 1:numel(subjectFilter)
+        subject = char(subjectFilter(ii));
         subjectDir = strcat(baseDir,subject,filesep);
         mkdir(subjectDir);
         logger = Logger.getLogger(strcat(subjectDir,subject,'_logger.log'));
@@ -18,10 +27,10 @@ function [ ] = processMemoryGuided( )
         studies = subjectStudies.(subject);
         studyCount = numel(studies);
         if probeRun
-            studyCount = 1
+            studyCount = 1;
         end
         parfor jj = 1:studyCount
-            study = stidies(jj);
+            study = studies(jj);
             dataFile =strcat(study.data_dir,filesep,study.data_file);
             [~,fn,fe] = fileparts(dataFile);
             fe = char(regexp(fe,'\d*$','match')); % for files ending in digits and not mat

@@ -52,18 +52,33 @@ function [Events, Cells] = dataShareMemoryGuided( iFilename, varargin )
     saveVar(oFile,Events);
     %For spike it is similar across all sessions and subjects
     spikeNameIndex=find(~cellfun(@isempty, regexp(fnames,'Spike_|DSP\d{2}[a-e]')));
+    %Cells.trialNo = correctTrials;
     for ii=1:length(spikeNameIndex)
         spikeName=char(fnames(spikeNameIndex(ii)));
         logger.info(sprintf('Doing Cell: %s ', spikeName));
         Cells.(spikeName).trialNo=correctTrials;
-        spikes=vars.(spikeName)(correctTrials,:);
-        Cells.(spikeName).spikeTimesRaw=single(spikes);
-        spikes(spikes==0)=NaN;
-        spikes=reduceDimension(spikes);
-        % no offset for align time
-        %spikes=spikes-alignTime;
-        spikes=reduceDimension(spikes, -500);
-        Cells.(spikeName).spikeTimes=single(spikes);
+        spikeTimes=vars.(spikeName)(correctTrials,:);
+        spikeTimes(spikeTimes==0)=nan;
+        Cells.(spikeName).spikeTimes=spikeTimes;
+        %Cell info
+        Cells.(spikeName).info.cellId=spikeName;
+        Cells.(spikeName).info.BrainId=[];
+        if isfield(vars,'BrainID')
+            Cells.(spikeName).info.BrainId=vars.BrainID.(spikeName);
+        end
+        Cells.(spikeName).info.Hemifield=[];
+        if isfield(vars,'Hemi')
+            Cells.(spikeName).info.Hemifield=vars.Hemi.(spikeName);
+        end
+        
+        Cells.(spikeName).info.RFs=[];
+        if isfield(vars,'RFs')
+            Cells.(spikeName).info.RFs=vars.RFs.(spikeName);
+        end
+        Cells.(spikeName).info.MFs=[];
+        if isfield(vars,'MFs')
+            Cells.(spikeName).info.MFs=vars.MFs.(spikeName);
+        end
     end
     % Save Cells file
     oFile = [oDir 'Cells.mat'];
@@ -76,7 +91,7 @@ function [Events, Cells] = dataShareMemoryGuided( iFilename, varargin )
             cellId = char(cellIds{ii});
             logger.info(sprintf('Summarizing cell %s:', cellId));
             delete(gcf)
-            oSdf=sdf(Cells.(cellId).spikeTimes,Events.TargetTime(:,2));
+            oSdf=sdf(Cells.(cellId).spikeTimes,Events,'TargetTime',{'SaccadeTime'},Cells.(cellId).info);
             h=plotByLocations(oSdf, Events.TargetLocation);
             export_fig([oDir 'sdf.pdf'],'-pdf','-append',h);
         end
@@ -103,35 +118,6 @@ function mapper = getPdPMapper()
   mapper.rewardTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Reward_(trialNos,1)]);
 end
 
-function mapper = getDarwinTypeMapper()
-    % all trial events are aligned on Target Onset a constant of 3500 ms
-    %offset=Target_(trialNos,TargetONIndex);
-
-    % %    fixSpotOnTime = FixOn_(:,1)+Target(:,1)
-    % %     **fixateTime = FixAcqTime_(:,1) + Target(:,1)     % (offset=3500)
-    % %     targetOnTime = Target(:,1)                        % 3500 for all trials
-    % % **fixSpotOffTime = Target(:,1) + Target(:,13)         % 13th col = TrialHoldTime taking jitter
-    % %   fixSpotOffTime = Target(:,1) + Target(:,10)         % 10th col = HoldTime 600 constant no jitter   <=== guess this is incorrect
-    % %    **saccadeTime = SRT(:,1) + 3500                    % from email to Thomas for SAT data monk left fix window?
-    % %       decideTime = Decide_(:,1) + 3500                % machine determined saccade in target location (correct trials)
-    % %       rewardTime = BellOn_(:,1) + 3500                % Same as Juice ON for MG  decideTime + monk hold fixation in tag window
-    % %      rewardTime2 = JuiceOn_(:,1) + 3500               % Same as Bell ON for MG
-    mapper.correctTrials = @(allVars) single(find(allVars.Correct_(:,2)==1));
-    TargetLocationIndex=2;
-    mapper.targetLocation = @(allVars,trialNos) single([trialNos allVars.Target_(trialNos,TargetLocationIndex)]);
-    mapper.responseLocation = @(allVars,trialNos) single([trialNos allVars.saccLoc(trialNos,1)]);
-
-    mapper.fixateTime = @(allVars,trialNos) single([trialNos allVars.FixAcqTime_(trialNos,1)]);
-    TargetONIndex=1;
-    mapper.targetTime = @(allVars,trialNos) single([trialNos allVars.Target_(trialNos,TargetONIndex)]);
-    TargetHoldTimeJitter=13;%FixSpotOff
-    mapper.responseCueTime = @(allVars,trialNos) single([trialNos allVars.Target_(trialNos,TargetONIndex)+allVars.Target_(trialNos,TargetHoldTimeJitter)]);
-    
-    mapper.saccadeTime = @(allVars,trialNos,alignTime) single([trialNos allVars.SRT(trialNos,1)+allVars.Target_(trialNos,TargetONIndex)-alignTime]);
-    mapper.decideTime = @(allVars,trialNos,alignTime) single([trialNos allVars.Decide_(trialNos,1)+allVars.Target_(trialNos,TargetONIndex)-alignTime]);
-    mapper.correctTime = @(allVars,trialNos,alignTime) single([trialNos allVars.BellOn_(trialNos,1)+allVars.Target_(trialNos,TargetONIndex)-alignTime]);
-    mapper.rewardTime = @(allVars,trialNos,alignTime) single([trialNos allVars.JuiceOn_(trialNos,1)+allVars.Target_(trialNos,TargetONIndex)-alignTime]);
-end
 
 function [] = saveVar(oFile, myVar)
     [fp,~,~]=fileparts(oFile);

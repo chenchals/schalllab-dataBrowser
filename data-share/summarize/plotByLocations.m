@@ -1,7 +1,9 @@
 function [ figHandle ] = plotByLocations( sdfStruct, trialNoLocationMat )
     %UNTITLED Summary of this function goes here
     %   Detailed explanation goes here
-    
+    infos=sdfStruct.cellAnnotations;
+    eventMarkers=sdfStruct.alignedEvents;
+
     if isempty(sdfStruct.bins) || isempty(sdfStruct.sdf) || isempty(sdfStruct.counts)
         figHandle=figure();
         text(0.5,0.5,'No Spikes to plot for this Cell');
@@ -25,7 +27,7 @@ function [ figHandle ] = plotByLocations( sdfStruct, trialNoLocationMat )
     end
     % Limits for plots
     yRounding=5; %spiks/sec
-    xRange=[-1200 3000];
+    xRange=[-1500 2500];
     yRange=[0 ceil(max(meanSdf(:)/yRounding))*yRounding];
     % If plotting rasters y val for each trial
     % rasterStep = (80% * yMax) / maxNoTrials in a plot
@@ -42,7 +44,10 @@ function [ figHandle ] = plotByLocations( sdfStruct, trialNoLocationMat )
         xlim(xRange);
         ylim(yRange);
         drawnow;
-        plotRasters(rasterStep,sdfStruct.bins,sdfStruct.counts,trials,spikeTrials,noSpikeTrials);
+        plotRasters(rasterStep,sdfStruct.bins,sdfStruct.counts,trials,spikeTrials,eventMarkers);
+        drawnow;
+        annotateLocation(trials,spikeTrials,noSpikeTrials,infos);
+        drawnow;
     end
 
 end
@@ -56,27 +61,57 @@ function figureHangle = createFigure()
     set(figureHangle,'PaperOrientation','landscape');
 end
 
-function plotRasters(rasterStep, bins, binaryMat, trials, spikeTrials, noSpikeTrials )
+function plotRasters(rasterStep, bins, binaryMat, trials, spikeTrials, eventMarkers )
 
-  for ii=1:length(trials)
-     if ismember(trials(ii),spikeTrials)
-       [~,co]=find(binaryMat(trials(ii),:));
-       col=[0.5 0.5 0.5];
-     else
-         endBin=length(bins);
-         midBin=round(endBin/2);
-         co=[1:40 midBin-20:midBin+20  endBin-40:endBin];
-         col=[0.9 0.0 0.0];
-     end     
-     yStart=repmat(rasterStep*ii,1,length(co));
-     yExtent=[yStart; yStart+(rasterStep*0.5)];
-     %line([bins(co); bins(co)],repmat([ii; ii+0.2],1,length(co)),'color','k');
-     line([bins(co); bins(co)],yExtent,'color',col);
-  end
+    for ii=1:length(trials)
+        if ismember(trials(ii),spikeTrials)
+            [~,co]=find(binaryMat(trials(ii),:));
+            col=[0.5 0.5 0.5];
+        else
+            endBin=length(bins);
+            midBin=round(endBin/2);
+            co=[1:40 midBin-20:midBin+20  endBin-40:endBin];
+            col=[0.5 0.0 0.0];
+        end
+        yStart=repmat(rasterStep*ii,1,length(co));
+        yExtent=[yStart; yStart+(rasterStep*0.5)];
+        line([bins(co); bins(co)],yExtent,'color',col);
+    end
+    drawnow;
+    hold;
+    % for event markers all trials including noSpikeTrials
+    marker={'m.','b.','r.'};
+    if isstruct(eventMarkers)
+        evNames= fieldnames(eventMarkers);
+        for jj=1:length(evNames)
+            yx=eventMarkers.(char(evNames(jj)));
+            yx=yx(trials,:);
+            y=(1:size(yx,1)).*rasterStep;
+            x=yx(:,2);
+            plot(x,y,marker{jj});
+        end
+    end
+    hold;
+end
+
+function annotateLocation(trials,spikeTrials, noSpikeTrials, infos)
   annot={['Spike trials    : ' num2str(length(spikeTrials))];
          ['No Spike trials : ' num2str(length(noSpikeTrials))];
          ['Total trials    : ' num2str(length(trials))];
          };
+   annot2={};
+   if isstruct(infos)
+       fields = fieldnames(infos);
+       for ii=1:length(fields)
+           f=char(fields(ii));
+           v=infos.(f);
+           if isnumeric(v)
+               v=num2str(v);
+           end
+           annot2{ii,1}=strcat(f,' : ',v);
+       end       
+   end
+     
   gca;
   x=min(xlim);
   y=max(ylim);
@@ -85,15 +120,12 @@ function plotRasters(rasterStep, bins, binaryMat, trials, spikeTrials, noSpikeTr
   else
       text(x*1.10, y*0.90,annot);
   end
-  drawnow;
-  
+  text(max(xlim)*.7,y*.85,annot2)
 end
 
 function [mat, noSpikeTrials, spikeTrials] = removeNoSpikeRows(mat,trialNos)
   mat=mat(trialNos,:);
   mat(mat==0)=NaN;
-  %reduce dimension
-  %reducedMat=reducedMat(any(~isnan(reducedMat),2),:);
   noSpikeRows=find(all(isnan(mat),2));
   mat(noSpikeRows,:)=[];
   %putback zeros

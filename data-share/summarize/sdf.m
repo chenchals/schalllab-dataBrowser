@@ -1,13 +1,23 @@
-function [sdfStruct] = sdf(spikeTimes, alignTimes, cellAnnotations)
+function [sdfStruct] = sdf(spikeTimes, events, alignEventName, eventMarkerNames, cellAnnotations)
+%function [sdfStruct] = sdf(spikeTimes, alignTimes, eventMarkers, cellAnnotations)
 % creates spike-density function from spike times
 % 
-  if isnan(max(spikeTimes(:))) || isnan(min(spikeTimes(:)))
+  if isnan(max(spikeTimes(:))) || isnan(min(spikeTimes(:)) || ~isstruct(events) )
       % no spikes in spike matrix
       sdfStruct.counts=[];
       sdfStruct.sdf=[];
       sdfStruct.bins=[];
+      sdfStruct.cellAnnotations=[];
+      sdfStruct.alignedEvents=[];
       return;
   end
+  
+  if ~isfield(events, alignEventName)
+      error('Align event name is not in events struct');
+  end
+  alignTimes = events.(alignEventName);
+  alignTimes = alignTimes(:,2);
+  
   % Bin width for min / max time: Time axis will be evenly divisible by this
   % example 50 --> x
   binRounding=50;
@@ -16,11 +26,17 @@ function [sdfStruct] = sdf(spikeTimes, alignTimes, cellAnnotations)
   if ~isscalar(alignTimes) &&  ~(numel(alignTimes)==nTrials) 
           error('No of elements in alignTimes must equal number of rows in spikeTimes');
   end
-  alignTimes=alignTimes(:);
-  
+  alignTimes=alignTimes(:);  
   spikeTimes(spikeTimes==0)=NaN;
-  
   spikeTimes = spikeTimes - alignTimes;
+  % Align event markes if is cell array
+  if iscell(eventMarkerNames) 
+      for ii=1:length(eventMarkerNames)
+          eventName=char(eventMarkerNames(ii));
+          eventMat=events.(eventName);
+          sdfStruct.alignedEvents.(eventName)=[eventMat(:,1) eventMat(:,2)-alignTimes]; 
+      end
+  end
   
   hMin = floor(min(spikeTimes(:)/binRounding))*binRounding;
   hMax = ceil(max(spikeTimes(:)/binRounding))*binRounding;
