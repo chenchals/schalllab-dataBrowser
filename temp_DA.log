@@ -1,0 +1,100 @@
+2017-04-17 12:07:13.000|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130807005-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:07:13.041|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130820002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:07:13.084|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130822001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:07:13.126|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130828001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:07:13.171|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130830001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:07:13.214|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130905001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:07:13.251|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130910001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:07:13.295|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130913001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:07:13.338|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130926001-RH_MG.mat - FixTime_Jit_
+2017-04-21 08:33:57.442|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.457|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130807005-RH_MG.mat*** Processing Failed
+2017-04-21 08:33:57.522|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.525|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130820002-RH_MG.mat*** Processing Failed
+2017-04-21 08:33:57.568|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.571|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130822001-RH_MG.mat*** Processing Failed
+2017-04-21 08:33:57.630|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.636|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130828001-RH_MG.mat*** Processing Failed
+2017-04-21 08:33:57.682|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.684|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130830001-RH_MG.mat*** Processing Failed
+2017-04-21 08:33:57.753|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.755|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130905001-RH_MG.mat*** Processing Failed
+2017-04-21 08:33:57.798|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.800|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130910001-RH_MG.mat*** Processing Failed
+2017-04-21 08:33:57.843|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.845|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130913001-RH_MG.mat*** Processing Failed
+2017-04-21 08:33:57.888|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:33:57.890|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130926001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.223|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.232|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130807005-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.273|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.275|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130820002-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.317|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.318|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130822001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.360|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.362|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130828001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.406|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.408|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130830001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.450|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.451|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130905001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.486|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.488|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130910001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.530|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.532|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130913001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:24.575|ERROR|MATLAB:mustBeFieldName|MATLAB:mustBeFieldName-Argument to dynamic structure reference must evaluate to a valid field name.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:24.577|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130926001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.199|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.201|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130807005-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.238|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.240|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130820002-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.276|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.278|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130822001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.315|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.316|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130828001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.357|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.359|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130830001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.398|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.401|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130905001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.432|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.434|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130910001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.472|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.474|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130913001-RH_MG.mat*** Processing Failed
+2017-04-21 08:34:52.511|ERROR|MATLAB:structRefFromNonStruct|MATLAB:structRefFromNonStruct-Struct contents reference from a non-struct array object.
+		checkVariable.m > checkVariable > 20
+2017-04-21 08:34:52.513|ERROR|checkVariable|***/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130926001-RH_MG.mat*** Processing Failed
+2017-04-21 08:46:07.987|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130807005-RH_MG.mat - Target_ size of var 87  14
+2017-04-21 08:47:06.953|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130807005-RH_MG.mat - varName: Target_ size: 87  14
+2017-04-21 08:47:07.063|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130820002-RH_MG.mat - varName: Target_ size: 312   14
+2017-04-21 08:47:07.146|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130822001-RH_MG.mat - varName: Target_ size: 347   14
+2017-04-21 08:47:07.230|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130828001-RH_MG.mat - varName: Target_ size: 232   14
+2017-04-21 08:47:07.318|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130830001-RH_MG.mat - varName: Target_ size: 308   14
+2017-04-21 08:47:07.400|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130905001-RH_MG.mat - varName: Target_ size: 299   14
+2017-04-21 08:47:07.470|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130910001-RH_MG.mat - varName: Target_ size: 315   14
+2017-04-21 08:47:07.555|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130913001-RH_MG.mat - varName: Target_ size: 325   14
+2017-04-21 08:47:07.693|INFO|checkVariable|/Volumes/schalllab/data/Darwin/SAT/Matlab/D20130926001-RH_MG.mat - varName: Target_ size: 312   14

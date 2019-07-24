@@ -1,0 +1,9 @@
+{
+"summarize":
+{
+        "inputs":
+        [
+                {"name":"sessionDir",       "kind":"required", "type":"filepath"}
+         ]
+}
+}

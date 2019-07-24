@@ -1,0 +1,626 @@
+2017-04-17 12:16:35.046|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030411001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.092|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030711001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.130|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030911001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.170|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032311001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.205|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032511001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.249|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S033111001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.282|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040611001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.317|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040711001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.356|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041111001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.395|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041311001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.433|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041511001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.470|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041811001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.505|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042511001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.541|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042911001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.579|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S050211001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.612|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.642|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001_MG.mat - 
+2017-04-17 12:16:35.681|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S052011001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.704|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011408001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.729|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011508001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.753|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.772|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.797|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011708001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.823|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012308001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.848|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012408001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.871|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012508001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.895|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.921|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.941|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.962|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:35.988|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108003-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.008|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021108001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.029|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.055|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.081|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021408001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.120|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.158|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.195|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.229|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.253|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051608001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.275|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051908003-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.301|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052108001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.322|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052208002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.344|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052308002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.366|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052808002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.510|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052908001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.665|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S053008001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:36.960|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S060508001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:37.088|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S062508001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:37.296|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S073108002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:37.530|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S082708001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:37.746|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090308001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:37.968|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090508001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:38.124|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090808001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:38.209|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091008001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:38.404|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091208001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:38.514|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110707001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:38.659|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110807001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:38.881|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:39.048|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:39.160|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907003-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:39.326|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:39.518|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:39.699|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S031909001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:39.868|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S033009001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:40.062|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050109001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:40.287|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050409001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:40.505|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051409002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:40.753|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051809001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:40.898|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S052109001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:41.053|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090209003-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:41.256|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090909001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:41.439|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S091609001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:41.570|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110209001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:41.772|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110909001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:41.950|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S111609001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:42.180|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S112309001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:42.422|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S121109001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:16:42.707|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S010511001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:42.890|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S031710001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:43.123|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S032010001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:43.308|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S091809002-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:43.519|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S092309003-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:43.689|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100209002-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:43.845|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100709003-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:44.016|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S101609001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:44.149|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102109001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:44.288|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102309001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:44.457|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102809001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:44.631|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S103009001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:44.826|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S110609001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:45.003|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S111809003-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:16:45.231|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S120209001-BP_MG.mat - FixTime_Jit_
+2017-04-21 08:48:34.265|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030411001-RH_MG.mat - varName: Target_ size: 162   12
+2017-04-21 08:48:34.604|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030711001-RH_MG.mat - varName: Target_ size: 201   12
+2017-04-21 08:48:34.932|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030911001-RH_MG.mat - varName: Target_ size: 570   12
+2017-04-21 08:48:35.307|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032311001-RH_MG.mat - varName: Target_ size: 531   12
+2017-04-21 08:48:35.612|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032511001-RH_MG.mat - varName: Target_ size: 507   12
+2017-04-21 08:48:35.974|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S033111001-RH_MG.mat - varName: Target_ size: 499   12
+2017-04-21 08:48:36.209|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040611001-RH_MG.mat - varName: Target_ size: 428   12
+2017-04-21 08:48:36.522|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040711001-RH_MG.mat - varName: Target_ size: 396   12
+2017-04-21 08:48:36.820|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041111001-RH_MG.mat - varName: Target_ size: 410   12
+2017-04-21 08:48:37.179|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041311001-RH_MG.mat - varName: Target_ size: 429   12
+2017-04-21 08:48:37.488|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041511001-RH_MG.mat - varName: Target_ size: 369   12
+2017-04-21 08:48:37.817|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041811001-RH_MG.mat - varName: Target_ size: 556   12
+2017-04-21 08:48:38.105|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042511001-RH_MG.mat - varName: Target_ size: 309   12
+2017-04-21 08:48:38.377|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042911001-RH_MG.mat - varName: Target_ size: 417   12
+2017-04-21 08:48:38.765|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S050211001-RH_MG.mat - varName: Target_ size: 508   12
+2017-04-21 08:48:38.983|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001-RH_MG.mat - varName: Target_ size: 323   12
+2017-04-21 08:48:39.246|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001_MG.mat - varName: Target_ size: 323   12
+2017-04-21 08:48:39.547|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S052011001-RH_MG.mat - varName: Target_ size: 434   12
+2017-04-21 08:48:39.772|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011408001-RH_MG.mat - varName: Target_ size: 364   13
+2017-04-21 08:48:39.990|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011508001-RH_MG.mat - varName: Target_ size: 540   13
+2017-04-21 08:48:40.214|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608001-RH_MG.mat - varName: Target_ size: 695   13
+2017-04-21 08:48:40.410|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608002-RH_MG.mat - varName: Target_ size: 232   13
+2017-04-21 08:48:40.627|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011708001-RH_MG.mat - varName: Target_ size: 633   13
+2017-04-21 08:48:40.847|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012308001-RH_MG.mat - varName: Target_ size: 782   13
+2017-04-21 08:48:41.078|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012408001-RH_MG.mat - varName: Target_ size: 752   13
+2017-04-21 08:48:41.292|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012508001-RH_MG.mat - varName: Target_ size: 721   13
+2017-04-21 08:48:41.513|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008001-RH_MG.mat - varName: Target_ size: 370   13
+2017-04-21 08:48:41.707|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008002-RH_MG.mat - varName: Target_ size: 809   13
+2017-04-21 08:48:41.929|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108001-RH_MG.mat - varName: Target_ size: 189   13
+2017-04-21 08:48:42.088|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108002-RH_MG.mat - varName: Target_ size: 101   13
+2017-04-21 08:48:42.301|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108003-RH_MG.mat - varName: Target_ size: 792   13
+2017-04-21 08:48:42.469|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021108001-RH_MG.mat - varName: Target_ size: 475   13
+2017-04-21 08:48:42.662|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308001-RH_MG.mat - varName: Target_ size: 197   13
+2017-04-21 08:48:42.924|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308002-RH_MG.mat - varName: Target_ size: 1057    13
+2017-04-21 08:48:43.171|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021408001-RH_MG.mat - varName: Target_ size: 430   13
+2017-04-21 08:48:43.453|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708001-RH_MG.mat - varName: Target_ size: 697   13
+2017-04-21 08:48:43.826|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708002-RH_MG.mat - varName: Target_ size: 620   13
+2017-04-21 08:48:44.158|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308001-RH_MG.mat - varName: Target_ size: 588   13
+2017-04-21 08:48:44.442|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308002-RH_MG.mat - varName: Target_ size: 584   13
+2017-04-21 08:48:44.614|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051608001-RH_MG.mat - varName: Target_ size: 840   13
+2017-04-21 08:48:44.807|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051908003-RH_MG.mat - varName: Target_ size: 293   13
+2017-04-21 08:48:45.033|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052108001-RH_MG.mat - varName: Target_ size: 655   13
+2017-04-21 08:48:45.211|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052208002-RH_MG.mat - varName: Target_ size: 372   13
+2017-04-21 08:48:45.384|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052308002-RH_MG.mat - varName: Target_ size: 317   13
+2017-04-21 08:48:45.563|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052808002-RH_MG.mat - varName: Target_ size: 368   13
+2017-04-21 08:48:45.775|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052908001-RH_MG.mat - varName: Target_ size: 247   13
+2017-04-21 08:48:45.952|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S053008001-RH_MG.mat - varName: Target_ size: 309   13
+2017-04-21 08:48:46.160|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S060508001-RH_MG.mat - varName: Target_ size: 378   13
+2017-04-21 08:48:46.310|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S062508001-RH_MG.mat - varName: Target_ size: 190   13
+2017-04-21 08:48:46.537|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S073108002-RH_MG.mat - varName: Target_ size: 214   13
+2017-04-21 08:48:46.795|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S082708001-RH_MG.mat - varName: Target_ size: 256   13
+2017-04-21 08:48:47.040|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090308001-RH_MG.mat - varName: Target_ size: 258   13
+2017-04-21 08:48:47.272|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090508001-RH_MG.mat - varName: Target_ size: 287   13
+2017-04-21 08:48:47.468|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090808001-RH_MG.mat - varName: Target_ size: 152   13
+2017-04-21 08:48:47.623|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091008001-RH_MG.mat - varName: Target_ size: 313   13
+2017-04-21 08:48:47.829|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091208001-RH_MG.mat - varName: Target_ size: 366   13
+2017-04-21 08:48:47.942|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110707001-RH_MG.mat - varName: Target_ size: 173   13
+2017-04-21 08:48:48.110|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110807001-RH_MG.mat - varName: Target_ size: 201   13
+2017-04-21 08:48:48.324|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907001-RH_MG.mat - varName: Target_ size: 1074    13
+2017-04-21 08:48:48.525|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907002-RH_MG.mat - varName: Target_ size: 99  13
+2017-04-21 08:48:48.666|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907003-RH_MG.mat - varName: Target_ size: 73  13
+2017-04-21 08:48:48.874|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207001-RH_MG.mat - varName: Target_ size: 474   13
+2017-04-21 08:48:49.123|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207002-RH_MG.mat - varName: Target_ size: 402   13
+2017-04-21 08:48:49.353|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S031909001-RH_MG.mat - varName: Target_ size: 139   14
+2017-04-21 08:48:49.561|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S033009001-RH_MG.mat - varName: Target_ size: 352   14
+2017-04-21 08:48:49.791|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050109001-RH_MG.mat - varName: Target_ size: 252   14
+2017-04-21 08:48:50.041|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050409001-RH_MG.mat - varName: Target_ size: 259   14
+2017-04-21 08:48:50.287|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051409002-RH_MG.mat - varName: Target_ size: 425   14
+2017-04-21 08:48:50.569|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051809001-RH_MG.mat - varName: Target_ size: 321   14
+2017-04-21 08:48:50.759|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S052109001-RH_MG.mat - varName: Target_ size: 369   14
+2017-04-21 08:48:50.941|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090209003-RH_MG.mat - varName: Target_ size: 288   14
+2017-04-21 08:48:51.200|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090909001-RH_MG.mat - varName: Target_ size: 339   14
+2017-04-21 08:48:51.388|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S091609001-RH_MG.mat - varName: Target_ size: 419   14
+2017-04-21 08:48:51.550|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110209001-RH_MG.mat - varName: Target_ size: 220   14
+2017-04-21 08:48:51.745|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110909001-RH_MG.mat - varName: Target_ size: 257   14
+2017-04-21 08:48:51.957|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S111609001-RH_MG.mat - varName: Target_ size: 315   14
+2017-04-21 08:48:52.208|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S112309001-RH_MG.mat - varName: Target_ size: 374   14
+2017-04-21 08:48:52.483|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S121109001-RH_MG.mat - varName: Target_ size: 261   14
+2017-04-21 08:48:52.775|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S010511001-BP_MG.mat - varName: Target_ size: 342   13
+2017-04-21 08:48:52.985|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S031710001-BP_MG.mat - varName: Target_ size: 493   13
+2017-04-21 08:48:53.261|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S032010001-BP_MG.mat - varName: Target_ size: 544   13
+2017-04-21 08:48:53.467|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S091809002-BP_MG.mat - varName: Target_ size: 322   13
+2017-04-21 08:48:53.705|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S092309003-BP_MG.mat - varName: Target_ size: 389   13
+2017-04-21 08:48:53.905|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100209002-BP_MG.mat - varName: Target_ size: 476   13
+2017-04-21 08:48:54.081|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100709003-BP_MG.mat - varName: Target_ size: 513   13
+2017-04-21 08:48:54.274|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S101609001-BP_MG.mat - varName: Target_ size: 428   13
+2017-04-21 08:48:54.429|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102109001-BP_MG.mat - varName: Target_ size: 369   13
+2017-04-21 08:48:54.591|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102309001-BP_MG.mat - varName: Target_ size: 415   13
+2017-04-21 08:48:54.793|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102809001-BP_MG.mat - varName: Target_ size: 622   13
+2017-04-21 08:48:55.055|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S103009001-BP_MG.mat - varName: Target_ size: 370   13
+2017-04-21 08:48:55.281|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S110609001-BP_MG.mat - varName: Target_ size: 583   13
+2017-04-21 08:48:55.496|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S111809003-BP_MG.mat - varName: Target_ size: 86  13
+2017-04-21 08:48:55.731|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S120209001-BP_MG.mat - varName: Target_ size: 326   13
+2017-04-21 08:50:42.676|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:42.685|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S030411001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:42.761|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:42.764|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S030711001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:42.840|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:42.843|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S030911001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:42.921|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:42.924|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S032311001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:42.994|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:42.997|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S032511001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.085|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.088|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S033111001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.151|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.155|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S040611001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.223|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.227|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S040711001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.302|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.305|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S041111001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.428|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.431|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S041311001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.506|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.509|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S041511001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.583|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.586|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S041811001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.656|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.659|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S042511001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.731|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.735|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S042911001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.807|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.810|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S050211001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.877|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.881|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:43.936|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:43.940|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001_MG.mat*** Processing Failed
+2017-04-21 08:50:44.021|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'MG_Hold_'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:50:44.023|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S052011001-RH_MG.mat*** Processing Failed
+2017-04-21 08:50:44.064|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011408001-RH_MG.mat - varName: MG_Hold_ size: 364    1
+2017-04-21 08:50:44.113|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011508001-RH_MG.mat - varName: MG_Hold_ size: 540    1
+2017-04-21 08:50:44.156|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608001-RH_MG.mat - varName: MG_Hold_ size: 695    1
+2017-04-21 08:50:44.191|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608002-RH_MG.mat - varName: MG_Hold_ size: 232    1
+2017-04-21 08:50:44.241|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011708001-RH_MG.mat - varName: MG_Hold_ size: 633    1
+2017-04-21 08:50:44.290|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012308001-RH_MG.mat - varName: MG_Hold_ size: 782    1
+2017-04-21 08:50:44.338|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012408001-RH_MG.mat - varName: MG_Hold_ size: 752    1
+2017-04-21 08:50:44.382|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012508001-RH_MG.mat - varName: MG_Hold_ size: 721    1
+2017-04-21 08:50:44.429|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008001-RH_MG.mat - varName: MG_Hold_ size: 370    1
+2017-04-21 08:50:44.480|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008002-RH_MG.mat - varName: MG_Hold_ size: 809    1
+2017-04-21 08:50:44.519|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108001-RH_MG.mat - varName: MG_Hold_ size: 189    1
+2017-04-21 08:50:44.559|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108002-RH_MG.mat - varName: MG_Hold_ size: 101    1
+2017-04-21 08:50:44.607|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108003-RH_MG.mat - varName: MG_Hold_ size: 792    1
+2017-04-21 08:50:44.646|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021108001-RH_MG.mat - varName: MG_Hold_ size: 475    1
+2017-04-21 08:50:44.686|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308001-RH_MG.mat - varName: MG_Hold_ size: 197    1
+2017-04-21 08:50:44.736|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308002-RH_MG.mat - varName: MG_Hold_ size: 1057     1
+2017-04-21 08:50:44.786|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021408001-RH_MG.mat - varName: MG_Hold_ size: 430    1
+2017-04-21 08:50:44.862|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708001-RH_MG.mat - varName: MG_Hold_ size: 697    1
+2017-04-21 08:50:44.936|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708002-RH_MG.mat - varName: MG_Hold_ size: 620    1
+2017-04-21 08:50:45.007|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308001-RH_MG.mat - varName: MG_Hold_ size: 588    1
+2017-04-21 08:50:45.071|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308002-RH_MG.mat - varName: MG_Hold_ size: 584    1
+2017-04-21 08:50:45.118|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051608001-RH_MG.mat - varName: MG_Hold_ size: 840    1
+2017-04-21 08:50:45.159|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051908003-RH_MG.mat - varName: MG_Hold_ size: 293    1
+2017-04-21 08:50:45.209|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052108001-RH_MG.mat - varName: MG_Hold_ size: 655    1
+2017-04-21 08:50:45.248|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052208002-RH_MG.mat - varName: MG_Hold_ size: 372    1
+2017-04-21 08:50:45.290|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052308002-RH_MG.mat - varName: MG_Hold_ size: 317    1
+2017-04-21 08:50:45.332|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052808002-RH_MG.mat - varName: MG_Hold_ size: 368    1
+2017-04-21 08:50:45.376|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052908001-RH_MG.mat - varName: MG_Hold_ size: 247    1
+2017-04-21 08:50:45.417|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S053008001-RH_MG.mat - varName: MG_Hold_ size: 309    1
+2017-04-21 08:50:45.458|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S060508001-RH_MG.mat - varName: MG_Hold_ size: 378    1
+2017-04-21 08:50:45.494|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S062508001-RH_MG.mat - varName: MG_Hold_ size: 190    1
+2017-04-21 08:50:45.553|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S073108002-RH_MG.mat - varName: MG_Hold_ size: 214    1
+2017-04-21 08:50:45.610|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S082708001-RH_MG.mat - varName: MG_Hold_ size: 256    1
+2017-04-21 08:50:45.664|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090308001-RH_MG.mat - varName: MG_Hold_ size: 258    1
+2017-04-21 08:50:45.716|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090508001-RH_MG.mat - varName: MG_Hold_ size: 287    1
+2017-04-21 08:50:45.766|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090808001-RH_MG.mat - varName: MG_Hold_ size: 152    1
+2017-04-21 08:50:45.820|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091008001-RH_MG.mat - varName: MG_Hold_ size: 313    1
+2017-04-21 08:50:45.886|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091208001-RH_MG.mat - varName: MG_Hold_ size: 366    1
+2017-04-21 08:50:45.921|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110707001-RH_MG.mat - varName: MG_Hold_ size: 173    1
+2017-04-21 08:50:45.960|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110807001-RH_MG.mat - varName: MG_Hold_ size: 201    1
+2017-04-21 08:50:46.018|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907001-RH_MG.mat - varName: MG_Hold_ size: 1074     1
+2017-04-21 08:50:46.056|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907002-RH_MG.mat - varName: MG_Hold_ size: 99   1
+2017-04-21 08:50:46.087|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907003-RH_MG.mat - varName: MG_Hold_ size: 73   1
+2017-04-21 08:50:46.132|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207001-RH_MG.mat - varName: MG_Hold_ size: 474    1
+2017-04-21 08:50:46.175|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207002-RH_MG.mat - varName: MG_Hold_ size: 402    1
+2017-04-21 08:50:46.226|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S031909001-RH_MG.mat - varName: MG_Hold_ size: 139    1
+2017-04-21 08:50:46.286|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S033009001-RH_MG.mat - varName: MG_Hold_ size: 352    1
+2017-04-21 08:50:46.328|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050109001-RH_MG.mat - varName: MG_Hold_ size: 252    1
+2017-04-21 08:50:46.374|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050409001-RH_MG.mat - varName: MG_Hold_ size: 259    1
+2017-04-21 08:50:46.436|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051409002-RH_MG.mat - varName: MG_Hold_ size: 425    1
+2017-04-21 08:50:46.501|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051809001-RH_MG.mat - varName: MG_Hold_ size: 321    1
+2017-04-21 08:50:46.549|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S052109001-RH_MG.mat - varName: MG_Hold_ size: 369    1
+2017-04-21 08:50:46.601|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090209003-RH_MG.mat - varName: MG_Hold_ size: 288    1
+2017-04-21 08:50:46.647|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090909001-RH_MG.mat - varName: MG_Hold_ size: 339    1
+2017-04-21 08:50:46.697|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S091609001-RH_MG.mat - varName: MG_Hold_ size: 419    1
+2017-04-21 08:50:46.751|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110209001-RH_MG.mat - varName: MG_Hold_ size: 220    1
+2017-04-21 08:50:46.796|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110909001-RH_MG.mat - varName: MG_Hold_ size: 257    1
+2017-04-21 08:50:46.846|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S111609001-RH_MG.mat - varName: MG_Hold_ size: 315    1
+2017-04-21 08:50:46.905|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S112309001-RH_MG.mat - varName: MG_Hold_ size: 374    1
+2017-04-21 08:50:46.963|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S121109001-RH_MG.mat - varName: MG_Hold_ size: 261    1
+2017-04-21 08:50:47.027|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S010511001-BP_MG.mat - varName: MG_Hold_ size: 342    1
+2017-04-21 08:50:47.076|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S031710001-BP_MG.mat - varName: MG_Hold_ size: 493    1
+2017-04-21 08:50:47.128|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S032010001-BP_MG.mat - varName: MG_Hold_ size: 544    1
+2017-04-21 08:50:47.172|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S091809002-BP_MG.mat - varName: MG_Hold_ size: 322    1
+2017-04-21 08:50:47.221|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S092309003-BP_MG.mat - varName: MG_Hold_ size: 389    1
+2017-04-21 08:50:47.271|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100209002-BP_MG.mat - varName: MG_Hold_ size: 476    1
+2017-04-21 08:50:47.312|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100709003-BP_MG.mat - varName: MG_Hold_ size: 513    1
+2017-04-21 08:50:47.364|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S101609001-BP_MG.mat - varName: MG_Hold_ size: 428    1
+2017-04-21 08:50:47.408|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102109001-BP_MG.mat - varName: MG_Hold_ size: 369    1
+2017-04-21 08:50:47.451|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102309001-BP_MG.mat - varName: MG_Hold_ size: 415    1
+2017-04-21 08:50:47.512|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102809001-BP_MG.mat - varName: MG_Hold_ size: 622    1
+2017-04-21 08:50:47.571|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S103009001-BP_MG.mat - varName: MG_Hold_ size: 370    1
+2017-04-21 08:50:47.634|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S110609001-BP_MG.mat - varName: MG_Hold_ size: 583    1
+2017-04-21 08:50:47.684|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S111809003-BP_MG.mat - varName: MG_Hold_ size: 86   1
+2017-04-21 08:50:47.735|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S120209001-BP_MG.mat - varName: MG_Hold_ size: 326    1
+2017-04-21 08:54:31.720|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030411001-RH_MG.mat - varName: saccLoc size: 162    1
+2017-04-21 08:54:31.795|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030711001-RH_MG.mat - varName: saccLoc size: 201    1
+2017-04-21 08:54:31.867|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030911001-RH_MG.mat - varName: saccLoc size: 570    1
+2017-04-21 08:54:31.944|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032311001-RH_MG.mat - varName: saccLoc size: 531    1
+2017-04-21 08:54:32.013|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032511001-RH_MG.mat - varName: saccLoc size: 507    1
+2017-04-21 08:54:32.100|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S033111001-RH_MG.mat - varName: saccLoc size: 499    1
+2017-04-21 08:54:32.164|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040611001-RH_MG.mat - varName: saccLoc size: 428    1
+2017-04-21 08:54:32.231|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040711001-RH_MG.mat - varName: saccLoc size: 396    1
+2017-04-21 08:54:32.306|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041111001-RH_MG.mat - varName: saccLoc size: 410    1
+2017-04-21 08:54:32.378|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041311001-RH_MG.mat - varName: saccLoc size: 429    1
+2017-04-21 08:54:32.450|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041511001-RH_MG.mat - varName: saccLoc size: 369    1
+2017-04-21 08:54:32.524|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041811001-RH_MG.mat - varName: saccLoc size: 556    1
+2017-04-21 08:54:32.594|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042511001-RH_MG.mat - varName: saccLoc size: 309    1
+2017-04-21 08:54:32.666|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042911001-RH_MG.mat - varName: saccLoc size: 417    1
+2017-04-21 08:54:32.737|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S050211001-RH_MG.mat - varName: saccLoc size: 508    1
+2017-04-21 08:54:32.804|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001-RH_MG.mat - varName: saccLoc size: 323    1
+2017-04-21 08:54:32.860|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:32.863|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001_MG.mat*** Processing Failed
+2017-04-21 08:54:32.941|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S052011001-RH_MG.mat - varName: saccLoc size: 434    1
+2017-04-21 08:54:32.982|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011408001-RH_MG.mat - varName: saccLoc size: 364    1
+2017-04-21 08:54:33.031|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011508001-RH_MG.mat - varName: saccLoc size: 540    1
+2017-04-21 08:54:33.074|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608001-RH_MG.mat - varName: saccLoc size: 695    1
+2017-04-21 08:54:33.109|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608002-RH_MG.mat - varName: saccLoc size: 232    1
+2017-04-21 08:54:33.159|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011708001-RH_MG.mat - varName: saccLoc size: 633    1
+2017-04-21 08:54:33.209|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012308001-RH_MG.mat - varName: saccLoc size: 782    1
+2017-04-21 08:54:33.257|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012408001-RH_MG.mat - varName: saccLoc size: 752    1
+2017-04-21 08:54:33.302|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012508001-RH_MG.mat - varName: saccLoc size: 721    1
+2017-04-21 08:54:33.348|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008001-RH_MG.mat - varName: saccLoc size: 370    1
+2017-04-21 08:54:33.400|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008002-RH_MG.mat - varName: saccLoc size: 809    1
+2017-04-21 08:54:33.439|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108001-RH_MG.mat - varName: saccLoc size: 189    1
+2017-04-21 08:54:33.478|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108002-RH_MG.mat - varName: saccLoc size: 101    1
+2017-04-21 08:54:33.527|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108003-RH_MG.mat - varName: saccLoc size: 792    1
+2017-04-21 08:54:33.565|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021108001-RH_MG.mat - varName: saccLoc size: 475    1
+2017-04-21 08:54:33.605|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308001-RH_MG.mat - varName: saccLoc size: 197    1
+2017-04-21 08:54:33.653|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308002-RH_MG.mat - varName: saccLoc size: 1057     1
+2017-04-21 08:54:33.703|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021408001-RH_MG.mat - varName: saccLoc size: 430    1
+2017-04-21 08:54:33.789|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708001-RH_MG.mat - varName: saccLoc size: 697    1
+2017-04-21 08:54:33.862|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708002-RH_MG.mat - varName: saccLoc size: 620    1
+2017-04-21 08:54:33.933|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308001-RH_MG.mat - varName: saccLoc size: 588    1
+2017-04-21 08:54:33.998|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308002-RH_MG.mat - varName: saccLoc size: 584    1
+2017-04-21 08:54:34.043|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051608001-RH_MG.mat - varName: saccLoc size: 840    1
+2017-04-21 08:54:34.084|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051908003-RH_MG.mat - varName: saccLoc size: 293    1
+2017-04-21 08:54:34.133|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052108001-RH_MG.mat - varName: saccLoc size: 655    1
+2017-04-21 08:54:34.171|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052208002-RH_MG.mat - varName: saccLoc size: 372    1
+2017-04-21 08:54:34.212|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052308002-RH_MG.mat - varName: saccLoc size: 317    1
+2017-04-21 08:54:34.254|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052808002-RH_MG.mat - varName: saccLoc size: 368    1
+2017-04-21 08:54:34.298|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052908001-RH_MG.mat - varName: saccLoc size: 247    1
+2017-04-21 08:54:34.339|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S053008001-RH_MG.mat - varName: saccLoc size: 309    1
+2017-04-21 08:54:34.380|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S060508001-RH_MG.mat - varName: saccLoc size: 378    1
+2017-04-21 08:54:34.416|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S062508001-RH_MG.mat - varName: saccLoc size: 190    1
+2017-04-21 08:54:34.475|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S073108002-RH_MG.mat - varName: saccLoc size: 214    1
+2017-04-21 08:54:34.533|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S082708001-RH_MG.mat - varName: saccLoc size: 256    1
+2017-04-21 08:54:34.587|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090308001-RH_MG.mat - varName: saccLoc size: 258    1
+2017-04-21 08:54:34.640|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090508001-RH_MG.mat - varName: saccLoc size: 287    1
+2017-04-21 08:54:34.690|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090808001-RH_MG.mat - varName: saccLoc size: 152    1
+2017-04-21 08:54:34.746|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091008001-RH_MG.mat - varName: saccLoc size: 313    1
+2017-04-21 08:54:34.811|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091208001-RH_MG.mat - varName: saccLoc size: 366    1
+2017-04-21 08:54:34.847|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110707001-RH_MG.mat - varName: saccLoc size: 173    1
+2017-04-21 08:54:34.886|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110807001-RH_MG.mat - varName: saccLoc size: 201    1
+2017-04-21 08:54:34.946|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907001-RH_MG.mat - varName: saccLoc size: 1074     1
+2017-04-21 08:54:34.984|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907002-RH_MG.mat - varName: saccLoc size: 99   1
+2017-04-21 08:54:35.015|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907003-RH_MG.mat - varName: saccLoc size: 73   1
+2017-04-21 08:54:35.061|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207001-RH_MG.mat - varName: saccLoc size: 474    1
+2017-04-21 08:54:35.104|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207002-RH_MG.mat - varName: saccLoc size: 402    1
+2017-04-21 08:54:35.156|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S031909001-RH_MG.mat - varName: saccLoc size: 139    1
+2017-04-21 08:54:35.218|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S033009001-RH_MG.mat - varName: saccLoc size: 352    1
+2017-04-21 08:54:35.261|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050109001-RH_MG.mat - varName: saccLoc size: 252    1
+2017-04-21 08:54:35.306|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050409001-RH_MG.mat - varName: saccLoc size: 259    1
+2017-04-21 08:54:35.367|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051409002-RH_MG.mat - varName: saccLoc size: 425    1
+2017-04-21 08:54:35.433|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051809001-RH_MG.mat - varName: saccLoc size: 321    1
+2017-04-21 08:54:35.482|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S052109001-RH_MG.mat - varName: saccLoc size: 369    1
+2017-04-21 08:54:35.536|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090209003-RH_MG.mat - varName: saccLoc size: 288    1
+2017-04-21 08:54:35.581|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090909001-RH_MG.mat - varName: saccLoc size: 339    1
+2017-04-21 08:54:35.631|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S091609001-RH_MG.mat - varName: saccLoc size: 419    1
+2017-04-21 08:54:35.686|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110209001-RH_MG.mat - varName: saccLoc size: 220    1
+2017-04-21 08:54:35.731|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110909001-RH_MG.mat - varName: saccLoc size: 257    1
+2017-04-21 08:54:35.781|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S111609001-RH_MG.mat - varName: saccLoc size: 315    1
+2017-04-21 08:54:35.841|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S112309001-RH_MG.mat - varName: saccLoc size: 374    1
+2017-04-21 08:54:35.900|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S121109001-RH_MG.mat - varName: saccLoc size: 261    1
+2017-04-21 08:54:35.964|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:35.968|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S010511001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.017|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.021|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S031710001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.073|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.077|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S032010001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.123|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.127|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S091809002-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.177|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.181|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S092309003-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.231|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.235|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100209002-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.276|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.280|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100709003-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.332|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.336|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S101609001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.383|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.386|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102109001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.430|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.434|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102309001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.493|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.497|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102809001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.556|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.561|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S103009001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.624|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.627|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S110609001-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.678|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.682|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S111809003-BP_MG.mat*** Processing Failed
+2017-04-21 08:54:36.734|ERROR|MATLAB:nonExistentField|MATLAB:nonExistentField-Reference to non-existent field 'saccLoc'.
+		checkVariable.m > checkVariable > 23
+2017-04-21 08:54:36.738|ERROR|checkVariable|***/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S120209001-BP_MG.mat*** Processing Failed
+2017-04-21 08:57:32.021|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030411001-RH_MG.mat - varName: SaccDir_ size: 162    1
+2017-04-21 08:57:32.113|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030711001-RH_MG.mat - varName: SaccDir_ size: 201    1
+2017-04-21 08:57:32.193|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030911001-RH_MG.mat - varName: SaccDir_ size: 570    1
+2017-04-21 08:57:32.280|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032311001-RH_MG.mat - varName: SaccDir_ size: 531    1
+2017-04-21 08:57:32.352|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032511001-RH_MG.mat - varName: SaccDir_ size: 507    1
+2017-04-21 08:57:32.458|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S033111001-RH_MG.mat - varName: SaccDir_ size: 499    1
+2017-04-21 08:57:32.531|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040611001-RH_MG.mat - varName: SaccDir_ size: 428    1
+2017-04-21 08:57:32.599|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040711001-RH_MG.mat - varName: SaccDir_ size: 396    1
+2017-04-21 08:57:32.674|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041111001-RH_MG.mat - varName: SaccDir_ size: 410    1
+2017-04-21 08:57:32.746|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041311001-RH_MG.mat - varName: SaccDir_ size: 429    1
+2017-04-21 08:57:32.819|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041511001-RH_MG.mat - varName: SaccDir_ size: 369    1
+2017-04-21 08:57:32.892|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041811001-RH_MG.mat - varName: SaccDir_ size: 556    1
+2017-04-21 08:57:32.962|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042511001-RH_MG.mat - varName: SaccDir_ size: 309    1
+2017-04-21 08:57:33.034|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042911001-RH_MG.mat - varName: SaccDir_ size: 417    1
+2017-04-21 08:57:33.106|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S050211001-RH_MG.mat - varName: SaccDir_ size: 508    1
+2017-04-21 08:57:33.173|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001-RH_MG.mat - varName: SaccDir_ size: 323    1
+2017-04-21 08:57:33.230|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001_MG.mat - varName: SaccDir_ size: 323    1
+2017-04-21 08:57:33.308|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S052011001-RH_MG.mat - varName: SaccDir_ size: 434    1
+2017-04-21 08:57:33.349|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011408001-RH_MG.mat - varName: SaccDir_ size: 364    1
+2017-04-21 08:57:33.397|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011508001-RH_MG.mat - varName: SaccDir_ size: 540    1
+2017-04-21 08:57:33.441|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608001-RH_MG.mat - varName: SaccDir_ size: 695    1
+2017-04-21 08:57:33.477|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608002-RH_MG.mat - varName: SaccDir_ size: 232    1
+2017-04-21 08:57:33.526|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011708001-RH_MG.mat - varName: SaccDir_ size: 633    1
+2017-04-21 08:57:33.576|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012308001-RH_MG.mat - varName: SaccDir_ size: 782    1
+2017-04-21 08:57:33.624|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012408001-RH_MG.mat - varName: SaccDir_ size: 752    1
+2017-04-21 08:57:33.669|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012508001-RH_MG.mat - varName: SaccDir_ size: 721    1
+2017-04-21 08:57:33.716|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008001-RH_MG.mat - varName: SaccDir_ size: 370    1
+2017-04-21 08:57:33.767|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008002-RH_MG.mat - varName: SaccDir_ size: 809    1
+2017-04-21 08:57:33.806|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108001-RH_MG.mat - varName: SaccDir_ size: 189    1
+2017-04-21 08:57:33.845|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108002-RH_MG.mat - varName: SaccDir_ size: 101    1
+2017-04-21 08:57:33.893|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108003-RH_MG.mat - varName: SaccDir_ size: 792    1
+2017-04-21 08:57:33.931|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021108001-RH_MG.mat - varName: SaccDir_ size: 475    1
+2017-04-21 08:57:33.970|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308001-RH_MG.mat - varName: SaccDir_ size: 197    1
+2017-04-21 08:57:34.020|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308002-RH_MG.mat - varName: SaccDir_ size: 1057     1
+2017-04-21 08:57:34.071|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021408001-RH_MG.mat - varName: SaccDir_ size: 430    1
+2017-04-21 08:57:34.145|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708001-RH_MG.mat - varName: SaccDir_ size: 697    1
+2017-04-21 08:57:34.219|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708002-RH_MG.mat - varName: SaccDir_ size: 620    1
+2017-04-21 08:57:34.290|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308001-RH_MG.mat - varName: SaccDir_ size: 588    1
+2017-04-21 08:57:34.355|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308002-RH_MG.mat - varName: SaccDir_ size: 584    1
+2017-04-21 08:57:34.400|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051608001-RH_MG.mat - varName: SaccDir_ size: 840    1
+2017-04-21 08:57:34.441|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051908003-RH_MG.mat - varName: SaccDir_ size: 293    1
+2017-04-21 08:57:34.490|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052108001-RH_MG.mat - varName: SaccDir_ size: 655    1
+2017-04-21 08:57:34.528|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052208002-RH_MG.mat - varName: SaccDir_ size: 372    1
+2017-04-21 08:57:34.569|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052308002-RH_MG.mat - varName: SaccDir_ size: 317    1
+2017-04-21 08:57:34.611|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052808002-RH_MG.mat - varName: SaccDir_ size: 368    1
+2017-04-21 08:57:34.655|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052908001-RH_MG.mat - varName: SaccDir_ size: 247    1
+2017-04-21 08:57:34.696|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S053008001-RH_MG.mat - varName: SaccDir_ size: 309    1
+2017-04-21 08:57:34.738|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S060508001-RH_MG.mat - varName: SaccDir_ size: 378    1
+2017-04-21 08:57:34.774|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S062508001-RH_MG.mat - varName: SaccDir_ size: 190    1
+2017-04-21 08:57:34.833|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S073108002-RH_MG.mat - varName: SaccDir_ size: 214    1
+2017-04-21 08:57:34.890|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S082708001-RH_MG.mat - varName: SaccDir_ size: 256    1
+2017-04-21 08:57:34.944|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090308001-RH_MG.mat - varName: SaccDir_ size: 258    1
+2017-04-21 08:57:34.998|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090508001-RH_MG.mat - varName: SaccDir_ size: 287    1
+2017-04-21 08:57:35.049|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090808001-RH_MG.mat - varName: SaccDir_ size: 152    1
+2017-04-21 08:57:35.102|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091008001-RH_MG.mat - varName: SaccDir_ size: 313    1
+2017-04-21 08:57:35.168|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091208001-RH_MG.mat - varName: SaccDir_ size: 366    1
+2017-04-21 08:57:35.203|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110707001-RH_MG.mat - varName: SaccDir_ size: 173    1
+2017-04-21 08:57:35.243|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110807001-RH_MG.mat - varName: SaccDir_ size: 201    1
+2017-04-21 08:57:35.302|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907001-RH_MG.mat - varName: SaccDir_ size: 1074     1
+2017-04-21 08:57:35.340|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907002-RH_MG.mat - varName: SaccDir_ size: 99   1
+2017-04-21 08:57:35.371|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907003-RH_MG.mat - varName: SaccDir_ size: 73   1
+2017-04-21 08:57:35.417|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207001-RH_MG.mat - varName: SaccDir_ size: 474    1
+2017-04-21 08:57:35.460|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207002-RH_MG.mat - varName: SaccDir_ size: 402    1
+2017-04-21 08:57:35.511|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S031909001-RH_MG.mat - varName: SaccDir_ size: 139    1
+2017-04-21 08:57:35.572|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S033009001-RH_MG.mat - varName: SaccDir_ size: 352    1
+2017-04-21 08:57:35.615|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050109001-RH_MG.mat - varName: SaccDir_ size: 252    1
+2017-04-21 08:57:35.661|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050409001-RH_MG.mat - varName: SaccDir_ size: 259    1
+2017-04-21 08:57:35.723|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051409002-RH_MG.mat - varName: SaccDir_ size: 425    1
+2017-04-21 08:57:35.788|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051809001-RH_MG.mat - varName: SaccDir_ size: 321    1
+2017-04-21 08:57:35.837|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S052109001-RH_MG.mat - varName: SaccDir_ size: 369    1
+2017-04-21 08:57:35.890|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090209003-RH_MG.mat - varName: SaccDir_ size: 288    1
+2017-04-21 08:57:35.935|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090909001-RH_MG.mat - varName: SaccDir_ size: 339    1
+2017-04-21 08:57:35.986|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S091609001-RH_MG.mat - varName: SaccDir_ size: 419    1
+2017-04-21 08:57:36.040|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110209001-RH_MG.mat - varName: SaccDir_ size: 220    1
+2017-04-21 08:57:36.084|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110909001-RH_MG.mat - varName: SaccDir_ size: 257    1
+2017-04-21 08:57:36.136|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S111609001-RH_MG.mat - varName: SaccDir_ size: 315    1
+2017-04-21 08:57:36.195|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S112309001-RH_MG.mat - varName: SaccDir_ size: 374    1
+2017-04-21 08:57:36.253|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S121109001-RH_MG.mat - varName: SaccDir_ size: 261    1
+2017-04-21 08:57:36.317|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S010511001-BP_MG.mat - varName: SaccDir_ size: 342    1
+2017-04-21 08:57:36.366|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S031710001-BP_MG.mat - varName: SaccDir_ size: 493    1
+2017-04-21 08:57:36.416|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S032010001-BP_MG.mat - varName: SaccDir_ size: 544    1
+2017-04-21 08:57:36.461|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S091809002-BP_MG.mat - varName: SaccDir_ size: 322    1
+2017-04-21 08:57:36.511|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S092309003-BP_MG.mat - varName: SaccDir_ size: 389    1
+2017-04-21 08:57:36.561|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100209002-BP_MG.mat - varName: SaccDir_ size: 476    1
+2017-04-21 08:57:36.602|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100709003-BP_MG.mat - varName: SaccDir_ size: 513    1
+2017-04-21 08:57:36.653|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S101609001-BP_MG.mat - varName: SaccDir_ size: 428    1
+2017-04-21 08:57:36.700|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102109001-BP_MG.mat - varName: SaccDir_ size: 369    1
+2017-04-21 08:57:36.742|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102309001-BP_MG.mat - varName: SaccDir_ size: 415    1
+2017-04-21 08:57:36.801|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102809001-BP_MG.mat - varName: SaccDir_ size: 622    1
+2017-04-21 08:57:36.861|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S103009001-BP_MG.mat - varName: SaccDir_ size: 370    1
+2017-04-21 08:57:36.925|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S110609001-BP_MG.mat - varName: SaccDir_ size: 583    1
+2017-04-21 08:57:36.975|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S111809003-BP_MG.mat - varName: SaccDir_ size: 86   1
+2017-04-21 08:57:37.025|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S120209001-BP_MG.mat - varName: SaccDir_ size: 326    1
+2017-04-21 08:59:05.248|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030411001-RH_MG.mat - varName: SaccDir_ size: 162    1 nanmaxVal: 7
+2017-04-21 08:59:05.338|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030711001-RH_MG.mat - varName: SaccDir_ size: 201    1 nanmaxVal: 7
+2017-04-21 08:59:05.415|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S030911001-RH_MG.mat - varName: SaccDir_ size: 570    1 nanmaxVal: 7
+2017-04-21 08:59:05.506|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032311001-RH_MG.mat - varName: SaccDir_ size: 531    1 nanmaxVal: 7
+2017-04-21 08:59:05.580|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S032511001-RH_MG.mat - varName: SaccDir_ size: 507    1 nanmaxVal: 7
+2017-04-21 08:59:05.678|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S033111001-RH_MG.mat - varName: SaccDir_ size: 499    1 nanmaxVal: 7
+2017-04-21 08:59:05.757|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040611001-RH_MG.mat - varName: SaccDir_ size: 428    1 nanmaxVal: 7
+2017-04-21 08:59:05.834|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S040711001-RH_MG.mat - varName: SaccDir_ size: 396    1 nanmaxVal: 6
+2017-04-21 08:59:05.915|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041111001-RH_MG.mat - varName: SaccDir_ size: 410    1 nanmaxVal: 7
+2017-04-21 08:59:05.997|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041311001-RH_MG.mat - varName: SaccDir_ size: 429    1 nanmaxVal: 6
+2017-04-21 08:59:06.081|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041511001-RH_MG.mat - varName: SaccDir_ size: 369    1 nanmaxVal: 6
+2017-04-21 08:59:06.164|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S041811001-RH_MG.mat - varName: SaccDir_ size: 556    1 nanmaxVal: 7
+2017-04-21 08:59:06.242|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042511001-RH_MG.mat - varName: SaccDir_ size: 309    1 nanmaxVal: 7
+2017-04-21 08:59:06.322|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S042911001-RH_MG.mat - varName: SaccDir_ size: 417    1 nanmaxVal: 7
+2017-04-21 08:59:06.402|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S050211001-RH_MG.mat - varName: SaccDir_ size: 508    1 nanmaxVal: 7
+2017-04-21 08:59:06.476|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001-RH_MG.mat - varName: SaccDir_ size: 323    1 nanmaxVal: 7
+2017-04-21 08:59:06.541|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S051811001_MG.mat - varName: SaccDir_ size: 323    1 nanmaxVal: 7
+2017-04-21 08:59:06.629|INFO|checkVariable|/Volumes/schalllab/data/Seymour/SAT/Matlab/S052011001-RH_MG.mat - varName: SaccDir_ size: 434    1 nanmaxVal: NaN
+2017-04-21 08:59:06.677|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011408001-RH_MG.mat - varName: SaccDir_ size: 364    1 nanmaxVal: NaN
+2017-04-21 08:59:06.733|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011508001-RH_MG.mat - varName: SaccDir_ size: 540    1 nanmaxVal: NaN
+2017-04-21 08:59:06.783|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608001-RH_MG.mat - varName: SaccDir_ size: 695    1 nanmaxVal: NaN
+2017-04-21 08:59:06.825|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011608002-RH_MG.mat - varName: SaccDir_ size: 232    1 nanmaxVal: NaN
+2017-04-21 08:59:06.879|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S011708001-RH_MG.mat - varName: SaccDir_ size: 633    1 nanmaxVal: NaN
+2017-04-21 08:59:06.943|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012308001-RH_MG.mat - varName: SaccDir_ size: 782    1 nanmaxVal: NaN
+2017-04-21 08:59:06.998|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012408001-RH_MG.mat - varName: SaccDir_ size: 752    1 nanmaxVal: NaN
+2017-04-21 08:59:07.049|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S012508001-RH_MG.mat - varName: SaccDir_ size: 721    1 nanmaxVal: NaN
+2017-04-21 08:59:07.106|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008001-RH_MG.mat - varName: SaccDir_ size: 370    1 nanmaxVal: NaN
+2017-04-21 08:59:07.163|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S013008002-RH_MG.mat - varName: SaccDir_ size: 809    1 nanmaxVal: NaN
+2017-04-21 08:59:07.209|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108001-RH_MG.mat - varName: SaccDir_ size: 189    1 nanmaxVal: NaN
+2017-04-21 08:59:07.254|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108002-RH_MG.mat - varName: SaccDir_ size: 101    1 nanmaxVal: NaN
+2017-04-21 08:59:07.308|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S020108003-RH_MG.mat - varName: SaccDir_ size: 792    1 nanmaxVal: NaN
+2017-04-21 08:59:07.353|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021108001-RH_MG.mat - varName: SaccDir_ size: 475    1 nanmaxVal: NaN
+2017-04-21 08:59:07.397|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308001-RH_MG.mat - varName: SaccDir_ size: 197    1 nanmaxVal: NaN
+2017-04-21 08:59:07.453|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021308002-RH_MG.mat - varName: SaccDir_ size: 1057     1 nanmaxVal: NaN
+2017-04-21 08:59:07.513|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S021408001-RH_MG.mat - varName: SaccDir_ size: 430    1 nanmaxVal: NaN
+2017-04-21 08:59:07.598|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708001-RH_MG.mat - varName: SaccDir_ size: 697    1 nanmaxVal: 6
+2017-04-21 08:59:07.680|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S041708002-RH_MG.mat - varName: SaccDir_ size: 620    1 nanmaxVal: 7
+2017-04-21 08:59:07.756|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308001-RH_MG.mat - varName: SaccDir_ size: 588    1 nanmaxVal: 7
+2017-04-21 08:59:07.828|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S042308002-RH_MG.mat - varName: SaccDir_ size: 584    1 nanmaxVal: 6
+2017-04-21 08:59:07.878|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051608001-RH_MG.mat - varName: SaccDir_ size: 840    1 nanmaxVal: 7
+2017-04-21 08:59:07.921|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S051908003-RH_MG.mat - varName: SaccDir_ size: 293    1 nanmaxVal: 7
+2017-04-21 08:59:07.971|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052108001-RH_MG.mat - varName: SaccDir_ size: 655    1 nanmaxVal: 7
+2017-04-21 08:59:08.010|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052208002-RH_MG.mat - varName: SaccDir_ size: 372    1 nanmaxVal: 6
+2017-04-21 08:59:08.055|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052308002-RH_MG.mat - varName: SaccDir_ size: 317    1 nanmaxVal: 7
+2017-04-21 08:59:08.105|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052808002-RH_MG.mat - varName: SaccDir_ size: 368    1 nanmaxVal: 5
+2017-04-21 08:59:08.156|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S052908001-RH_MG.mat - varName: SaccDir_ size: 247    1 nanmaxVal: 6
+2017-04-21 08:59:08.206|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S053008001-RH_MG.mat - varName: SaccDir_ size: 309    1 nanmaxVal: 6
+2017-04-21 08:59:08.254|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S060508001-RH_MG.mat - varName: SaccDir_ size: 378    1 nanmaxVal: 6
+2017-04-21 08:59:08.296|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S062508001-RH_MG.mat - varName: SaccDir_ size: 190    1 nanmaxVal: 5
+2017-04-21 08:59:08.362|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S073108002-RH_MG.mat - varName: SaccDir_ size: 214    1 nanmaxVal: 5
+2017-04-21 08:59:08.430|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S082708001-RH_MG.mat - varName: SaccDir_ size: 256    1 nanmaxVal: 7
+2017-04-21 08:59:08.490|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090308001-RH_MG.mat - varName: SaccDir_ size: 258    1 nanmaxVal: 7
+2017-04-21 08:59:08.550|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090508001-RH_MG.mat - varName: SaccDir_ size: 287    1 nanmaxVal: 7
+2017-04-21 08:59:08.606|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S090808001-RH_MG.mat - varName: SaccDir_ size: 152    1 nanmaxVal: 5
+2017-04-21 08:59:08.671|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091008001-RH_MG.mat - varName: SaccDir_ size: 313    1 nanmaxVal: 7
+2017-04-21 08:59:08.748|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S091208001-RH_MG.mat - varName: SaccDir_ size: 366    1 nanmaxVal: 7
+2017-04-21 08:59:08.789|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110707001-RH_MG.mat - varName: SaccDir_ size: 173    1 nanmaxVal: NaN
+2017-04-21 08:59:08.833|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110807001-RH_MG.mat - varName: SaccDir_ size: 201    1 nanmaxVal: NaN
+2017-04-21 08:59:08.902|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907001-RH_MG.mat - varName: SaccDir_ size: 1074     1 nanmaxVal: NaN
+2017-04-21 08:59:08.946|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907002-RH_MG.mat - varName: SaccDir_ size: 99   1 nanmaxVal: NaN
+2017-04-21 08:59:08.981|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S110907003-RH_MG.mat - varName: SaccDir_ size: 73   1 nanmaxVal: NaN
+2017-04-21 08:59:09.034|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207001-RH_MG.mat - varName: SaccDir_ size: 474    1 nanmaxVal: NaN
+2017-04-21 08:59:09.086|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TL/MatLab/S111207002-RH_MG.mat - varName: SaccDir_ size: 402    1 nanmaxVal: NaN
+2017-04-21 08:59:09.145|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S031909001-RH_MG.mat - varName: SaccDir_ size: 139    1 nanmaxVal: 5
+2017-04-21 08:59:09.217|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S033009001-RH_MG.mat - varName: SaccDir_ size: 352    1 nanmaxVal: 7
+2017-04-21 08:59:09.268|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050109001-RH_MG.mat - varName: SaccDir_ size: 252    1 nanmaxVal: 7
+2017-04-21 08:59:09.319|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S050409001-RH_MG.mat - varName: SaccDir_ size: 259    1 nanmaxVal: 6
+2017-04-21 08:59:09.390|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051409002-RH_MG.mat - varName: SaccDir_ size: 425    1 nanmaxVal: 7
+2017-04-21 08:59:09.465|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S051809001-RH_MG.mat - varName: SaccDir_ size: 321    1 nanmaxVal: 6
+2017-04-21 08:59:09.522|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S052109001-RH_MG.mat - varName: SaccDir_ size: 369    1 nanmaxVal: 7
+2017-04-21 08:59:09.582|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090209003-RH_MG.mat - varName: SaccDir_ size: 288    1 nanmaxVal: 7
+2017-04-21 08:59:09.635|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S090909001-RH_MG.mat - varName: SaccDir_ size: 339    1 nanmaxVal: 6
+2017-04-21 08:59:09.686|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S091609001-RH_MG.mat - varName: SaccDir_ size: 419    1 nanmaxVal: 6
+2017-04-21 08:59:09.739|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110209001-RH_MG.mat - varName: SaccDir_ size: 220    1 nanmaxVal: 7
+2017-04-21 08:59:09.784|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S110909001-RH_MG.mat - varName: SaccDir_ size: 257    1 nanmaxVal: 5
+2017-04-21 08:59:09.835|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S111609001-RH_MG.mat - varName: SaccDir_ size: 315    1 nanmaxVal: 5
+2017-04-21 08:59:09.894|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S112309001-RH_MG.mat - varName: SaccDir_ size: 374    1 nanmaxVal: 7
+2017-04-21 08:59:09.952|INFO|checkVariable|/Volumes/schalllab/data/Seymour/TLmicrostim/Matlab/S121109001-RH_MG.mat - varName: SaccDir_ size: 261    1 nanmaxVal: 5
+2017-04-21 08:59:10.016|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S010511001-BP_MG.mat - varName: SaccDir_ size: 342    1 nanmaxVal: 6
+2017-04-21 08:59:10.064|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S031710001-BP_MG.mat - varName: SaccDir_ size: 493    1 nanmaxVal: 7
+2017-04-21 08:59:10.116|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S032010001-BP_MG.mat - varName: SaccDir_ size: 544    1 nanmaxVal: 7
+2017-04-21 08:59:10.164|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S091809002-BP_MG.mat - varName: SaccDir_ size: 322    1 nanmaxVal: 7
+2017-04-21 08:59:10.213|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S092309003-BP_MG.mat - varName: SaccDir_ size: 389    1 nanmaxVal: 6
+2017-04-21 08:59:10.263|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100209002-BP_MG.mat - varName: SaccDir_ size: 476    1 nanmaxVal: 7
+2017-04-21 08:59:10.306|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S100709003-BP_MG.mat - varName: SaccDir_ size: 513    1 nanmaxVal: 7
+2017-04-21 08:59:10.360|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S101609001-BP_MG.mat - varName: SaccDir_ size: 428    1 nanmaxVal: 7
+2017-04-21 08:59:10.407|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102109001-BP_MG.mat - varName: SaccDir_ size: 369    1 nanmaxVal: 7
+2017-04-21 08:59:10.455|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102309001-BP_MG.mat - varName: SaccDir_ size: 415    1 nanmaxVal: 7
+2017-04-21 08:59:10.519|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S102809001-BP_MG.mat - varName: SaccDir_ size: 622    1 nanmaxVal: 7
+2017-04-21 08:59:10.585|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S103009001-BP_MG.mat - varName: SaccDir_ size: 370    1 nanmaxVal: 7
+2017-04-21 08:59:10.655|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S110609001-BP_MG.mat - varName: SaccDir_ size: 583    1 nanmaxVal: 7
+2017-04-21 08:59:10.711|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S111809003-BP_MG.mat - varName: SaccDir_ size: 86   1 nanmaxVal: 5
+2017-04-21 08:59:10.768|INFO|checkVariable|/Volumes/schalllab/data/Seymour/Pop-out/Matlab/S120209001-BP_MG.mat - varName: SaccDir_ size: 326    1 nanmaxVal: 7

@@ -1,0 +1,483 @@
+2017-04-17 12:08:30.254|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012111001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.287|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012311001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.315|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012611001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.345|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q020611001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.376|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q022011001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.392|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102010001_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.409|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102010003_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.434|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102210001_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.461|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102510001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.489|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102710001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.526|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110210001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.561|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110210002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.593|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110910001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.626|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q111110001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.664|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q113010001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.698|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q120210002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.727|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q120710001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.753|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121010001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.786|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121510001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.813|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121910001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.835|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q050712001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.870|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051012001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.904|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051512001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.935|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051712001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.968|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q062812001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:30.991|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q020608001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.012|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q020708001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.028|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q022208001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.045|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q022508001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.060|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030706001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.081|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030707001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.097|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030807001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.111|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030907002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.132|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030907003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.149|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031406002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.165|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031408001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.183|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031506002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.203|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031607002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.220|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031706001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.238|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031706004-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.256|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031907001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.275|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032006001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.289|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032307002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.308|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032407001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.328|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032407002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.348|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032608001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.367|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032806002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.383|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032906003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.397|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032906007-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.416|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q033106001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.432|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q033106002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.452|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q040406001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.468|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q040506001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.485|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q041206001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.498|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q041306001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.517|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042506002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.530|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042606001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.546|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042806002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.570|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q051606001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.585|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q051706002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.604|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052306001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.619|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052405001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.632|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052506001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.645|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052507002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.657|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.669|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.682|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005004-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.695|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053105003-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.710|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053106001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.724|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053107001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.739|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060107001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.753|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060205002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.767|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060407001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.783|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060605002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.796|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060607001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.810|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060707001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.824|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060805001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.835|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060805002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.850|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061208002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.863|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061307001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.882|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061507001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.896|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061605001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.910|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061605002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.924|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061705001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.939|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061807001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.955|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062105003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.967|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062205001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.982|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062205002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:31.998|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062305001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.011|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062305002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.026|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062405004-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.046|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062705002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.063|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062705004-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.083|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062805002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.099|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062805003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.115|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062905001-JC_MG.mat - 
+2017-04-17 12:08:32.141|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q063005001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.161|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105002-JC_MG.mat - 
+2017-04-17 12:08:32.179|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.194|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105004-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.211|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070505002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.227|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070705001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.243|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071105001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.261|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071205003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.278|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071207001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.291|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071305001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.310|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071305002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.325|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071405001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.342|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071807001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.360|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072007001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.374|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072505001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.390|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072505003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.409|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072605007-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.427|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080105001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.441|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080205001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.460|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080205002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.479|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080305006-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.497|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080405002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.511|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080505003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.524|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080505005-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.546|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q091708001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.561|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q091908001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.579|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092208001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.611|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092408002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.627|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092607001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.657|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092608002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.673|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092707001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.690|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092807001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.711|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092908001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.726|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q121007001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.747|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q121407001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.770|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q122007001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.791|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q052009001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.809|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q052209002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.824|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q080609003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.843|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q090309004-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.859|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q111209001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.889|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q012210001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.904|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.921|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308002-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.934|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308003-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.956|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030508001-JC_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.972|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031010001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:32.991|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031210001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.017|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031810001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.036|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031810002-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.060|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031910001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.087|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032410001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.115|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032610001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.145|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032910001-RH_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.173|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q033110001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.199|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q040210003-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.212|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q111509001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.234|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q120409001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.255|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q120909001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.287|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q121909001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.348|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122109002-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.377|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122209002-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.404|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122709001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.437|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q123009001-BP_MG.mat - FixTime_Jit_
+2017-04-17 12:08:33.468|INFO|checkVariable|/Volumes/schalllab/data/Quincy/OrientDiscrim/Matlab/Q082410001-RH_MG.mat - 
+2017-04-21 08:47:43.357|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012111001-RH_MG.mat - varName: Target_ size: 261   12
+2017-04-21 08:47:43.414|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012311001-RH_MG.mat - varName: Target_ size: 272   12
+2017-04-21 08:47:43.475|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012611001-RH_MG.mat - varName: Target_ size: 278   12
+2017-04-21 08:47:43.530|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q020611001-RH_MG.mat - varName: Target_ size: 222   12
+2017-04-21 08:47:43.585|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q022011001-RH_MG.mat - varName: Target_ size: 274   12
+2017-04-21 08:47:43.631|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102010001_MG.mat - varName: Target_ size: 148   12
+2017-04-21 08:47:43.918|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102010003_MG.mat - varName: Target_ size: 151   12
+2017-04-21 08:47:43.960|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102210001_MG.mat - varName: Target_ size: 146   12
+2017-04-21 08:47:44.059|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102510001-RH_MG.mat - varName: Target_ size: 159   12
+2017-04-21 08:47:44.149|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102710001-RH_MG.mat - varName: Target_ size: 290   12
+2017-04-21 08:47:44.243|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110210001-RH_MG.mat - varName: Target_ size: 314   12
+2017-04-21 08:47:44.312|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110210002-RH_MG.mat - varName: Target_ size: 196   12
+2017-04-21 08:47:44.370|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110910001-RH_MG.mat - varName: Target_ size: 280   12
+2017-04-21 08:47:44.414|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q111110001-RH_MG.mat - varName: Target_ size: 285   12
+2017-04-21 08:47:44.460|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q113010001-RH_MG.mat - varName: Target_ size: 263   12
+2017-04-21 08:47:44.506|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q120210002-RH_MG.mat - varName: Target_ size: 228   12
+2017-04-21 08:47:44.548|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q120710001-RH_MG.mat - varName: Target_ size: 225   12
+2017-04-21 08:47:44.623|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121010001-RH_MG.mat - varName: Target_ size: 194   12
+2017-04-21 08:47:44.687|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121510001-RH_MG.mat - varName: Target_ size: 219   12
+2017-04-21 08:47:44.767|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121910001-RH_MG.mat - varName: Target_ size: 251   12
+2017-04-21 08:47:44.799|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q050712001-RH_MG.mat - varName: Target_ size: 271   12
+2017-04-21 08:47:44.856|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051012001-RH_MG.mat - varName: Target_ size: 305   12
+2017-04-21 08:47:44.923|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051512001-RH_MG.mat - varName: Target_ size: 357   12
+2017-04-21 08:47:44.975|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051712001-RH_MG.mat - varName: Target_ size: 314   12
+2017-04-21 08:47:45.032|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q062812001-RH_MG.mat - varName: Target_ size: 334   12
+2017-04-21 08:47:45.084|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q020608001-JC_MG.mat - varName: Target_ size: 579   13
+2017-04-21 08:47:45.116|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q020708001-JC_MG.mat - varName: Target_ size: 522   13
+2017-04-21 08:47:45.146|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q022208001-JC_MG.mat - varName: Target_ size: 520   13
+2017-04-21 08:47:45.194|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q022508001-JC_MG.mat - varName: Target_ size: 496   13
+2017-04-21 08:47:45.217|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030706001-JC_MG.mat - varName: Target_ size: 325   13
+2017-04-21 08:47:45.247|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030707001-JC_MG.mat - varName: Target_ size: 323   13
+2017-04-21 08:47:45.275|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030807001-JC_MG.mat - varName: Target_ size: 257   13
+2017-04-21 08:47:45.303|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030907002-JC_MG.mat - varName: Target_ size: 148   13
+2017-04-21 08:47:45.330|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030907003-JC_MG.mat - varName: Target_ size: 18  13
+2017-04-21 08:47:45.360|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031406002-JC_MG.mat - varName: Target_ size: 117   13
+2017-04-21 08:47:45.407|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031408001-JC_MG.mat - varName: Target_ size: 510   13
+2017-04-21 08:47:45.451|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031506002-JC_MG.mat - varName: Target_ size: 196   13
+2017-04-21 08:47:45.481|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031607002-JC_MG.mat - varName: Target_ size: 157   13
+2017-04-21 08:47:45.524|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031706001-JC_MG.mat - varName: Target_ size: 276   13
+2017-04-21 08:47:45.566|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031706004-JC_MG.mat - varName: Target_ size: 31  13
+2017-04-21 08:47:45.599|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031907001-JC_MG.mat - varName: Target_ size: 161   13
+2017-04-21 08:47:45.624|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032006001-JC_MG.mat - varName: Target_ size: 152   13
+2017-04-21 08:47:45.650|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032307002-JC_MG.mat - varName: Target_ size: 173   13
+2017-04-21 08:47:45.679|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032407001-JC_MG.mat - varName: Target_ size: 186   13
+2017-04-21 08:47:45.714|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032407002-JC_MG.mat - varName: Target_ size: 674   13
+2017-04-21 08:47:45.767|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032608001-JC_MG.mat - varName: Target_ size: 538   13
+2017-04-21 08:47:45.800|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032806002-JC_MG.mat - varName: Target_ size: 148   13
+2017-04-21 08:47:45.829|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032906003-JC_MG.mat - varName: Target_ size: 372   13
+2017-04-21 08:47:45.851|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032906007-JC_MG.mat - varName: Target_ size: 10  13
+2017-04-21 08:47:45.882|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q033106001-JC_MG.mat - varName: Target_ size: 157   13
+2017-04-21 08:47:45.949|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q033106002-JC_MG.mat - varName: Target_ size: 30  13
+2017-04-21 08:47:45.979|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q040406001-JC_MG.mat - varName: Target_ size: 202   13
+2017-04-21 08:47:46.006|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q040506001-JC_MG.mat - varName: Target_ size: 82  13
+2017-04-21 08:47:46.033|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q041206001-JC_MG.mat - varName: Target_ size: 293   13
+2017-04-21 08:47:46.055|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q041306001-JC_MG.mat - varName: Target_ size: 44  13
+2017-04-21 08:47:46.084|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042506002-JC_MG.mat - varName: Target_ size: 151   13
+2017-04-21 08:47:46.116|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042606001-JC_MG.mat - varName: Target_ size: 68  13
+2017-04-21 08:47:46.146|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042806002-JC_MG.mat - varName: Target_ size: 61  13
+2017-04-21 08:47:46.181|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q051606001-JC_MG.mat - varName: Target_ size: 965   13
+2017-04-21 08:47:46.225|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q051706002-JC_MG.mat - varName: Target_ size: 130   13
+2017-04-21 08:47:46.254|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052306001-JC_MG.mat - varName: Target_ size: 155   13
+2017-04-21 08:47:46.282|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052405001-RH_MG.mat - varName: Target_ size: 587   13
+2017-04-21 08:47:46.306|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052506001-RH_MG.mat - varName: Target_ size: 323   13
+2017-04-21 08:47:46.351|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052507002-JC_MG.mat - varName: Target_ size: 33  13
+2017-04-21 08:47:46.373|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005001-JC_MG.mat - varName: Target_ size: 42  13
+2017-04-21 08:47:46.395|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005002-JC_MG.mat - varName: Target_ size: 90  13
+2017-04-21 08:47:46.419|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005004-JC_MG.mat - varName: Target_ size: 152   13
+2017-04-21 08:47:46.445|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053105003-RH_MG.mat - varName: Target_ size: 188   13
+2017-04-21 08:47:46.475|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053106001-JC_MG.mat - varName: Target_ size: 260   13
+2017-04-21 08:47:46.500|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053107001-JC_MG.mat - varName: Target_ size: 159   13
+2017-04-21 08:47:46.529|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060107001-JC_MG.mat - varName: Target_ size: 127   13
+2017-04-21 08:47:46.557|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060205002-JC_MG.mat - varName: Target_ size: 234   13
+2017-04-21 08:47:46.593|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060407001-JC_MG.mat - varName: Target_ size: 184   13
+2017-04-21 08:47:46.623|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060605002-JC_MG.mat - varName: Target_ size: 377   13
+2017-04-21 08:47:46.648|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060607001-JC_MG.mat - varName: Target_ size: 171   13
+2017-04-21 08:47:46.675|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060707001-JC_MG.mat - varName: Target_ size: 195   13
+2017-04-21 08:47:46.706|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060805001-JC_MG.mat - varName: Target_ size: 269   13
+2017-04-21 08:47:46.743|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060805002-JC_MG.mat - varName: Target_ size: 4  13
+2017-04-21 08:47:46.782|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061208002-JC_MG.mat - varName: Target_ size: 318   13
+2017-04-21 08:47:46.807|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061307001-JC_MG.mat - varName: Target_ size: 151   13
+2017-04-21 08:47:46.835|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061507001-JC_MG.mat - varName: Target_ size: 197   13
+2017-04-21 08:47:46.873|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061605001-JC_MG.mat - varName: Target_ size: 366   13
+2017-04-21 08:47:46.934|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061605002-JC_MG.mat - varName: Target_ size: 72  13
+2017-04-21 08:47:46.960|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061705001-JC_MG.mat - varName: Target_ size: 238   13
+2017-04-21 08:47:46.988|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061807001-JC_MG.mat - varName: Target_ size: 179   13
+2017-04-21 08:47:47.017|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062105003-JC_MG.mat - varName: Target_ size: 407   13
+2017-04-21 08:47:47.039|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062205001-JC_MG.mat - varName: Target_ size: 12  13
+2017-04-21 08:47:47.066|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062205002-JC_MG.mat - varName: Target_ size: 727   13
+2017-04-21 08:47:47.093|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062305001-JC_MG.mat - varName: Target_ size: 353   13
+2017-04-21 08:47:47.117|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062305002-JC_MG.mat - varName: Target_ size: 296   13
+2017-04-21 08:47:47.145|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062405004-RH_MG.mat - varName: Target_ size: 170   13
+2017-04-21 08:47:47.193|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062705002-JC_MG.mat - varName: Target_ size: 717   13
+2017-04-21 08:47:47.223|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062705004-JC_MG.mat - varName: Target_ size: 722   13
+2017-04-21 08:47:47.258|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062805002-JC_MG.mat - varName: Target_ size: 738   13
+2017-04-21 08:47:47.285|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062805003-JC_MG.mat - varName: Target_ size: 84  13
+2017-04-21 08:47:47.309|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062905001-JC_MG.mat - varName: Target_ size: 274   13
+2017-04-21 08:47:47.342|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q063005001-RH_MG.mat - varName: Target_ size: 372   13
+2017-04-21 08:47:47.388|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105002-JC_MG.mat - varName: Target_ size: 864   13
+2017-04-21 08:47:47.416|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105003-JC_MG.mat - varName: Target_ size: 504   13
+2017-04-21 08:47:47.440|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105004-JC_MG.mat - varName: Target_ size: 121   13
+2017-04-21 08:47:47.466|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070505002-JC_MG.mat - varName: Target_ size: 506   13
+2017-04-21 08:47:47.493|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070705001-RH_MG.mat - varName: Target_ size: 369   13
+2017-04-21 08:47:47.519|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071105001-JC_MG.mat - varName: Target_ size: 377   13
+2017-04-21 08:47:47.548|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071205003-JC_MG.mat - varName: Target_ size: 138   13
+2017-04-21 08:47:47.578|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071207001-JC_MG.mat - varName: Target_ size: 183   13
+2017-04-21 08:47:47.635|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071305001-JC_MG.mat - varName: Target_ size: 356   13
+2017-04-21 08:47:47.660|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071305002-JC_MG.mat - varName: Target_ size: 506   13
+2017-04-21 08:47:47.734|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071405001-JC_MG.mat - varName: Target_ size: 205   13
+2017-04-21 08:47:47.826|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071807001-JC_MG.mat - varName: Target_ size: 161   13
+2017-04-21 08:47:47.856|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072007001-JC_MG.mat - varName: Target_ size: 186   13
+2017-04-21 08:47:47.892|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072505001-JC_MG.mat - varName: Target_ size: 238   13
+2017-04-21 08:47:47.918|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072505003-JC_MG.mat - varName: Target_ size: 277   13
+2017-04-21 08:47:47.962|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072605007-JC_MG.mat - varName: Target_ size: 373   13
+2017-04-21 08:47:47.990|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080105001-JC_MG.mat - varName: Target_ size: 408   13
+2017-04-21 08:47:48.017|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080205001-JC_MG.mat - varName: Target_ size: 130   13
+2017-04-21 08:47:48.047|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080205002-JC_MG.mat - varName: Target_ size: 351   13
+2017-04-21 08:47:48.078|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080305006-JC_MG.mat - varName: Target_ size: 93  13
+2017-04-21 08:47:48.109|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080405002-JC_MG.mat - varName: Target_ size: 255   13
+2017-04-21 08:47:48.136|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080505003-JC_MG.mat - varName: Target_ size: 608   13
+2017-04-21 08:47:48.173|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080505005-JC_MG.mat - varName: Target_ size: 85  13
+2017-04-21 08:47:48.224|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q091708001-JC_MG.mat - varName: Target_ size: 418   13
+2017-04-21 08:47:48.248|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q091908001-JC_MG.mat - varName: Target_ size: 371   13
+2017-04-21 08:47:48.284|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092208001-JC_MG.mat - varName: Target_ size: 388   13
+2017-04-21 08:47:48.338|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092408002-JC_MG.mat - varName: Target_ size: 372   13
+2017-04-21 08:47:48.385|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092607001-JC_MG.mat - varName: Target_ size: 335   13
+2017-04-21 08:47:48.497|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092608002-JC_MG.mat - varName: Target_ size: 342   13
+2017-04-21 08:47:48.533|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092707001-JC_MG.mat - varName: Target_ size: 271   13
+2017-04-21 08:47:48.564|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092807001-JC_MG.mat - varName: Target_ size: 260   13
+2017-04-21 08:47:48.598|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092908001-JC_MG.mat - varName: Target_ size: 314   13
+2017-04-21 08:47:48.625|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q121007001-JC_MG.mat - varName: Target_ size: 352   13
+2017-04-21 08:47:48.658|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q121407001-JC_MG.mat - varName: Target_ size: 887   13
+2017-04-21 08:47:48.723|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q122007001-JC_MG.mat - varName: Target_ size: 403   13
+2017-04-21 08:47:48.792|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q052009001-RH_MG.mat - varName: Target_ size: 292   14
+2017-04-21 08:47:48.870|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q052209002-RH_MG.mat - varName: Target_ size: 259   14
+2017-04-21 08:47:48.896|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q080609003-JC_MG.mat - varName: Target_ size: 160   14
+2017-04-21 08:47:48.952|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q090309004-JC_MG.mat - varName: Target_ size: 138   14
+2017-04-21 08:47:49.051|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q111209001-JC_MG.mat - varName: Target_ size: 249   14
+2017-04-21 08:47:49.106|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q012210001-BP_MG.mat - varName: Target_ size: 360   13
+2017-04-21 08:47:49.133|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308001-JC_MG.mat - varName: Target_ size: 345   13
+2017-04-21 08:47:49.162|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308002-JC_MG.mat - varName: Target_ size: 234   13
+2017-04-21 08:47:49.184|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308003-JC_MG.mat - varName: Target_ size: 250   13
+2017-04-21 08:47:49.222|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030508001-JC_MG.mat - varName: Target_ size: 303   13
+2017-04-21 08:47:49.253|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031010001-BP_MG.mat - varName: Target_ size: 375   13
+2017-04-21 08:47:49.336|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031210001-RH_MG.mat - varName: Target_ size: 246   13
+2017-04-21 08:47:49.504|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031810001-RH_MG.mat - varName: Target_ size: 352   13
+2017-04-21 08:47:49.648|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031810002-RH_MG.mat - varName: Target_ size: 211   13
+2017-04-21 08:47:49.694|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031910001-RH_MG.mat - varName: Target_ size: 348   13
+2017-04-21 08:47:49.741|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032410001-BP_MG.mat - varName: Target_ size: 404   13
+2017-04-21 08:47:49.888|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032610001-RH_MG.mat - varName: Target_ size: 425   13
+2017-04-21 08:47:50.058|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032910001-RH_MG.mat - varName: Target_ size: 283   13
+2017-04-21 08:47:50.258|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q033110001-BP_MG.mat - varName: Target_ size: 371   13
+2017-04-21 08:47:50.312|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q040210003-BP_MG.mat - varName: Target_ size: 294   13
+2017-04-21 08:47:50.335|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q111509001-BP_MG.mat - varName: Target_ size: 388   13
+2017-04-21 08:47:50.463|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q120409001-BP_MG.mat - varName: Target_ size: 345   13
+2017-04-21 08:47:50.588|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q120909001-BP_MG.mat - varName: Target_ size: 387   13
+2017-04-21 08:47:50.782|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q121909001-BP_MG.mat - varName: Target_ size: 390   13
+2017-04-21 08:47:50.988|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122109002-BP_MG.mat - varName: Target_ size: 374   13
+2017-04-21 08:47:51.198|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122209002-BP_MG.mat - varName: Target_ size: 368   13
+2017-04-21 08:47:51.436|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122709001-BP_MG.mat - varName: Target_ size: 491   13
+2017-04-21 08:47:51.647|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q123009001-BP_MG.mat - varName: Target_ size: 388   13
+2017-04-21 08:47:51.806|INFO|checkVariable|/Volumes/schalllab/data/Quincy/OrientDiscrim/Matlab/Q082410001-RH_MG.mat - varName: Target_ size: 244   12
+2017-04-21 08:59:40.634|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012111001-RH_MG.mat - varName: SaccDir_ size: 261    1 nanmaxVal: 6
+2017-04-21 08:59:40.690|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012311001-RH_MG.mat - varName: SaccDir_ size: 272    1 nanmaxVal: 2
+2017-04-21 08:59:40.767|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q012611001-RH_MG.mat - varName: SaccDir_ size: 278    1 nanmaxVal: 7
+2017-04-21 08:59:40.835|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q020611001-RH_MG.mat - varName: SaccDir_ size: 222    1 nanmaxVal: 6
+2017-04-21 08:59:40.888|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q022011001-RH_MG.mat - varName: SaccDir_ size: 274    1 nanmaxVal: 6
+2017-04-21 08:59:40.916|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102010001_MG.mat - varName: SaccDir_ size: 148    1 nanmaxVal: 6
+2017-04-21 08:59:40.943|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102010003_MG.mat - varName: SaccDir_ size: 151    1 nanmaxVal: 6
+2017-04-21 08:59:40.984|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102210001_MG.mat - varName: SaccDir_ size: 146    1 nanmaxVal: 6
+2017-04-21 08:59:41.031|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102510001-RH_MG.mat - varName: SaccDir_ size: 159    1 nanmaxVal: 6
+2017-04-21 08:59:41.096|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q102710001-RH_MG.mat - varName: SaccDir_ size: 290    1 nanmaxVal: 7
+2017-04-21 08:59:41.158|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110210001-RH_MG.mat - varName: SaccDir_ size: 314    1 nanmaxVal: 7
+2017-04-21 08:59:41.219|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110210002-RH_MG.mat - varName: SaccDir_ size: 196    1 nanmaxVal: 7
+2017-04-21 08:59:41.273|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q110910001-RH_MG.mat - varName: SaccDir_ size: 280    1 nanmaxVal: 6
+2017-04-21 08:59:41.325|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q111110001-RH_MG.mat - varName: SaccDir_ size: 285    1 nanmaxVal: 7
+2017-04-21 08:59:41.377|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q113010001-RH_MG.mat - varName: SaccDir_ size: 263    1 nanmaxVal: 7
+2017-04-21 08:59:41.430|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q120210002-RH_MG.mat - varName: SaccDir_ size: 228    1 nanmaxVal: 7
+2017-04-21 08:59:41.478|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q120710001-RH_MG.mat - varName: SaccDir_ size: 225    1 nanmaxVal: 6
+2017-04-21 08:59:41.524|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121010001-RH_MG.mat - varName: SaccDir_ size: 194    1 nanmaxVal: 7
+2017-04-21 08:59:41.576|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121510001-RH_MG.mat - varName: SaccDir_ size: 219    1 nanmaxVal: 7
+2017-04-21 08:59:41.621|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT/Matlab/Q121910001-RH_MG.mat - varName: SaccDir_ size: 251    1 nanmaxVal: 7
+2017-04-21 08:59:41.652|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q050712001-RH_MG.mat - varName: SaccDir_ size: 271    1 nanmaxVal: 7
+2017-04-21 08:59:41.709|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051012001-RH_MG.mat - varName: SaccDir_ size: 305    1 nanmaxVal: 6
+2017-04-21 08:59:41.763|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051512001-RH_MG.mat - varName: SaccDir_ size: 357    1 nanmaxVal: 6
+2017-04-21 08:59:41.814|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q051712001-RH_MG.mat - varName: SaccDir_ size: 314    1 nanmaxVal: 7
+2017-04-21 08:59:41.892|INFO|checkVariable|/Volumes/schalllab/data/Quincy/SAT_SEF/Matlab/Q062812001-RH_MG.mat - varName: SaccDir_ size: 334    1 nanmaxVal: 6
+2017-04-21 08:59:41.924|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q020608001-JC_MG.mat - varName: SaccDir_ size: 579    1 nanmaxVal: NaN
+2017-04-21 08:59:41.956|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q020708001-JC_MG.mat - varName: SaccDir_ size: 522    1 nanmaxVal: NaN
+2017-04-21 08:59:41.986|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q022208001-JC_MG.mat - varName: SaccDir_ size: 520    1 nanmaxVal: NaN
+2017-04-21 08:59:42.016|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q022508001-JC_MG.mat - varName: SaccDir_ size: 496    1 nanmaxVal: NaN
+2017-04-21 08:59:42.039|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030706001-JC_MG.mat - varName: SaccDir_ size: 325    1 nanmaxVal: NaN
+2017-04-21 08:59:42.068|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030707001-JC_MG.mat - varName: SaccDir_ size: 323    1 nanmaxVal: NaN
+2017-04-21 08:59:42.096|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030807001-JC_MG.mat - varName: SaccDir_ size: 257    1 nanmaxVal: NaN
+2017-04-21 08:59:42.124|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030907002-JC_MG.mat - varName: SaccDir_ size: 148    1 nanmaxVal: NaN
+2017-04-21 08:59:42.150|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q030907003-JC_MG.mat - varName: SaccDir_ size: 18   1 nanmaxVal: NaN
+2017-04-21 08:59:42.180|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031406002-JC_MG.mat - varName: SaccDir_ size: 117    1 nanmaxVal: NaN
+2017-04-21 08:59:42.209|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031408001-JC_MG.mat - varName: SaccDir_ size: 510    1 nanmaxVal: 6
+2017-04-21 08:59:42.241|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031506002-JC_MG.mat - varName: SaccDir_ size: 196    1 nanmaxVal: NaN
+2017-04-21 08:59:42.269|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031607002-JC_MG.mat - varName: SaccDir_ size: 157    1 nanmaxVal: NaN
+2017-04-21 08:59:42.301|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031706001-JC_MG.mat - varName: SaccDir_ size: 276    1 nanmaxVal: NaN
+2017-04-21 08:59:42.331|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031706004-JC_MG.mat - varName: SaccDir_ size: 31   1 nanmaxVal: NaN
+2017-04-21 08:59:42.363|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q031907001-JC_MG.mat - varName: SaccDir_ size: 161    1 nanmaxVal: NaN
+2017-04-21 08:59:42.387|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032006001-JC_MG.mat - varName: SaccDir_ size: 152    1 nanmaxVal: NaN
+2017-04-21 08:59:42.413|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032307002-JC_MG.mat - varName: SaccDir_ size: 173    1 nanmaxVal: NaN
+2017-04-21 08:59:42.442|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032407001-JC_MG.mat - varName: SaccDir_ size: 186    1 nanmaxVal: NaN
+2017-04-21 08:59:42.477|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032407002-JC_MG.mat - varName: SaccDir_ size: 674    1 nanmaxVal: NaN
+2017-04-21 08:59:42.508|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032608001-JC_MG.mat - varName: SaccDir_ size: 538    1 nanmaxVal: 6
+2017-04-21 08:59:42.539|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032806002-JC_MG.mat - varName: SaccDir_ size: 148    1 nanmaxVal: NaN
+2017-04-21 08:59:42.569|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032906003-JC_MG.mat - varName: SaccDir_ size: 372    1 nanmaxVal: NaN
+2017-04-21 08:59:42.589|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q032906007-JC_MG.mat - varName: SaccDir_ size: 10   1 nanmaxVal: NaN
+2017-04-21 08:59:42.618|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q033106001-JC_MG.mat - varName: SaccDir_ size: 157    1 nanmaxVal: NaN
+2017-04-21 08:59:42.647|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q033106002-JC_MG.mat - varName: SaccDir_ size: 30   1 nanmaxVal: NaN
+2017-04-21 08:59:42.678|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q040406001-JC_MG.mat - varName: SaccDir_ size: 202    1 nanmaxVal: NaN
+2017-04-21 08:59:42.704|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q040506001-JC_MG.mat - varName: SaccDir_ size: 82   1 nanmaxVal: NaN
+2017-04-21 08:59:42.731|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q041206001-JC_MG.mat - varName: SaccDir_ size: 293    1 nanmaxVal: NaN
+2017-04-21 08:59:42.753|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q041306001-JC_MG.mat - varName: SaccDir_ size: 44   1 nanmaxVal: NaN
+2017-04-21 08:59:42.782|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042506002-JC_MG.mat - varName: SaccDir_ size: 151    1 nanmaxVal: NaN
+2017-04-21 08:59:42.806|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042606001-JC_MG.mat - varName: SaccDir_ size: 68   1 nanmaxVal: NaN
+2017-04-21 08:59:42.834|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q042806002-JC_MG.mat - varName: SaccDir_ size: 61   1 nanmaxVal: NaN
+2017-04-21 08:59:42.868|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q051606001-JC_MG.mat - varName: SaccDir_ size: 965    1 nanmaxVal: NaN
+2017-04-21 08:59:42.896|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q051706002-JC_MG.mat - varName: SaccDir_ size: 130    1 nanmaxVal: NaN
+2017-04-21 08:59:42.926|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052306001-JC_MG.mat - varName: SaccDir_ size: 155    1 nanmaxVal: NaN
+2017-04-21 08:59:42.953|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052405001-RH_MG.mat - varName: SaccDir_ size: 587    1 nanmaxVal: NaN
+2017-04-21 08:59:42.976|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052506001-RH_MG.mat - varName: SaccDir_ size: 323    1 nanmaxVal: NaN
+2017-04-21 08:59:43.014|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q052507002-JC_MG.mat - varName: SaccDir_ size: 33   1 nanmaxVal: NaN
+2017-04-21 08:59:43.035|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005001-JC_MG.mat - varName: SaccDir_ size: 42   1 nanmaxVal: NaN
+2017-04-21 08:59:43.056|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005002-JC_MG.mat - varName: SaccDir_ size: 90   1 nanmaxVal: NaN
+2017-04-21 08:59:43.080|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053005004-JC_MG.mat - varName: SaccDir_ size: 152    1 nanmaxVal: NaN
+2017-04-21 08:59:43.104|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053105003-RH_MG.mat - varName: SaccDir_ size: 188    1 nanmaxVal: NaN
+2017-04-21 08:59:43.132|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053106001-JC_MG.mat - varName: SaccDir_ size: 260    1 nanmaxVal: NaN
+2017-04-21 08:59:43.158|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q053107001-JC_MG.mat - varName: SaccDir_ size: 159    1 nanmaxVal: NaN
+2017-04-21 08:59:43.185|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060107001-JC_MG.mat - varName: SaccDir_ size: 127    1 nanmaxVal: NaN
+2017-04-21 08:59:43.212|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060205002-JC_MG.mat - varName: SaccDir_ size: 234    1 nanmaxVal: NaN
+2017-04-21 08:59:43.236|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060407001-JC_MG.mat - varName: SaccDir_ size: 184    1 nanmaxVal: NaN
+2017-04-21 08:59:43.265|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060605002-JC_MG.mat - varName: SaccDir_ size: 377    1 nanmaxVal: NaN
+2017-04-21 08:59:43.290|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060607001-JC_MG.mat - varName: SaccDir_ size: 171    1 nanmaxVal: NaN
+2017-04-21 08:59:43.317|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060707001-JC_MG.mat - varName: SaccDir_ size: 195    1 nanmaxVal: NaN
+2017-04-21 08:59:43.342|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060805001-JC_MG.mat - varName: SaccDir_ size: 269    1 nanmaxVal: NaN
+2017-04-21 08:59:43.362|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q060805002-JC_MG.mat - varName: SaccDir_ size: 4  1 nanmaxVal: NaN
+2017-04-21 08:59:43.391|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061208002-JC_MG.mat - varName: SaccDir_ size: 318    1 nanmaxVal: 6
+2017-04-21 08:59:43.416|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061307001-JC_MG.mat - varName: SaccDir_ size: 151    1 nanmaxVal: NaN
+2017-04-21 08:59:43.442|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061507001-JC_MG.mat - varName: SaccDir_ size: 197    1 nanmaxVal: NaN
+2017-04-21 08:59:43.468|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061605001-JC_MG.mat - varName: SaccDir_ size: 366    1 nanmaxVal: NaN
+2017-04-21 08:59:43.492|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061605002-JC_MG.mat - varName: SaccDir_ size: 72   1 nanmaxVal: NaN
+2017-04-21 08:59:43.516|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061705001-JC_MG.mat - varName: SaccDir_ size: 238    1 nanmaxVal: NaN
+2017-04-21 08:59:43.544|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q061807001-JC_MG.mat - varName: SaccDir_ size: 179    1 nanmaxVal: NaN
+2017-04-21 08:59:43.573|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062105003-JC_MG.mat - varName: SaccDir_ size: 407    1 nanmaxVal: NaN
+2017-04-21 08:59:43.593|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062205001-JC_MG.mat - varName: SaccDir_ size: 12   1 nanmaxVal: NaN
+2017-04-21 08:59:43.622|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062205002-JC_MG.mat - varName: SaccDir_ size: 727    1 nanmaxVal: NaN
+2017-04-21 08:59:43.648|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062305001-JC_MG.mat - varName: SaccDir_ size: 353    1 nanmaxVal: NaN
+2017-04-21 08:59:43.672|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062305002-JC_MG.mat - varName: SaccDir_ size: 296    1 nanmaxVal: NaN
+2017-04-21 08:59:43.698|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062405004-RH_MG.mat - varName: SaccDir_ size: 170    1 nanmaxVal: NaN
+2017-04-21 08:59:43.733|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062705002-JC_MG.mat - varName: SaccDir_ size: 717    1 nanmaxVal: NaN
+2017-04-21 08:59:43.763|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062705004-JC_MG.mat - varName: SaccDir_ size: 722    1 nanmaxVal: NaN
+2017-04-21 08:59:43.797|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062805002-JC_MG.mat - varName: SaccDir_ size: 738    1 nanmaxVal: NaN
+2017-04-21 08:59:43.823|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062805003-JC_MG.mat - varName: SaccDir_ size: 84   1 nanmaxVal: NaN
+2017-04-21 08:59:43.849|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q062905001-JC_MG.mat - varName: SaccDir_ size: 274    1 nanmaxVal: NaN
+2017-04-21 08:59:43.890|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q063005001-RH_MG.mat - varName: SaccDir_ size: 372    1 nanmaxVal: NaN
+2017-04-21 08:59:43.919|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105002-JC_MG.mat - varName: SaccDir_ size: 864    1 nanmaxVal: NaN
+2017-04-21 08:59:43.949|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105003-JC_MG.mat - varName: SaccDir_ size: 504    1 nanmaxVal: NaN
+2017-04-21 08:59:43.971|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070105004-JC_MG.mat - varName: SaccDir_ size: 121    1 nanmaxVal: NaN
+2017-04-21 08:59:43.997|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070505002-JC_MG.mat - varName: SaccDir_ size: 506    1 nanmaxVal: NaN
+2017-04-21 08:59:44.024|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q070705001-RH_MG.mat - varName: SaccDir_ size: 369    1 nanmaxVal: NaN
+2017-04-21 08:59:44.049|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071105001-JC_MG.mat - varName: SaccDir_ size: 377    1 nanmaxVal: NaN
+2017-04-21 08:59:44.077|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071205003-JC_MG.mat - varName: SaccDir_ size: 138    1 nanmaxVal: NaN
+2017-04-21 08:59:44.106|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071207001-JC_MG.mat - varName: SaccDir_ size: 183    1 nanmaxVal: NaN
+2017-04-21 08:59:44.129|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071305001-JC_MG.mat - varName: SaccDir_ size: 356    1 nanmaxVal: NaN
+2017-04-21 08:59:44.155|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071305002-JC_MG.mat - varName: SaccDir_ size: 506    1 nanmaxVal: NaN
+2017-04-21 08:59:44.200|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071405001-JC_MG.mat - varName: SaccDir_ size: 205    1 nanmaxVal: NaN
+2017-04-21 08:59:44.231|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q071807001-JC_MG.mat - varName: SaccDir_ size: 161    1 nanmaxVal: NaN
+2017-04-21 08:59:44.260|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072007001-JC_MG.mat - varName: SaccDir_ size: 186    1 nanmaxVal: NaN
+2017-04-21 08:59:44.284|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072505001-JC_MG.mat - varName: SaccDir_ size: 238    1 nanmaxVal: NaN
+2017-04-21 08:59:44.310|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072505003-JC_MG.mat - varName: SaccDir_ size: 277    1 nanmaxVal: NaN
+2017-04-21 08:59:44.339|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q072605007-JC_MG.mat - varName: SaccDir_ size: 373    1 nanmaxVal: NaN
+2017-04-21 08:59:44.368|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080105001-JC_MG.mat - varName: SaccDir_ size: 408    1 nanmaxVal: NaN
+2017-04-21 08:59:44.394|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080205001-JC_MG.mat - varName: SaccDir_ size: 130    1 nanmaxVal: NaN
+2017-04-21 08:59:44.424|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080205002-JC_MG.mat - varName: SaccDir_ size: 351    1 nanmaxVal: NaN
+2017-04-21 08:59:44.454|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080305006-JC_MG.mat - varName: SaccDir_ size: 93   1 nanmaxVal: NaN
+2017-04-21 08:59:44.492|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080405002-JC_MG.mat - varName: SaccDir_ size: 255    1 nanmaxVal: NaN
+2017-04-21 08:59:44.519|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080505003-JC_MG.mat - varName: SaccDir_ size: 608    1 nanmaxVal: NaN
+2017-04-21 08:59:44.539|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q080505005-JC_MG.mat - varName: SaccDir_ size: 85   1 nanmaxVal: NaN
+2017-04-21 08:59:44.570|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q091708001-JC_MG.mat - varName: SaccDir_ size: 418    1 nanmaxVal: 7
+2017-04-21 08:59:44.595|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q091908001-JC_MG.mat - varName: SaccDir_ size: 371    1 nanmaxVal: 7
+2017-04-21 08:59:44.630|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092208001-JC_MG.mat - varName: SaccDir_ size: 388    1 nanmaxVal: 7
+2017-04-21 08:59:44.684|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092408002-JC_MG.mat - varName: SaccDir_ size: 372    1 nanmaxVal: 7
+2017-04-21 08:59:44.711|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092607001-JC_MG.mat - varName: SaccDir_ size: 335    1 nanmaxVal: NaN
+2017-04-21 08:59:44.764|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092608002-JC_MG.mat - varName: SaccDir_ size: 342    1 nanmaxVal: 7
+2017-04-21 08:59:44.792|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092707001-JC_MG.mat - varName: SaccDir_ size: 271    1 nanmaxVal: NaN
+2017-04-21 08:59:44.823|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092807001-JC_MG.mat - varName: SaccDir_ size: 260    1 nanmaxVal: NaN
+2017-04-21 08:59:44.864|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q092908001-JC_MG.mat - varName: SaccDir_ size: 314    1 nanmaxVal: 7
+2017-04-21 08:59:44.893|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q121007001-JC_MG.mat - varName: SaccDir_ size: 352    1 nanmaxVal: NaN
+2017-04-21 08:59:44.930|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q121407001-JC_MG.mat - varName: SaccDir_ size: 887    1 nanmaxVal: NaN
+2017-04-21 08:59:44.977|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TL/Matlab/Q122007001-JC_MG.mat - varName: SaccDir_ size: 403    1 nanmaxVal: NaN
+2017-04-21 08:59:45.014|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q052009001-RH_MG.mat - varName: SaccDir_ size: 292    1 nanmaxVal: 6
+2017-04-21 08:59:45.050|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q052209002-RH_MG.mat - varName: SaccDir_ size: 259    1 nanmaxVal: 6
+2017-04-21 08:59:45.082|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q080609003-JC_MG.mat - varName: SaccDir_ size: 160    1 nanmaxVal: 7
+2017-04-21 08:59:45.129|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q090309004-JC_MG.mat - varName: SaccDir_ size: 138    1 nanmaxVal: 7
+2017-04-21 08:59:45.174|INFO|checkVariable|/Volumes/schalllab/data/Quincy/TLmicrostim/Matlab/Q111209001-JC_MG.mat - varName: SaccDir_ size: 249    1 nanmaxVal: 7
+2017-04-21 08:59:45.231|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q012210001-BP_MG.mat - varName: SaccDir_ size: 360    1 nanmaxVal: 7
+2017-04-21 08:59:45.259|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308001-JC_MG.mat - varName: SaccDir_ size: 345    1 nanmaxVal: NaN
+2017-04-21 08:59:45.295|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308002-JC_MG.mat - varName: SaccDir_ size: 234    1 nanmaxVal: NaN
+2017-04-21 08:59:45.322|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030308003-JC_MG.mat - varName: SaccDir_ size: 250    1 nanmaxVal: 6
+2017-04-21 08:59:45.366|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q030508001-JC_MG.mat - varName: SaccDir_ size: 303    1 nanmaxVal: 2
+2017-04-21 08:59:45.400|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031010001-BP_MG.mat - varName: SaccDir_ size: 375    1 nanmaxVal: 7
+2017-04-21 08:59:45.456|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031210001-RH_MG.mat - varName: SaccDir_ size: 246    1 nanmaxVal: 7
+2017-04-21 08:59:45.512|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031810001-RH_MG.mat - varName: SaccDir_ size: 352    1 nanmaxVal: 7
+2017-04-21 08:59:45.553|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031810002-RH_MG.mat - varName: SaccDir_ size: 211    1 nanmaxVal: 7
+2017-04-21 08:59:45.607|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q031910001-RH_MG.mat - varName: SaccDir_ size: 348    1 nanmaxVal: 7
+2017-04-21 08:59:45.661|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032410001-BP_MG.mat - varName: SaccDir_ size: 404    1 nanmaxVal: 7
+2017-04-21 08:59:45.718|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032610001-RH_MG.mat - varName: SaccDir_ size: 425    1 nanmaxVal: 7
+2017-04-21 08:59:45.775|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q032910001-RH_MG.mat - varName: SaccDir_ size: 283    1 nanmaxVal: 7
+2017-04-21 08:59:45.835|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q033110001-BP_MG.mat - varName: SaccDir_ size: 371    1 nanmaxVal: 7
+2017-04-21 08:59:45.887|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q040210003-BP_MG.mat - varName: SaccDir_ size: 294    1 nanmaxVal: 7
+2017-04-21 08:59:45.914|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q111509001-BP_MG.mat - varName: SaccDir_ size: 388    1 nanmaxVal: 7
+2017-04-21 08:59:45.968|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q120409001-BP_MG.mat - varName: SaccDir_ size: 345    1 nanmaxVal: 6
+2017-04-21 08:59:46.005|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q120909001-BP_MG.mat - varName: SaccDir_ size: 387    1 nanmaxVal: 7
+2017-04-21 08:59:46.090|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q121909001-BP_MG.mat - varName: SaccDir_ size: 390    1 nanmaxVal: 7
+2017-04-21 08:59:46.174|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122109002-BP_MG.mat - varName: SaccDir_ size: 374    1 nanmaxVal: 7
+2017-04-21 08:59:46.231|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122209002-BP_MG.mat - varName: SaccDir_ size: 368    1 nanmaxVal: 7
+2017-04-21 08:59:46.284|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q122709001-BP_MG.mat - varName: SaccDir_ size: 491    1 nanmaxVal: 7
+2017-04-21 08:59:46.352|INFO|checkVariable|/Volumes/schalllab/data/Quincy/PopOut/Matlab/Q123009001-BP_MG.mat - varName: SaccDir_ size: 388    1 nanmaxVal: 7
+2017-04-21 08:59:46.408|INFO|checkVariable|/Volumes/schalllab/data/Quincy/OrientDiscrim/Matlab/Q082410001-RH_MG.mat - varName: SaccDir_ size: 244    1 nanmaxVal: 3
